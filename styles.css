@@ -1,0 +1,171 @@
+*
+{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: sans-serif;
+}
+body
+{
+  background:pink;
+  min-height: 200vh;
+}
+footer
+{
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+}
+header
+{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index:1000000;
+}
+header.sticky
+{
+  padding: 5px 100px;
+  background:#000;
+}
+header .logo
+{
+  position: relative;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  font-size:2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+header ul
+{
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+header ul li
+{
+  position: relative;
+  list-style:none;
+}
+header ul li a
+{
+  position: relative;
+  margin:0 15px;
+  text-decoration: none;
+  color:#000;
+  letter-spacing:2px;
+  font-weight: 500px;
+  transition:0.6s;
+
+}
+.banner
+{
+  position: relative;
+  width:100%;
+  height:100vh;
+  background: #fff;
+  background-size: cover;
+}
+header.sticky .logo,
+header.sticky ul li a
+{
+  color: white;
+}
+.banner .halfSplitGrid #item2 h1
+{
+  font-size: 50px;
+  padding-bottom: 2%;
+}
+.banner .halfSplitGrid
+{
+  top:25vh;
+  padding:0% 5%;
+}
+#item1, #item2
+{
+  padding:5%;
+}
+#item1a, #item2a
+{
+  padding:5%;
+}
+.schedule #item2a ul
+{
+  list-style:none;
+}
+.schedule #item2a li
+{
+  padding-top:0.5%;
+  padding-bottom:0.5%;
+  padding-left:5%;
+  text-indent:-5%;
+}
+.schedule #item2a li::before
+{
+  content:"⏰";
+}
+.schedule .halfSplitGrid
+{
+  padding:5% 5%;
+}
+.placeholder
+{
+  width:100%;
+  height:100%;
+}
+.mtbiQuiz .halfSplitGrid
+{
+    padding:0% 5%;
+}
+#item1b, #item2b
+{
+  padding:5%;
+}
+.mtbiQuiz
+{
+  background: #fff;
+}
+/*GRIDS*/
+.halfSplitGrid
+{
+  position:relative;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  padding:0% 10%;
+}
+.autoHalfSplitGrid
+{
+  position:relative;
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 100%;
+  padding:10% 5%;
+}
+.fourSplitGrid
+{
+  position:relative;
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  padding:5% 5%;
+}
+/*FOOTER*/
+footer .fourSplitGrid ul
+{
+  list-style: none;
+}
+footer .fourSplitGrid ul li
+{
+  padding: 0.5% 0%;
+}
