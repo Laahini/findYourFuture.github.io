@@ -2,6 +2,7 @@
 <html LANG="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
 
   <!--STYLES-->
@@ -9,13 +10,25 @@
 
   <script src="scripts.js"></script>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
   <header>
     <a href="#" class="logo">LOGO</a>
     <ul>
-      <li><a href="#">Program</a></li><!--Schedule, career/general workshop sessions they can visit and which speakers-->
+      <li>
+        <div class="dropdown-menu">
+          <button class="menu-btn">Program <i class="fa fa-caret-down"></i></button>
+          <div class="menu-content">
+            <a class="links-hidden" href="#"> Schedule </a>
+            <a class="links-hidden" href="#"> Workshops </a>
+            <a class="links-hidden" href="#"> Speakers </a>
+            <a class="links-hidden" href="#"> Sponsors </a>
+          </div>
+        </div>
+      </li>
       <li><a href="#">Watch</a></li><!--Streaming page of all videos and  workshops-->
       <li><a href="#">Quiz</a></li><!--on drop down have the different mtbi types with each having own page -->
       <li><a href="#">Contact</a></li>
