@@ -13,6 +13,25 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+  
+  
+ <!--MAIN FOLDER 
+        PROGRAM FOLDER 
+            PROGRAM
+            SCHEDULE
+            WORKSHOPS
+            SPONSORS
+        WATCH FOLDER
+            WATCH
+            KEYNOTES
+            WORKSHOPS
+            CLUSTERS  
+        CAREERS FOLDER
+            CAREERS - HAS THE QUIZZZZZ IN IT
+            PERSONALITY TYPES
+        LOGIN
+        ABOUT
+        CTE-->
 
 <body>
   <header>
@@ -20,7 +39,7 @@
     <ul>
       <li>
         <div class="dropdown-menu">
-          <button class="menu-btn">Program <i class="fa fa-caret-down"></i></button>
+          <button class="menu-btn" onclick="redirectProgram()">Program <i class="fa fa-caret-down"></i></button>
           <div class="menu-content">
             <a class="links-hidden" href="#"> Schedule </a>
             <a class="links-hidden" href="#"> Workshops </a>
@@ -31,7 +50,7 @@
       </li>
       <li>
         <div class="dropdown-menu">
-          <button class="menu-btn">Watch <i class="fa fa-caret-down"></i></button>
+          <button class="menu-btn" onclick="redirectWatch()">Watch <i class="fa fa-caret-down"></i></button>
           <div class="menu-content">
             <a class="links-hidden" href="#"> Keynotes </a>
             <a class="links-hidden" href="#"> Workshops </a>
@@ -41,7 +60,7 @@
       </li>
       <li>
         <div class="dropdown-menu">
-          <button class="menu-btn">Careers <i class="fa fa-caret-down"></i></button> <!--QUIZ-->
+          <button class="menu-btn" onclick="redirectCareers()">Careers <i class="fa fa-caret-down"></i></button> <!--QUIZ-->
           <div class="menu-content">
             <a class="links-hidden" href="#"> INFJ </a>
             <a class="links-hidden" href="#"> INTJ </a>
@@ -62,10 +81,10 @@
           </div>
         </div>
       </li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Login</a></li>
-      <li><a href="#">CTE</a></li>
+      <li><a href="main/contact.html">Contact</a></li>
+      <li><a href="main/about.html">About</a></li>
+      <li><a href="main/login.html">Login</a></li>
+      <li><a href="main/cte.html">CTE</a></li>
     </ul>
   </header>
 
