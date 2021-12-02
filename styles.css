@@ -83,7 +83,12 @@ header.sticky ul li a
 }
 .banner .halfSplitGrid #item2 h1
 {
-  font-size: 50px;
+  font-size: 60px;
+  padding-bottom: 2%;
+}
+.banner .halfSplitGrid #item2 h2
+{
+  font-size: 35px;
   padding-bottom: 2%;
 }
 .banner .halfSplitGrid
