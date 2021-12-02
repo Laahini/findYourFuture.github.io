@@ -140,7 +140,19 @@ header.sticky ul li a
 {
   background: #fff;
 }
-
+.quote
+{
+  background: #fff;
+  padding:0% 5%;
+}
+.blockquote
+{
+  box-shadow: 12px 12px 2px 1px #000;
+}
+.quote p
+{
+  font-size:25px;
+}
 
 
 .menu-btn {
