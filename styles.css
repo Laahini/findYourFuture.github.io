@@ -130,7 +130,7 @@ header.sticky ul li a
 }
 .mtbiQuiz .halfSplitGrid
 {
-    padding:0% 5%;
+    padding:5% 5%;
 }
 #item1b, #item2b
 {
@@ -140,19 +140,50 @@ header.sticky ul li a
 {
   background: #fff;
 }
+.careers{
+  padding:7% 5%;
+  background: url("media/careersPLACEHOLDER.jpeg");
+}
+.careers h1
+{
+  font-size:50px;
+}
+.careers p
+{
+  padding:1% 0%;
+}
 .quote
 {
   background: #fff;
-  padding:0% 5%;
+  padding:5% 5%;
 }
 .blockquote
 {
-  box-shadow: 12px 12px 2px 1px #000;
+  box-shadow: 12px 12px 2px 1px rgba(0,0,0,1);
+  padding:3% 10%;
 }
 .quote p
 {
   font-size:25px;
 }
+.bckgOpacBox
+{
+  background: rgba(255,255,255,0.5);
+  padding:5%;
+}
+.watch
+{
+  background: url("media/auditorium.jpeg");
+  background-position: center;
+  height:100vh;
+  width: 100%;
+}
+.watch h1
+{
+  text-align: center;
+  font-size: 50px;
+}
+
 
 
 .menu-btn {
@@ -231,6 +262,15 @@ header.sticky ul li a
   grid-template-rows: 100%;
   padding:5% 5%;
 }
+.auditThirdsGrid
+{
+  position:relative;
+  display:grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 100%;
+  padding:5% 5%;
+}
+
 /*FOOTER*/
 footer .fourSplitGrid ul
 {
