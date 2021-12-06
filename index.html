@@ -7,6 +7,7 @@
 
   <!--STYLES-->
   <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="css/nav.css"/>
 
   <script src="scripts.js"></script>
 
@@ -43,37 +44,18 @@
           </div>
         </div>
       </li>
-      <li>
-        <div class="dropdown-menu">
-          <button class="menu-btn" onclick="redirectCareers()">Careers <i class="fa fa-caret-down"></i></button> <!--QUIZ-->
-          <div class="menu-content">
-            <a class="links-hidden" href="careers/infj.html"> INFJ </a>
-            <a class="links-hidden" href="careers/intj.html"> INTJ </a>
-            <a class="links-hidden" href="careers/isfp.html"> ISFP </a>
-            <a class="links-hidden" href="careers/estj.html"> ESTJ </a>
-            <a class="links-hidden" href="careers/enfp.html"> ENFP </a>
-            <a class="links-hidden" href="careers/istj.html"> ISTJ </a>
-            <a class="links-hidden" href="careers/entj.html"> ENTJ </a>
-            <a class="links-hidden" href="careers/isfj.html"> ISFJ </a>
-            <a class="links-hidden" href="careers/esfj.html"> ESFJ </a>
-            <a class="links-hidden" href="careers/infp.html"> INFP </a>
-            <a class="links-hidden" href="careers/enfj.html"> ENFJ </a>
-            <a class="links-hidden" href="careers/estp.html"> ESTP </a>
-            <a class="links-hidden" href="careers/entp.html"> ENTP </a>
-            <a class="links-hidden" href="careers/esfp.html"> ESFP </a>
-            <a class="links-hidden" href="careers/intp.html"> INTP </a>
-            <a class="links-hidden" href="careers/istp.html"> ISTP </a>
-          </div>
-        </div>
-      </li>
+      <li><a href="careers/careers.html">Careers</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="login.html">Login</a></li>
+      <li>|</li>
+      <li><a href="index.html">Design Brief</a></li>
       <li><a href="cte.html">CTE</a></li>
+      <li><a href="cvtsa.html">CV TSA</a></li>
     </ul>
   </header>
 
-  <section class="banner">
+  <section id="banner">
     <div class= "halfSplitGrid">
       <div id="item1">
         <img src="media/placeholder.png" class="placeholder">
@@ -132,7 +114,7 @@
     <p id="demo"></p>
   </section>
 
-  <section class="schedule">
+  <section id="schedule">
     <div class="halfSplitGrid">
       <div id="item1a">
         <h1>Schedule</h1>
@@ -142,6 +124,7 @@
            Maecenas vel ante id odio blandit gravida at non urna. Integer laoreet,
            ante ultrices fringilla placerat, nulla justo porta lectus, ut tempus metus sem
         </p>
+        <a href="program/schedule.html">View Full Agenda</a>
       </div>
       <div id="item2a">
         <h1>Daily Outlook</h1>
@@ -158,22 +141,7 @@
     </div>
   </section>
 
-  <section class="watch">
-
-    <div class="auditThirdsGrid">
-      <div id="item1c">
-        <h1>.</h1>
-      </div>
-      <div id="item2c">
-        <h1>Miss the Keynote?</h1>
-      </div>
-      <div id="item3c">
-        <h1>.</h1>
-      </div>
-    </div>
-  </section>
-
-  <section class="mtbiQuiz">
+  <section id="mtbiQuiz">
     <div class="halfSplitGrid">
       <div id="item1b">
         <img src="media/placeholder.png" class="placeholder">
@@ -182,13 +150,16 @@
         <h1>Take our Personality Quiz</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget lorem non risus eleifend suscipit nec a mi. Sed rhoncus accumsan ultrices.
            Proin placerat interdum ante vel vehicula. Sed ac commodo purus. Nullam quam nibh, condimentum at feugiat a, fringilla ut nunc. Aliquam erat volutpat.
-           Maecenas vel ante id odio blandit gravida at non urna. Integer laoreet, ante ultrices fringilla placerat, nulla justo porta lectus, ut tempus metus sem
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget lorem non risus eleifend suscipit nec a mi. Sed rhoncus accumsan ultrices.
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget lorem non risus eleifend suscipit nec a mi. Sed rhoncus accumsan ultrices.
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget lorem non risus eleifend suscipit nec a mi. Sed rhoncus accumsan ultrices.
         </p>
+        <a href="careers/careers.html">Take Quiz</a>
       </div>
     </div>
   </section>
 
-  <section class="careers"><!--CLUSTER MEETINGS, etc-->
+  <section id="careers"><!--CLUSTER MEETINGS, etc-->
     <div class="bckgOpacBox">
       <h1>Explore A Future Career</h1>
       <p>Something abiut teens/college looking for next step in life. talk about current employees exploring new passion. encourage to take personality
@@ -198,13 +169,79 @@
     </div>
   </section>
 
-  <section class="quote">
+  <section id="quote">
     <div>
       <p class="blockquote"> <i class="fas fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget lorem non risus eleifend suscipit nec a mi. Sed rhoncus accumsan ultrices.
            Proin placerat interdum ante  <i class="fas fa-quote-right"></i></p>
+      <p class="blockquoteAtrr">- NAME NAMENAME</p>
     </div>
   </section>
 
+  <section id="speakers">
+    <h1>Meet our 2022 Speakers</h1>
+    <div class="fourSplitGrid">
+      <div>
+        <img src="media/placeholder.png">
+        <h2>First Lastname</h2>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+      </div>
+      <div>
+        <img src="media/placeholder.png">
+        <h2>First Lastname</h2>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+      </div>
+      <div>
+        <img src="media/placeholder.png">
+        <h2>First Lastname</h2>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+      </div>
+      <div>
+        <img src="media/placeholder.png">
+        <h2>First Lastname</h2>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+      </div>
+    </div>
+    <div class="fourSplitGrid">
+      <div>
+        <img src="media/placeholder.png">
+        <h2>First Lastname</h2>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+      </div>
+      <div>
+        <img src="media/placeholder.png">
+        <h2>First Lastname</h2>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+      </div>
+      <div>
+        <img src="media/placeholder.png">
+        <h2>First Lastname</h2>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+      </div>
+      <div>
+        <img src="media/placeholder.png">
+        <h2>First Lastname</h2>
+        <h4>Lorem ipsum dolor sit amet.</h4>
+      </div>
+    </div>
+  </section>
+
+  <section id="sponsors">
+    <h1>Sponsors</h1>
+    <div class="autoThirdGrid">
+      <div>
+        <img src="media/placeholder.png">
+        <h2>First Lastname</h2>
+      </div>
+      <div>
+        <img src="media/placeholder.png">
+        <h2>First Lastname</h2>
+      </div>
+      <div>
+        <img src="media/placeholder.png">
+        <h2>First Lastname</h2>
+      </div>
+    </div>
+  </section>
 
 
   <section id="contact">
