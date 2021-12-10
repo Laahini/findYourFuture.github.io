@@ -360,6 +360,14 @@ a
   grid-template-rows: auto;
   padding:5% 5%;
 }
+.splitGrid2_2
+{
+  position:relative;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  padding:5% 5%;
+}
 
 /*CLASSES*/
 .hvr-grow-shadow {

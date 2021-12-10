@@ -23,3 +23,15 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+function filterEvents(c)
+{
+  var x,i;
+  x=document.getElementsByCkassName("event");
+  if (c=="all") c=="";
+  for(i=0; i<x.length;i++)
+  {
+    removeClass(x[i]],"show");
+    if(x[i].className.indexOf(c) >-1) addClass(x[i],?"show");
+  }
+}
