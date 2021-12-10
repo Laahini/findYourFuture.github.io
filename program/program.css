@@ -35,3 +35,12 @@
 {
   display: block;
 }
+.event
+{
+  float:left;
+  background-color: var(--green);
+  width:25%;
+  text-align:center;
+  margin:1%;
+
+}
