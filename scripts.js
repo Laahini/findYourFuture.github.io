@@ -24,6 +24,51 @@ var x = setInterval(function() {
   }
 }, 1000);
 
+//filtering Schedule
+var day0 = document.getElementsByCkassName("day0");
+var day1 = document.getElementsByCkassName("day1");
+var day2 = document.getElementsByCkassName("day2");
+var keynote = document.getElementsByCkassName("keynote");
+var workshop = document.getElementsByCkassName("workshop");
+var cluster = document.getElementsByCkassName("cluster");
+
+function filterEvents(className)
+{
+  if(className=day0)
+  {
+    document.getElementById("day1").style.display = "none";
+    document.getElementById("day2").style.display = "none";
+  }
+  else if (className=day1)
+  {
+    document.getElementById("day0").style.display = "none";
+    document.getElementById("day2").style.display = "none";
+  }
+  else if(className=day2)
+  {
+    document.getElementById("day0").style.display = "none";
+    document.getElementById("day1").style.display = "none";
+  }
+  if(className=keynote)
+  {
+    document.getElementById("day1").style.display = "none";
+    document.getElementById("day2").style.display = "none";
+  }
+  else if (className=workshop)
+  {
+    document.getElementById("day0").style.display = "none";
+    document.getElementById("day2").style.display = "none";
+  }
+  else if(className=cluster)
+  {
+    document.getElementById("day0").style.display = "none";
+    document.getElementById("day1").style.display = "none";
+  }
+
+}
+
+/*
+filterEvents("all")
 function filterEvents(c)
 {
   var x,i;
@@ -62,3 +107,4 @@ function removeClass(element, name)
   }
   element.className = arr1.join(" ");
 }
+*/

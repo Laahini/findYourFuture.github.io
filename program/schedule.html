@@ -26,7 +26,7 @@
     <ul>
       <li>
         <div class="dropdown-menu">
-          <button class="menu-btn">Program <i class="fa fa-caret-down"></i></button>
+          <button class="menu-btn" onclick="redirectProgram()">Program <i class="fa fa-caret-down"></i></button>
           <div class="menu-content">
             <a class="links-hidden" href="schedule.html"> Schedule </a>
             <a class="links-hidden" href="workshops.html"> Workshops </a>
@@ -37,7 +37,7 @@
       </li>
       <li>
         <div class="dropdown-menu">
-          <button class="menu-btn">Watch <i class="fa fa-caret-down"></i></button>
+          <button class="menu-btn" onclick="redirectWatch()">Watch <i class="fa fa-caret-down"></i></button>
           <div class="menu-content">
             <a class="links-hidden" href="../watch/keynotes.html"> Keynotes </a>
             <a class="links-hidden" href="../watch/workshops.html"> Workshops </a>
@@ -89,37 +89,107 @@
 
   <section id="filters">
     <h1>Agenda</h1>
-    <div class="autoThirdGrid">
-      <btn>DAY, MONTH 00</btn>
-      <btn>DAY, MONTH 00</btn>
-      <btn>DAY, MONTH 00</btn>
+    <button onclick="filterEvents('all')">SHOW ALL</button>
+    <div id="days" class="autoThirdGrid">
+      <button onclick="filterEvents('day0')">DAY, MONTH 00</button>
+      <button onclick="filterEvents('day1')">DAY, MONTH 01</button>
+      <button onclick="filterEvents('day2')">DAY, MONTH 01</button>
     </div>
-    <div class="autoThirdGrid">
-      <btn>Keynotes</btn>
-      <btn>Workshops</btn>
-      <btn>Clusters</btn>
+    <div id="types" class="autoThirdGrid">
+      <button onclick="filterEvents('keynote')">Keynotes</button>
+      <button onclick="filterEvents('workshop')">Workshops</button>
+      <button onclick="filterEvents('cluster')">Clusters</button>
     </div>
-    <div class="autoThirdGrid">
-      <btn>High School</btn>
-      <btn>College</btn>
-      <btn>Professional</btn>
+    <div id="who" class="autoThirdGrid">
+      <button onclick="filterEvents('highschool')">High School</button>
+      <button onclick="filterEvents('college')">College</button>
+      <button onclick="filterEvents('professional')">Professional</button>
     </div>
   </section>
 
   <section id="events">
     <!--INSPO: https://www.inbound.com/2021-agenda-->
-    <div class="event">Check in</div>
-    <div class="event">workshop1</div>
-    <div class="event">workshop1</div>
-    <div class="event">workshop1</div>
-    <div class="event">workshop1</div>
-    <div class="event">workshop1</div>
-    <div class="event">workshop1</div>
-    <div class="event">keynote1</div>
-    <div class="event">keynote1</div>
-    <div class="event">keynote1</div>
-    <div class="event">keynote1</div>
-    <div class="event">cluster1</div>
+    <div id="AM8" class="eventGrid">
+      <div class="eventDescription day0 day1 day2 keynote workshop cluster highschool college professionals">workshop1</div>
+      <div class="event day0 day1 day2 keynote workshop cluster highschool college professional">Check in</div>
+      <div class="event day0 day1 day2 keynote workshop cluster highschool college professional">Check in</div>
+      <div class="event day0 day1 day2 keynote workshop cluster highschool college professional">Check in</div>
+    </div>
+    <div id="AM9" class="eventGrid">
+      <div class="eventDescription day0 day1 day2 keynotes workshops clusters highschool college professionals">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event cluster day1">workshop1</div>
+      <div class="eventDescription">workshop1</div>
+      <div class="event cluster">workshop1</div>
+      <div class="event workshop day1">workshop1</div>
+      <div class="event workshop day2">workshop1</div>
+    </div>
+    <div id="AM10" class="eventGrid">
+      <div class="eventDescription day0 day1 day2 keynote workshop cluster highschool college professional">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event cluster day1">workshop1</div>
+      <div class="eventDescription">workshop1</div>
+      <div class="event cluster">workshop1</div>
+      <div class="event workshop day1">workshop1</div>
+      <div class="event workshop day2">workshop1</div>
+    </div>
+    <div id="AM11" class="eventGrid">
+      <div class="eventDescription day0 day1 day2 keynote workshop cluster highschool college professional">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event cluster day1">workshop1</div>
+      <div class="eventDescription">workshop1</div>
+      <div class="event cluster">workshop1</div>
+      <div class="event workshop day1">workshop1</div>
+      <div class="event workshop day2">workshop1</div>
+    </div>
+    <div id="PM12" class="eventGrid">
+      <div class="eventDescription day0 day1 day2 keynote workshop cluster highschool college professional">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event cluster day1">workshop1</div>
+      <div class="eventDescription">workshop1</div>
+      <div class="event cluster">workshop1</div>
+      <div class="event workshop day1">workshop1</div>
+      <div class="event workshop day2">workshop1</div>
+    </div>
+    <div id="PM1" class="eventGrid">
+      <div class="eventDescription day0 day1 day2 keynote workshop cluster highschool college professional">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event cluster day1">workshop1</div>
+      <div class="eventDescription">workshop1</div>
+      <div class="event cluster">workshop1</div>
+      <div class="event workshop day1">workshop1</div>
+      <div class="event workshop day2">workshop1</div>
+    </div>
+    <div id="PM2" class="eventGrid">
+      <div class="eventDescription day0 day1 day2 keynote workshop cluster highschool college professional">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event cluster day1">workshop1</div>
+      <div class="eventDescription">workshop1</div>
+      <div class="event cluster">workshop1</div>
+      <div class="event workshop day1">workshop1</div>
+      <div class="event workshop day2">workshop1</div>
+    </div>
+    <div id="PM3" class="eventGrid">
+      <div class="eventDescription day0 day1 day2 keynotes workshops clusters highschool college professionals">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event workshop day0">workshop1</div>
+      <div class="event cluster day1">workshop1</div>
+      <div class="eventDescription">workshop1</div>
+      <div class="event cluster">workshop1</div>
+      <div class="event workshop day1">workshop1</div>
+      <div class="event workshop day2">workshop1</div>
+    </div>
+
+
+
+
+
   </section>
 </body>
 
