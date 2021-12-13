@@ -24,87 +24,19 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-//filtering Schedule
-var day0 = document.getElementsByCkassName("day0");
-var day1 = document.getElementsByCkassName("day1");
-var day2 = document.getElementsByCkassName("day2");
-var keynote = document.getElementsByCkassName("keynote");
-var workshop = document.getElementsByCkassName("workshop");
-var cluster = document.getElementsByCkassName("cluster");
 
-function filterEvents(className)
+function openVideo(evt, videoName)
 {
-  if(className=day0)
-  {
-    document.getElementById("day1").style.display = "none";
-    document.getElementById("day2").style.display = "none";
+  var i, videocontent, videolinks;
+  videocontent = document.getElementsByClassName("videocontent");
+  for (i = 0; i < videocontent.length; i++) {
+    videocontent[i].style.display = "none";
   }
-  else if (className=day1)
-  {
-    document.getElementById("day0").style.display = "none";
-    document.getElementById("day2").style.display = "none";
+  videolinks = document.getElementsByClassName("videolinks");
+  for (i = 0; i < videolinks.length; i++) {
+    videolinks[i].className = videolinks[i].className.replace(" active", "");
   }
-  else if(className=day2)
-  {
-    document.getElementById("day0").style.display = "none";
-    document.getElementById("day1").style.display = "none";
-  }
-  if(className=keynote)
-  {
-    document.getElementById("day1").style.display = "none";
-    document.getElementById("day2").style.display = "none";
-  }
-  else if (className=workshop)
-  {
-    document.getElementById("day0").style.display = "none";
-    document.getElementById("day2").style.display = "none";
-  }
-  else if(className=cluster)
-  {
-    document.getElementById("day0").style.display = "none";
-    document.getElementById("day1").style.display = "none";
-  }
-
+  document.getElementById(videoName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
-
-/*
-filterEvents("all")
-function filterEvents(c)
-{
-  var x,i;
-  x=document.getElementsByCkassName("event");
-  if (c=="all") c=="";
-  for(i=0; i<x.length;i++)
-  {
-    removeClass(x[i]],"show");
-    if(x[i].className.indexOf(c) >-1) addClass(x[i],?"show");
-  }
-}
-function addClass(element, name)
-{
-  var i = arr1, arr2;
-  arr1= element.className.split(" ");
-  arr2=name.split(" ");
-  for (i = 0; i<arr2.length;i++)
-  {
-    if(arr1.indexOf(arr2[i]==-1)
-    {
-      element.className += " " + arr2[i];
-    }
-  }
-}
-function removeClass(element, name)
-{
-  var i, arr1, arr2;
-  arr1= element.className.split(" ");
-  arr2=name.split(" ");
-  for (i=0; i<arr2.length; i++)
-  {
-    while(arr1.indexOf(arr2[i])>-1)
-    {
-      arr1.splice(arr1.indexOf(arr2[i],1))
-    }
-  }
-  element.className = arr1.join(" ");
-}
-*/
+document.getElementById("defaultOpen").click();

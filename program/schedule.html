@@ -89,21 +89,30 @@
 
   <section id="filters">
     <h1>Agenda</h1>
-    <button onclick="filterEvents('all')">SHOW ALL</button>
-    <div id="days" class="autoThirdGrid">
-      <button onclick="filterEvents('day0')">DAY, MONTH 00</button>
-      <button onclick="filterEvents('day1')">DAY, MONTH 01</button>
-      <button onclick="filterEvents('day2')">DAY, MONTH 01</button>
+    <div class="halfSplitGrid">
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget lorem non risus eleifend suscipit nec a mi. Sed rhoncus accumsan ultrices.
+           Proin placerat interdum ante gravida at non urna.
+        </p>
+      </div>
+      <div>
+        <button  class="showallbtn">SHOW ALL</button>
+      </div>
+    </div>
+    <div id="when" class="autoThirdGrid">
+      <button >Days 00</button>
+      <button >Days 00</button>
+      <button >Days 00</button>
     </div>
     <div id="types" class="autoThirdGrid">
-      <button onclick="filterEvents('keynote')">Keynotes</button>
-      <button onclick="filterEvents('workshop')">Workshops</button>
-      <button onclick="filterEvents('cluster')">Clusters</button>
+      <button >Keynotes</button>
+      <button >Workshops</button>
+      <button >Clusters</button>
     </div>
     <div id="who" class="autoThirdGrid">
-      <button onclick="filterEvents('highschool')">High School</button>
-      <button onclick="filterEvents('college')">College</button>
-      <button onclick="filterEvents('professional')">Professional</button>
+      <button >High School</button>
+      <button >College</button>
+      <button >Professional</button>
     </div>
   </section>
 
@@ -185,12 +194,13 @@
       <div class="event workshop day1">workshop1</div>
       <div class="event workshop day2">workshop1</div>
     </div>
-
-
-
-
-
   </section>
+
+  <section id="calendar">
+    <!--CALENDAR FOR MONTH OF THE CONFERENCE:
+        - able to click on the days and see what events will be happening-->
+  </section>
+
 </body>
 
 <footer>
