@@ -140,7 +140,7 @@
 }
 .videocontent {
   float: left;
-  padding: 0px 12px;
+  padding: 0% 3%;
   border: 1px solid var(--cream);
   width: 70%;
   border-left: none;
@@ -177,10 +177,15 @@
 }
 .videocontent2 {
   float: left;
-  padding: 0px 12px;
-  border: 1px solid var(--cream);
+  padding: 1% 3%;
   width: 70%;
   border-left: none;
-  height: 100%;
   background-color: var(--blue);
+}
+
+.videoLibraryWorkshop h1
+{
+  padding:3% 5%;
+  padding-top: 0%;
+  font-size: 50px;
 }
