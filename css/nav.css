@@ -14,7 +14,7 @@ header
 header.sticky
 {
   padding: 5px 100px;
-  background:var(--green);
+  background:var(--green1);
 }
 header .logo
 {
@@ -55,7 +55,7 @@ header.sticky ul li a
 }
 header.sticky .menu-btn
 {
-  background: var(--green);
+  background: var(--green1);
   color:#fff;
 }
 .menu-btn {
@@ -78,7 +78,7 @@ header.sticky .menu-btn
 .menu-content {
    display: none;
    position: absolute;
-   background-color: var(--green);
+   background-color: var(--green1);
    min-width: 160px;
    z-index: 1;
    padding-top: 2%;
@@ -105,10 +105,10 @@ header.sticky .menu-btn
    display: block;
 }
 .dropdown-menu:hover .menu-btn {
-   background-color: var(--green);
+   background-color: var(--green1);
    color:#fff;
 }
 .dropdown-menu:hover .menu-btn a{
-   background-color: var(--green);
+   background-color: var(--green1);
    color:#fff;
 }

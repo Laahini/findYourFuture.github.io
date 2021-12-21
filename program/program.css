@@ -37,7 +37,7 @@
 }
 .event
 {
-  background-color: var(--green);
+  background-color: var(--green1);
   text-align:center;
   padding: 10%;
   margin: 5% 5%;
@@ -53,11 +53,11 @@
 }
 #filters
 {
-  background:var(--green);
+  background:var(--green1);
 }
 #filters h1
 {
-  color:var(--blue);
+  color:var(--blue1);
   text-shadow: 1px 1px var(--cream);
   font-size:50px;
   padding:5%;
@@ -122,4 +122,15 @@
   background: var(--cream);
   font-size: 18px;
 }
-/*CALENDAR*/
+.card
+{
+  border: none;
+}
+.card-body
+{
+  border: none;
+}
+.lead
+{
+  padding: 5%;
+}
