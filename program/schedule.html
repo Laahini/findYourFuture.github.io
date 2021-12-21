@@ -28,14 +28,16 @@
             var SHUBH1 = document.getElementById("events1");
             var SHUBH2 = document.getElementById("events2");
             var SHUBH3 = document.getElementById("events3");
-            if (SHUBH1.style.display === "block") {
+            if (SHUBH1.style.display === "none") {
 
-                SHUBH1.style.display = "none";
+                SHUBH1.style.display = "block";
                 SHUBH2.style.display = "none";
                 SHUBH3.style.display = "none";
             } else {
 
-                SHUBH1.style.display = "Block";
+                SHUBH1.style.display = "none";
+                SHUBH2.style.display = "none";
+                SHUBH3.style.display = "none";
             }
         }
 
@@ -45,14 +47,16 @@
             var SHUBH1 = document.getElementById("events1");
             var SHUBH2 = document.getElementById("events2");
             var SHUBH3 = document.getElementById("events3");
-            if (SHUBH2.style.display === "block") {
+            if (SHUBH2.style.display === "none") {
+
+                SHUBH1.style.display = "none";
+                SHUBH2.style.display = "block";
+                SHUBH3.style.display = "none";
+            } else {
 
                 SHUBH1.style.display = "none";
                 SHUBH2.style.display = "none";
                 SHUBH3.style.display = "none";
-            } else {
-
-                SHUBH2.style.display = "block";
             }
         }
 
@@ -62,14 +66,16 @@
             var SHUBH1 = document.getElementById("events1");
             var SHUBH2 = document.getElementById("events2");
             var SHUBH3 = document.getElementById("events3");
-            if (SHUBH3.style.display === "block") {
+            if (SHUBH3.style.display === "none") {
+
+                SHUBH1.style.display = "none";
+                SHUBH2.style.display = "none";
+                SHUBH3.style.display = "block";
+            } else {
 
                 SHUBH1.style.display = "none";
                 SHUBH2.style.display = "none";
                 SHUBH3.style.display = "none";
-            } else {
-
-                SHUBH3.style.display = "block";
             }
         }
     </script>
