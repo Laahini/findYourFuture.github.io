@@ -71,6 +71,184 @@
   <section>
   </section>
 
+  <section id="whatCV">
+    <div class="halfSplitGrid">
+      <div class="item2">
+        <p>Cumberland Valley high school has a large variety of career pathways available
+          for students to choose or students can create their own pathway following a set
+          of guidelines. There are pathways available in agriculture, art, business, Family
+          and Consumer Sciences, Music, STEM, and more. Technical education in Cumberland Valley
+          is also offered at a vocational tech school where computer programming, construction,
+          technology and logistics, machine technology and computer networking are taught. At
+          Cumberland Valley high school, classes also include hands-on approach to learning and
+          offer a wide variety from traditional classes to independent studies.</p>
+      </div>
+      <div class="item">
+        <img src="media/CVhigh.jpg" id="tsaimg"></img>
+      </div>
+    </div>
+  </section>
+
+  <section id="teachers">
+    <div class="teacherCardsGrid">
+      <div id="kofmehl">
+        <img src="media/person.jpeg" style="display: block; margin-left: auto; margin-right: auto; width: 30%;">
+        <h3>Mr. Kofmehl</h3>
+        <h4>Engineering Teacher</h4>
+        <p>Mr. Kofmehl is CV TSA's official advisor. He is also the president of the PA TSA executive board and also teaches Principles of Engineering,
+         Digital Electronics, TV Production, and Advanced TV Production.</p>
+      </div>
+      <div id="ensminger">
+        <img src="media/person.jpeg" style="display: block; margin-left: auto; margin-right: auto;width: 30%;">
+        <h3>Mr. Ensminger</h3>
+        <h4>Programming Teacher</h4>
+        <p>Mr. Ensminger teaches Introduction to Computer Science, Computer Science, AP Computer Science,
+        Independent Study Computer Science.</p>
+      </div>
+      <div id="kern">
+        <img src="media/person.jpeg" style="display: block; margin-left: auto; margin-right: auto;width: 30%;"/>
+        <h3>Ms. Kern</h3>
+        <h4>Engineering Teacher</h4>
+        <p>Ms. Kern teaches Introduction to Engineering and Design, Technical CAD, Architectural Drafting and Design,
+        Civil Engineering and Architecture, and Foundations of Graphic Communications. She is also a TSA advisor.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pathways">
+      <button class="accordion">Programming Pathway</button>
+      <div class="panel">
+        <br>
+          <section id=timeline>
+            <div class="pathway">
+              <div class="container left">
+                <div class="content">
+                  <h2>Intro to Computer Science/Programming</h2>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="content">
+                  <h2>Computer Science/Programming</h2>
+                </div>
+              </div>
+              <div class="container left">
+                <div class="content">
+                  <h2>AP Computer Science/Programming</h2>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="content">
+                  <h2>Computer Science Independent Study</h2>
+                </div>
+              </div>
+            </div>
+          </section>
+      </div>
+      <button class="accordion">Engineering Pathway</button>
+      <div class="panel">
+        <br>
+        <section id=timeline>
+          <div class="pathway">
+            <div class="container left">
+              <div class="content">
+                <h2>Introduction to Engineering Design (PLTW)</h2>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>Principles of Engineering (PLTW)</h2>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content">
+                <h2>Civil Engineering & Architecture (PLTW) or Materials & Production</h2>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>Engineering Design &
+                  Development (PLTW) or Physics</h2>
+                </div>
+              </div>
+            </div>
+        </section>
+      </div>
+      <button class="accordion">Business Pathway</button>
+      <div class="panel">
+        <br>
+          <section id=timeline>
+              <div class="pathway">
+              <div class="container left">
+                <div class="content">
+                  <h2>Introduction to Business</h2>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="content">
+                  <h2>Accounting I or Business Law I</h2>
+                </div>
+              </div>
+              <div class="container left">
+                <div class="content">
+                  <h2>College ACC101 or
+                    College BUS101 or Business Law II</h2>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="content">
+                  <h2>College CIS105 or College MKTG201</h2>
+                </div>
+              </div>
+            </div>
+          </section>
+      </div>
+      <button class="accordion">Design Pathway</button>
+      <div class="panel">
+        <br>
+        <section id=timeline>
+              <div class="pathway">
+            <div class="container left">
+              <div class="content">
+                <h2>Foundations of Graphic Communication
+                  or 2D Design Drawing & Painting I or Photography & Visual Communication I or Argus</h2>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>Webpage Design or 2D Design Drawing & Painting 2 or Photography & Visual Communication 2 or Argus</h2>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content">
+                <h2>Webpage Design or Photography & Visual Communication Portfolio I or 2D Portfolio I or Argus</h2>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>Photography & Visual Communication Portfolio 2 or 2D Portfolio 2 or Argus or College MKTG201</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+  </section>
+  <script>
+    var accord = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < accord.length; i++) {
+      accord[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropped = this.nextElementSibling;
+        if (dropped.style.maxHeight) {
+          dropped.style.maxHeight = null;
+        } else {
+          dropped.style.maxHeight = dropped.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+
 
 
 </body>
@@ -109,16 +287,7 @@
     <div>
       <h2>Clusters</h2>
       <ul>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
+        <li><a>careers</a></li>
       </ul>
     </div>
   </div>

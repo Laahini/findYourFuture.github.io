@@ -206,6 +206,15 @@ a
   -webkit-text-fill-color: transparent;
   padding-top:0.5%;
 }
+#whatTSA, #whatCV
+{
+  background: var(--cream);
+}
+#officers
+{
+  background: var(--blue1);
+  color: var(--cream);
+}
 .container {
   max-width: 1000px;
   margin-left: auto;
@@ -313,7 +322,32 @@ a
   letter-spacing: 5px;
   font-size: 30px;
 }
-
+#tsaimg
+{
+  width:100%;
+}
+#creed
+{
+padding:5%;
+}
+#teachers
+{
+  padding:5%;
+  background: var(--blue1);
+}
+#teachers p
+{
+  font-size: 14px;
+  line-height: 150%;
+  padding: 5%;
+}
+#kofmehl, #kern, #ensminger{
+  background: var(--cream);
+  color: var(--blue1);
+  width:100%;
+  text-align: center;
+  padding:15px;
+}
 /*GRIDS*/
 .halfSplitGrid
 {
@@ -370,6 +404,14 @@ a
   grid-template-columns: 75% 25%;
   grid-template-rows: auto;
   padding:5% 5%;
+}
+.teacherCardsGrid{
+  display: grid;
+  grid-column-gap: 3%;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
 }
 
 /*CLASSES*/
@@ -432,6 +474,131 @@ a
 {
   position:absolute;
 }
+.item
+{
+  padding:10%;
+}
+.item2
+{
+  padding:10% 5%;
+
+}
+.slidesimg
+{
+  width:100%;
+}
+
+
+/*SLIDESHOW*/
+.slides {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+.slides .slider {
+	height: 100%;
+	white-space: nowrap;
+	font-size: 0;
+	transition: 0.8s;
+}
+.slides .slider > * {
+	font-size: 1rem;
+	display: inline-block;
+	white-space: normal;
+	vertical-align: top;
+	height: 100%;
+	width: 100%;
+	background: none 50% no-repeat;
+	background-size: cover;
+}
+.slides .prevNext {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	width: 100%;
+	height: 0;
+}
+
+.slides .prevNext > div+div {
+	visibility: hidden;
+}
+
+.slides .prevNext a {
+	background: #fff;
+	position: absolute;
+	width:       60px;
+	height:      60px;
+	line-height: 60px;
+	opacity: 0.7;
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+	-webkit-transform: translateY(-50%);
+					transform: translateY(-50%);
+	left: 0;
+}
+.slides .prevNext a:hover {
+	opacity: 1;
+}
+.slides .prevNext a+a {
+	left: auto;
+	right: 0;
+}
+.slides .bullets {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+}
+.slides .bullets > a {
+	display: inline-block;
+	width:       30px;
+	height:      30px;
+	line-height: 30px;
+	text-decoration: none;
+	text-align: center;
+	background: rgba(255, 255, 255, 1);
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+}
+.slides .bullets > a+a {
+	background: rgba(255, 255, 255, 0.5);
+}
+.slides .bullets > a:hover {
+	background: rgba(255, 255, 255, 0.7) !important;
+}
+.slides >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
+#s1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1);}
+#s2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1);}
+#s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
+#s4:target ~ .bullets >*:nth-child(4) {background: rgba(255, 255, 255,   1);}
+.slides >s:target ~ .prevNext >* {      visibility: hidden;}
+#s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+#s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+#s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+#s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+#s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+.slides{
+	color: #fff;
+	text-align: center;
+}
+.slides .slider h2 {
+	margin-top: 40vh;
+	font-weight: 200;
+	letter-spacing: -0.06em;
+	word-spacing: 0.2em;
+	font-size: 3em;
+}
+.slides a {
+	border-radius: 50%;
+	margin: 0 3px;
+	color: rgba(0,0,0,0.8);
+	text-decoration: none;
+}
 /*FOOTER*/
 footer
 {
@@ -449,4 +616,42 @@ footer .fourSplitGrid ul
 footer .fourSplitGrid ul li
 {
   padding: 0.5% 0%;
+}
+
+
+/*PATHWAYS*/
+#pathways
+{
+  padding-left:5%;
+  padding-bottom:2%;
+  padding-right:5%;
+  padding-top:2%;
+  margin-top:0;
+  background:var(--cream);
+}
+.accordion {
+  background-color: var(--cream);
+  color: var(--blue1);
+  cursor: pointer;
+  padding: 1%;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+  font-family: sans-serif;
+}
+
+.active, .accordion:hover {
+  background-color: var(--blue1);
+  color:white;
+}
+.panel {
+  background-color: var(--blue1);
+  max-height: 0;
+  width:100%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: var(--cream);
 }

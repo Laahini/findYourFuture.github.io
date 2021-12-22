@@ -40,3 +40,6 @@ function openVideo(evt, videoName)
   evt.currentTarget.className += " active";
 }
 document.getElementById("defaultOpen").click();
+
+
+/*pathways*/

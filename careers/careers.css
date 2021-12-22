@@ -1,0 +1,30 @@
+#careerBanner
+{
+  position: relative;
+  width:100%;
+  background: #fff;
+  background-size: cover;
+}
+#programBannerHook
+{
+  padding-top:10%;
+  padding-bottom:1%;
+  text-align: center;
+}
+#programBanner .autoThirdGrid
+{
+  padding:10%;
+}
+#programBanner .halfSplitGrid div
+{
+  padding:2%;
+}
+.placeholderBckg
+{
+  width:100%;
+}
+#careerHook
+{
+  position: absolute;
+  top:40%;
+}
