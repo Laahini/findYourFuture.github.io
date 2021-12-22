@@ -24,10 +24,7 @@ h1
 {
   font-size: 40px;
 }
-a
-{
 
-}
 #banner
 {
   position: relative;
@@ -116,7 +113,7 @@ a
 }
 #careers{
   padding:0% 0%;
-  background: url("media/careersPLACEHOLDER.jpeg");
+  background: url("media/careers.jpeg");
   color:var(--cream);
 }
 #careers h1
@@ -162,9 +159,9 @@ a
 #sponsors
 {
   text-align: center;
-  background: var(--cream);
+  background: var(--green1);
   padding:5%;
-  color: var(--blue1);
+  color: var(--cream);
 }
 #sponsors img
 {
@@ -348,6 +345,23 @@ padding:5%;
   text-align: center;
   padding:15px;
 }
+#contactDescript
+{
+  text-align: center;
+  padding:10% 20%;
+  line-height: 250%;
+  color: var(--blue1);
+}
+#contactDescript h1
+{
+  text-align: right;
+  padding:2% 0%;
+}
+#about
+{
+  padding: 10%;
+}
+
 /*GRIDS*/
 .halfSplitGrid
 {
@@ -487,7 +501,14 @@ padding:5%;
 {
   width:100%;
 }
-
+.registerbtn, .quizbtn, .agendabtn
+{
+  background: var(--green1);
+  color:#fff;
+  border-radius: 40px;
+  padding: 3%;
+  margin-top:5%;
+}
 
 /*SLIDESHOW*/
 .slides {
