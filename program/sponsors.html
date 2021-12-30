@@ -1,208 +1,264 @@
 <!DOCTYPE html>
 <html LANG="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
 
-  <!--STYLES-->
-  <link rel="stylesheet" href="../styles.css"/>
-  <link rel="stylesheet" href="../css/nav.css"/>
-  <link rel="stylesheet" href="program.css"/>
+    <!--STYLES-->
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="program.css" />
 
-  <script src="../scripts.js"></script>
+    <script src="../scripts.js"></script>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 
 </head>
 
 <body>
-  <header>
-    <a href="#" class="logo">FYF</a>
-    <ul>
-      <li>
-        <div class="dropdown-menu">
-          <button class="menu-btn">Program <i class="fa fa-caret-down"></i></button>
-          <div class="menu-content">
-            <a class="links-hidden" href="schedule.html"> Schedule </a>
-            <a class="links-hidden" href="workshops.html"> Workshops </a>
-            <a class="links-hidden" href="speakers.html"> Speakers </a>
-            <a class="links-hidden" href="sponsors.html"> Sponsors </a>
-          </div>
+    <header>
+        <a href="#" class="logo">FYF</a>
+        <ul>
+            <li>
+                <div class="dropdown-menu">
+                    <button class="menu-btn">Program <i class="fa fa-caret-down"></i></button>
+                    <div class="menu-content">
+                        <a class="links-hidden" href="schedule.html"> Schedule </a>
+                        <a class="links-hidden" href="workshops.html"> Workshops </a>
+                        <a class="links-hidden" href="speakers.html"> Speakers </a>
+                        <a class="links-hidden" href="sponsors.html"> Sponsors </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown-menu">
+                    <button class="menu-btn">Watch <i class="fa fa-caret-down"></i></button>
+                    <div class="menu-content">
+                        <!--<a class="links-hidden" href="../watch/keynotes.html"> Keynotes </a>-->
+                        <a class="links-hidden" href="../watch/workshops.html"> Workshops </a>
+                        <!--<a class="links-hidden" href="../watch/clusters.html"> Clusters</a>-->
+                    </div>
+                </div>
+            </li>
+            <li><a href="../careers/careers.html">Careers</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <!--<li><a href="../login.html">Login</a></li>-->
+            <li>|</li>
+            <li><a href="../index.html">Design Brief</a></li>
+            <li><a href="../cte.html">CTE</a></li>
+            <li><a href="../cvtsa.html">CV TSA</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </header>
+
+    <section id="programBanner">
+        <div id="programBannerHook">
+            <h5>MONTH 00-00, 2022 | ONLINE</h5>
+            <h1>2022 Sponsors</h1>
+            <h2>Explore your online experience</h2>
         </div>
-      </li>
-      <li>
-        <div class="dropdown-menu">
-          <button class="menu-btn">Watch <i class="fa fa-caret-down"></i></button>
-          <div class="menu-content">
-            <!--<a class="links-hidden" href="../watch/keynotes.html"> Keynotes </a>-->
-            <a class="links-hidden" href="../watch/workshops.html"> Workshops </a>
-            <!--<a class="links-hidden" href="../watch/clusters.html"> Clusters</a>-->
-          </div>
+    </section>
+    <section id="sponsorsGrid">
+        <div class="autoThirdGrid">
+            <div>
+                <a href="#">
+                    <div id></div>
+                    <div class="flip-card ">
+
+                        <div class="flip-card-inner ">
+
+                            <div class="flip-card-front ">
+
+
+                                <br>
+
+                                <br>
+
+                                <img class="align-middle" style="height: 100px; width: 100px; border-top-left-radius: 40px; border-top-right-radius:40px; " src="../media/person.jpeg " alt=" ">
+                                <br>
+                                <br>
+                                <br>
+
+                                <h3 class="lead text-primary">Most Americans probably won't be able to get a Covid-19 vaccine until mid-2021, CDC director says</h3>
+
+                            </div>
+
+                            <div class="flip-card-back ">
+
+                                <div class="card " style="size: 600px;  ">
+
+                                    <div class="card-body ">
+
+                                        <p class="card-text " style="color: black; ">The hesitancy of many people to get a Covid-19 vaccine when it becomes available is an issue that needs to be urgently addressed, National Institutes of Health Director Dr. Francis Collins said Wednesday.</p>
+
+                                        <a href="https://www.cnn.com/2020/09/16/health/us-coronavirus-wednesday " class="text-muted " style="font-size:7px ">https://www.cnn.com/2020/09/16/health/us-coronavirus-wednesday</a>
+
+                                        <p class="card-text "><small class="text-muted ">Thu, 17 Sep 2020</small></p>
+
+                                        <p></p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="# ">
+                    <img src="../media/person.jpeg " class="speaker ">
+                    <h2>HI</h2>
+                    <h4>HI</h4>
+                </a>
+            </div>
+            <div>
+                <a href="# ">
+                    <img src="../media/person.jpeg " class="speaker ">
+                    <h2>HI</h2>
+                    <h4>HI</h4>
+                </a>
+            </div>
         </div>
-      </li>
-      <li><a href="../careers/careers.html">Careers</a></li>
-      <li><a href="../contact.html">Contact</a></li>
-      <!--<li><a href="../login.html">Login</a></li>-->
-      <li>|</li>
-      <li><a href="../index.html">Design Brief</a></li>
-      <li><a href="../cte.html">CTE</a></li>
-      <li><a href="../cvtsa.html">CV TSA</a></li>
-      <li><a href="../about.html">About</a></li>
-    </ul>
-  </header>
+        <div class="autoThirdGrid ">
+            <div>
+                <a href="# ">
+                    <img src="../media/person.jpeg " class="speaker ">
+                    <h2>HI</h2>
+                    <h4>HI</h4>
+                </a>
+            </div>
+            <div>
+                <a href="# ">
+                    <img src="../media/person.jpeg " class="speaker ">
+                    <h2>HI</h2>
+                    <h4>HI</h4>
+                </a>
+            </div>
+            <div>
+                <a href="# ">
+                    <img src="../media/person.jpeg " class="speaker ">
+                    <h2>HI</h2>
+                    <h4>HI</h4>
+                </a>
+            </div>
+        </div>
+        <div class="autoThirdGrid ">
+            <div>
+                <a href="# ">
+                    <img src="../media/person.jpeg " class="speaker ">
+                    <h2>HI</h2>
+                    <h4>HI</h4>
+                </a>
+            </div>
+            <div>
+                <a href="# ">
+                    <img src="../media/person.jpeg " class="speaker ">
+                    <h2>HI</h2>
+                    <h4>HI</h4>
+                </a>
+            </div>
+            <div>
+                <a href="# ">
+                    <img src="../media/person.jpeg " class="speaker ">
+                    <h2>HI</h2>
+                    <h4>HI</h4>
+                </a>
+            </div>
+        </div>
+    </section>
 
-  <section id="programBanner">
-    <div id="programBannerHook">
-      <h5>MONTH 00-00, 2022 | ONLINE</h5>
-      <h1>2022 Sponsors</h1>
-      <h2>Explore your online experience</h2>
-    </div>
-  </section>
-  <section id="sponsorsGrid">
-    <div class="autoThirdGrid">
-      <div>
-        <a href="#">
-          <img src="../media/person.jpeg" class="speaker">
-          <h2>HI</h2>
-          <h4>HI</h4>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="../media/person.jpeg" class="speaker">
-          <h2>HI</h2>
-          <h4>HI</h4>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="../media/person.jpeg" class="speaker">
-          <h2>HI</h2>
-          <h4>HI</h4>
-        </a>
-      </div>
-    </div>
-    <div class="autoThirdGrid">
-      <div>
-        <a href="#">
-          <img src="../media/person.jpeg" class="speaker">
-          <h2>HI</h2>
-          <h4>HI</h4>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="../media/person.jpeg" class="speaker">
-          <h2>HI</h2>
-          <h4>HI</h4>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="../media/person.jpeg" class="speaker">
-          <h2>HI</h2>
-          <h4>HI</h4>
-        </a>
-      </div>
-    </div>
-    <div class="autoThirdGrid">
-      <div>
-        <a href="#">
-          <img src="../media/person.jpeg" class="speaker">
-          <h2>HI</h2>
-          <h4>HI</h4>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="../media/person.jpeg" class="speaker">
-          <h2>HI</h2>
-          <h4>HI</h4>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img src="../media/person.jpeg" class="speaker">
-          <h2>HI</h2>
-          <h4>HI</h4>
-        </a>
-      </div>
-    </div>
-  </section>
+    <section>
+        <!--BECOME A SPONSOR TODAY. GIVE LINK HERE TO FILL OUT FOR SPONSOR OR SMTHG. PUT CONTACT INFO HERE-->
+        <div>
+            <!--PUT CAROUSEL OF SPONSORS SO FAR-->
+        </div>
+        <!--video on sponsors so far and why you shpuld sponsor-->
+    </section>
 
-  <section>
-    <!--BECOME A SPONSOR TODAY. GIVE LINK HERE TO FILL OUT FOR SPONSOR OR SMTHG. PUT CONTACT INFO HERE-->
-    <div><!--PUT CAROUSEL OF SPONSORS SO FAR--></div>
-    <!--video on sponsors so far and why you shpuld sponsor-->
-  </section>
-
-  <section>
-    <!--WHY  SHOULD BE A SPONSOR-->
-    <div class="halfSplitGrid">
-      <div></div>
-      <div class="splitGrid2_2">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-  </section>
+    <section>
+        <!--WHY  SHOULD BE A SPONSOR-->
+        <div class="halfSplitGrid ">
+            <div></div>
+            <div class="splitGrid2_2 ">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
 <footer>
-  <div class="fourSplitGrid">
-    <div>
-      <h2>About</h2>
-      <ul>
-        <li><a>About Name</a></li>
-        <li><a>Schedule Overview</a></li>
-        <li><a>Team</a></li>
-        <li><a>Sponsors</a></li>
-        <li><a>Code of Conduct</a></li>
-        <li><a>Contact</a></li>
-      </ul>
+    <div class="fourSplitGrid ">
+        <div>
+            <h2>About</h2>
+            <ul>
+                <li><a>About Name</a></li>
+                <li><a>Schedule Overview</a></li>
+                <li><a>Team</a></li>
+                <li><a>Sponsors</a></li>
+                <li><a>Code of Conduct</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Conference</h2>
+            <ul>
+                <li><a>Schedule Overview</a></li>
+                <li><a>Career Spotlights</a></li>
+                <li><a>Personality Quiz</a></li>
+                <li><a>Livestream</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Speakers</h2>
+            <ul>
+                <li><a>Speakers</a></li>
+                <li><a>Keynotes</a></li>
+                <li><a>Livestream</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Clusters</h2>
+            <ul>
+                <li><a>cluster1</a></li>
+                <li><a>cluster1</a></li>
+                <li><a>cluster1</a></li>
+                <li><a>cluster1</a></li>
+                <li><a>cluster1</a></li>
+                <li><a>cluster1</a></li>
+                <li><a>cluster1</a></li>
+                <li><a>cluster1</a></li>
+                <li><a>cluster1</a></li>
+                <li><a>cluster1</a></li>
+            </ul>
+        </div>
     </div>
+    <p> ©FYF. All Rights Reserved</p>
     <div>
-      <h2>Conference</h2>
-      <ul>
-        <li><a>Schedule Overview</a></li>
-        <li><a>Career Spotlights</a></li>
-        <li><a>Personality Quiz</a></li>
-        <li><a>Livestream</a></li>
-      </ul>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+
     </div>
-    <div>
-      <h2>Speakers</h2>
-      <ul>
-        <li><a>Speakers</a></li>
-        <li><a>Keynotes</a></li>
-        <li><a>Livestream</a></li>
-        <li><a>Contact</a></li>
-      </ul>
-    </div>
-    <div>
-      <h2>Clusters</h2>
-      <ul>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-      </ul>
-    </div>
-  </div>
-  <p> ©FYF. All Rights Reserved</p>
 </footer>
+
 </html>
