@@ -676,3 +676,141 @@ footer .fourSplitGrid ul li
   transition: max-height 0.2s ease-out;
   color: var(--cream);
 }
+
+.policy{
+  display:flex;
+  align-items:center;
+}
+.policy h4{
+  padding: 5px;
+}
+.contactbox{
+  position: relative;
+  max-width: relative;
+  width: 100%;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px #8bb174;
+}
+.contactbox h2{
+  color:#33658a;
+  font-size: 30px;
+  font-weight: 200;
+  border-bottom-style: solid; 
+  border-color:#333;
+  border-bottom-width: 5px;
+  padding: 2px;
+  padding-bottom: 5px;
+}
+
+.buttonForSocialMedia{
+  background-color: var(--green1);
+  border: none;
+  color: var(--cream);
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 12px;
+}
+
+.buttonForSocialMedia:hover{
+  opacity: 0.85;
+}
+
+.flipCard{
+  background-color: transparent;
+  width: relative;
+  height: 300px;
+  perspective: 10000000000px;
+  padding: 4%;
+}
+
+.flipCardInside{
+  position: relative;
+  width: relative;
+  height: 300px;
+  text-align: center;
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+  box-shadow: 0px 5px 20px 5px var(--green1);
+}
+
+.flipCard:hover .flipCardInside{
+  transform: rotateY(180deg);
+}
+
+.flipCardFront{
+  background-color: var(--blue1);
+  color: var(--cream);
+  transform: rotateY(0deg)
+}
+
+.flipCardBack{
+  background-color: var(--blue1);
+  color: var(--cream);
+  transform: rotateY(180deg)
+}
+
+.flipCardFront, .flipCardBack{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+#smallbanner{
+  position: relative;
+  width:100%;
+  height:20vh;
+  background: #fff;
+  background-size: cover;
+}
+
+#bigbanner{
+  position: relative;
+  width:100%;
+  height: 280vh;
+  background: #fff;
+  background-size: cover;
+}
+
+#APID-Dualbanner{
+  position: relative;
+  width:100%;
+  height: 160vh;
+  background: #fff;
+  background-size: cover;
+}
+
+#tsapicsBanner{
+  position: relative;
+  width:100%;
+  height: 100vh;
+  background: var(--blue1);
+  background-size: cover;
+}
+
+#timelineBanner{
+  position: relative;
+  width:100%;
+  height: relative;
+  background: var(--cream);
+}
+
+.timeLineBox{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.17) 0px 12px 13px;
+  border-radius: 20px;
+  margin: 10px;
+  height: 100%;
+  width: 50%;
+  margin-left: 25%;
+  text-align:center;
+  padding: 20px;
+}
+.timeLineLine{
+  border-right: 6px dotted var(--green1);
+  height: 100px;
+  margin-right: 49%;
+  margin-bottom: 10px;
+}
