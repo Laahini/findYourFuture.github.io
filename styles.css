@@ -500,6 +500,7 @@ padding:5%;
 .slidesimg
 {
   width:100%;
+  height: 400px;
 }
 .registerbtn, .quizbtn, .agendabtn
 {
@@ -517,7 +518,7 @@ padding:5%;
 	height: 100%;
 }
 .slides .slider {
-	height: 100%;
+	height: 84vh;
 	white-space: nowrap;
 	font-size: 0;
 	transition: 0.8s;
