@@ -499,7 +499,7 @@ padding:5%;
 }
 .slidesimg
 {
-  width:100%;
+  width:75%;
   height: 400px;
 }
 .registerbtn, .quizbtn, .agendabtn
@@ -711,7 +711,7 @@ footer .fourSplitGrid ul li
   color:#33658a;
   font-size: 30px;
   font-weight: 200;
-  border-bottom-style: solid; 
+  border-bottom-style: solid;
   border-color:#333;
   border-bottom-width: 5px;
   padding: 2px;
@@ -800,7 +800,7 @@ footer .fourSplitGrid ul li
 #tsapicsBanner{
   position: relative;
   width:100%;
-  height: 100vh;
+  height: 115vh;
   background: var(--blue1);
   background-size: cover;
 }
