@@ -1,11 +1,26 @@
 #programBanner {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 40vh;
     background: #fff;
     background-size: cover;
 }
-
+#scheduleBanner
+{
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background: #fff;
+  background-size: cover;
+}
+#workshopPBanner
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  background-size: cover;
+}
 #programBannerHook {
     padding-top: 10%;
     padding-bottom: 1%;
@@ -19,7 +34,10 @@
 #programBanner .halfSplitGrid div {
     padding: 2%;
 }
-
+#speakersGrid
+{
+    background: #fff;
+}
 #speakersGrid .autoThirdGrid div,
 #sponsorsGrid .autoThirdGrid div {
     text-align: center;
@@ -47,7 +65,7 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto auto;
-    padding: 5% 5%;
+    padding: 3% 5%;
 }
 
 #filters {
@@ -64,11 +82,9 @@
     text-align: left;
 }
 
-#filters .autoThirdGrid {
-    padding: 1%;
-    padding-right: 5%;
+#filters p {
+    padding: 0% 10%;
 }
-
 #filters button {
     border-radius: 20px;
     padding: 2%;
@@ -79,7 +95,6 @@
     background: var(--cream);
     font-size: 18px;
 }
-
 #types button {
     width: 200px;
     border-radius: 10px;
@@ -89,7 +104,6 @@
     background: var(--cream);
     font-size: 18px;
 }
-
 #who button {
     width: 200px;
     border-radius: 10px;
@@ -99,7 +113,6 @@
     background: var(--cream);
     font-size: 18px;
 }
-
 #when button {
     width: 200px;
     border-radius: 10px;
@@ -110,7 +123,7 @@
     font-size: 18px;
 }
 
-.showallbtn {
+.showallspeakerBtn {
     width: 200px;
     border-radius: 10px;
     height: 30px;
@@ -120,64 +133,237 @@
     background: var(--cream);
     font-size: 18px;
 }
-
-
-.lead {
-    padding: 5%;
+.lead h5{
+  font-size: 15px;
+  font-weight: lighter;
+}
+.card-title
+{
+  font-size: 20px;
+  padding:5% 1%;
+}
+.type
+{
+  padding:5%;
+  text-align: center;
+}
+.type i
+{
+  padding-bottom:5%;
+}
+/*SCHEDUULE CARDS*/
+#AM8, #AM9, #AM10, #AM11, #PM12, #PM1, #PM2, #PM3
+{
+  background: linear-gradient(to bottom, #33658a 0%, #1a3547 100%);
+  color:white;
+}
+.eventDescription h1
+{
+  font-size:30px;
+}
+.card
+{
+  background:#203e54;
+  padding:10%;
+  border-radius: 20px;
+}
+/*FLIP CARDS*/
+.page-content {
+  display: grid;
+  grid-gap: 5rem 2rem;
+  padding: 5rem;
+  background: #fff;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+}
+@media (min-width: 600px) {
+  .page-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .page-content {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
-
-/*Flip Cards CSS*/
-
-
-/*Flipcards*/
-
-.flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 320px;
-    perspective: 1000px;
-    border-radius: 15px;
+.speakerCard {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 600px) {
+  .speakerCard {
+    height: 350px;
+  }
+}
+.speakerCard:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-size: cover;
+  background-position: 0 0;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+.speakerCard:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translateY(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+.speakerCard:nth-child(1):before {
+  background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(2):before {
+  background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(3):before {
+  background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(4):before {
+  background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(5):before {
+  background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(6):before {
+  background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(7):before {
+  background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(8):before {
+  background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(9):before {
+  background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(10):before {
+  background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(11):before {
+  background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(12):before {
+  background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(13):before {
+  background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(14):before {
+  background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(15):before {
+  background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.speakerCard:nth-child(16):before {
+  background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  transition: transform var(--d) var(--e);
+  z-index: 1;
+}
+.content > * + * {
+  margin-top: 1rem;
 }
 
-.flip-card-inner {
-    width: 100%;
-    height: 100%;
-    width: 300px;
-    height: 320px;
-    text-align: center;
-    transition: transform .5s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
-.flip-card:hover .flip-card-inner {
-    transform: rotateX(180deg);
+.copy {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.35;
 }
 
-.flip-card-front,
-.flip-card-back {
-    border-radius: 15px;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    width: 300px;
-    height: 320px;
+.speakerBtn {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.speakerBtn:hover {
+  background-color: #0d0d0d;
+}
+.speakerBtn:focus {
+  outline: 1px dashed yellow;
+  outline-offset: 3px;
 }
 
-.flip-card-front {
-    width: 300px;
-    height: 320px;
-    background-color: white;
-    color: black;
-}
+@media (hover: hover) and (min-width: 600px) {
+  .speakerCard:after {
+    transform: translateY(0);
+  }
 
-.flip-card-back {
-    background-color: transparent;
-    width: 300px;
-    height: 320px;
-    perspective: 1000px;
-    border-radius: 15px;
-    transform: rotateX(180deg);
+  .content {
+    transform: translateY(calc(100% - 4.5rem));
+  }
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .speakerCard:hover,
+.speakerCard:focus-within {
+    align-items: center;
+  }
+  .speakerCard:hover:before,
+.speakerCard:focus-within:before {
+    transform: translateY(-4%);
+  }
+  .speakerCard:hover:after,
+.speakerCard:focus-within:after {
+    transform: translateY(-50%);
+  }
+  .speakerCard:hover .content,
+.speakerCard:focus-within .content {
+    transform: translateY(0);
+  }
+  .speakerCard:hover .content > *:not(.title),
+.speakerCard:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .speakerCard:focus-within:before, .speakerCard:focus-within:after,
+.speakerCard:focus-within .content,
+.speakerCard:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
 }
