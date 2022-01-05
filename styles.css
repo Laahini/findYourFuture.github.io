@@ -361,6 +361,14 @@ padding:5%;
 {
   padding: 10%;
 }
+#contactBanner
+{
+  position: relative;
+  width:100%;
+  height:100vh;
+  background: #fff;
+  background-size: cover;
+}
 
 /*GRIDS*/
 .halfSplitGrid
