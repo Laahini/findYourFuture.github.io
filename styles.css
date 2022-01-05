@@ -427,7 +427,14 @@ padding:5%;
   justify-items: center;
   align-content: space-evenly;
 }
-
+.threetoTwoGrid
+{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+}
 /*CLASSES*/
 .hvr-grow-shadow {
   display: inline-block;
