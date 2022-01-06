@@ -364,10 +364,15 @@ padding:5%;
 #contactBanner
 {
   position: relative;
+  padding-top: 5%;
   width:100%;
   height:100vh;
   background: #fff;
   background-size: cover;
+}
+#contactBanner .threetoTwoGrid div
+{
+  padding:5% 5%;
 }
 
 /*GRIDS*/
@@ -442,6 +447,7 @@ padding:5%;
   justify-content: space-evenly;
   justify-items: center;
   align-content: space-evenly;
+  padding:5% 5%;
 }
 /*CLASSES*/
 .hvr-grow-shadow {
@@ -714,11 +720,8 @@ footer .fourSplitGrid ul li
   padding: 5px;
 }
 .contactbox{
-  position: relative;
-  max-width: relative;
-  width: 100%;
   background: #fff;
-  padding: 40px;
+  padding: 2%;
   border-radius: 10px;
   box-shadow: 0 5px 5px #8bb174;
 }
@@ -730,9 +733,8 @@ footer .fourSplitGrid ul li
   border-color:#333;
   border-bottom-width: 5px;
   padding: 2px;
-  padding-bottom: 5px;
+  padding-bottom: 1%;
 }
-
 .buttonForSocialMedia{
   background-color: var(--green1);
   border: none;
