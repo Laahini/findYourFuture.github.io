@@ -460,6 +460,7 @@ li
 #clusterCards
 {
   padding:5%;
+  margin:3%;
 }
 #clusterCards .splitGrid2by2
 {
@@ -521,4 +522,23 @@ li
   padding: 2%;
   height:25vh;
   box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+
+#requestWorkshop
+{
+  padding:5%;
+  text-align: center;
+  background: #fff;
+}
+#requestWorkshop a
+{
+  background:var(--green1);
+  text-decoration: none;
+  padding:1%;
+  color:#fff;
+  border-radius: 10px;
+}
+#requestWorkshop p
+{
+  padding: 0% 10%;
 }
