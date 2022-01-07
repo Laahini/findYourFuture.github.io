@@ -461,10 +461,17 @@ padding:5%;
   grid-template-columns: 33% 34% 33%;
   padding:1% 1%;
 }
+.splitGrid2by2
+{
+  display:grid;
+  grid-gap: 2%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%
+  padding:1% 1%;
+}
 .clusterCardGrid
 {
   display:grid;
-  grid-gap: 5%;
   grid-template-columns: 30% 70%;
   padding:1% 1%;
 }
@@ -552,8 +559,8 @@ padding:5%;
 }
 .smallWorkshopImg
 {
-  width:100%;
-  height:40%;
+  width:80%;
+  height:80%;
   border-radius: 80px;
 }
 .glassmorphism

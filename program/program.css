@@ -451,35 +451,43 @@ li
 }
 #clustersInfo .halfSplitGrid div
 {
-  padding:0% 5%;
+  padding:2% 5%;
 }
 #clustersInfo .glassmorphism
 {
   color: var(--blue1);
 }
+#clusterCards
+{
+  padding:5%;
+}
+#clusterCards .splitGrid2by2
+{
+  grid-row-gap: 5%;
+}
 
 
-.buttons-container {
+
+.socialMediaBar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 80%;
   flex-wrap: wrap;
 }
 
-.button {
+.socialButton {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 10%;
+  height: 15%;
   box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
-  margin-bottom: 1em;
 }
-.button:hover {
+.socialButton:hover {
   cursor: pointer;
   box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
   color: white;
@@ -507,4 +515,10 @@ li
 
 .reddit:hover {
   background: #ff6314;
+}
+.leadCCard
+{
+  padding: 2%;
+  height:25vh;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
 }
