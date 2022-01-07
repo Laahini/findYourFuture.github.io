@@ -418,11 +418,10 @@ padding:5%;
 }
 .splitGrid2_2
 {
-  position:relative;
   display:grid;
+  grid-gap: 5%;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  padding:5% 5%;
+  padding:1% 1%;
 }
 .threeFourthGrid
 {
@@ -444,6 +443,15 @@ padding:5%;
 {
   display: grid;
   grid-template-columns: 60% 40%;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  padding:5% 5%;
+}
+.twoToThreeGrid
+{
+  display: grid;
+  grid-template-columns: 40% 60%;
   justify-content: space-evenly;
   justify-items: center;
   align-content: space-evenly;

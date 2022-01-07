@@ -22,9 +22,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-
-
 </head>
 
 <body>
@@ -63,13 +60,14 @@
         </ul>
     </header>
 
-    <section id="programBanner">
+    <section id="sponsorBanner">
         <div id="programBannerHook">
             <h5>MONTH 00-00, 2022 | ONLINE</h5>
             <h1>2022 Sponsors</h1>
             <h2>Explore your online experience</h2>
         </div>
     </section>
+
     <section id="sponsorsCarousel">
       <div class="swiper mySwiper">
       <div class="swiper-wrapper">
@@ -80,10 +78,8 @@
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
     </div>
-
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
@@ -95,28 +91,110 @@
     </script>
     </section>
 
-    <section id"sponsorJoin" class="threetoTwoGrid">
-        <!--BECOME A SPONSOR TODAY. GIVE LINK HERE TO FILL OUT FOR SPONSOR OR SMTHG. PUT CONTACT INFO HERE-->
-        <div >
-            <iframe title="web" src="https://docs.google.com/forms/d/e/1FAIpQLSdTvAa0xumGrkvdLiDlP5MkMmFN4gpEt9Z82jnrjZh9X_dSxg/viewform?embedded=true " width="100%" height="100%;">Loading…</iframe>
-        </div>
+    <section id"sponsorsForm" class="threetoTwoGrid">
         <div>
-          <h1>Why Be A Sponsor?</h1>
+          <div id="form-div">
+            <div class="container">
+      	       <div class="wrapper">
+      		         <div class="contact-info">
+      			            <h3>Join us as a Sponsor</h3>
+      			               <ul>
+                             <li><i class="fa fa-phone"></i> (555) 555-5555</li>
+      				               <li><i class="fa fa-envelope"></i> email@name.com</li>
+      			               </ul>
+      		         </div>
+      		         <div class="contact">
+                     <form id="contact-form">
+                       <p><label>Name</label><input type="text" name="name" id="name" required></p>
+      				         <p><label>Company</label><input type="text" name="company" id="company"></p>
+      				         <p><label>E-mail Address</label><input type="email" name="email" id="email" required></p>
+      				         <p><label>Phone Number</label><input type="text" name="phone" id="phone"></p>
+      				         <p class="full"><label>Message</label><textarea name="message" rows="5" id="message"></textarea></p>
+      				         <p class="full"><button type="submit">Submit</button></p>
+                     </form>
+      		         </div>
+      	       </div>
+            </div>
+          </div>
         </div>
-        <!--video on sponsors so far and why you shpuld sponsor-->
+        <div style="padding:5%;">
+          <h1>Why Be A Sponsor?</h1>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris orci turpis, bibendum vel
+            sodales id, facilisis ac eros. Cras at viverra ex. Etiam tincidunt metus a felis tincidunt
+            condimentum. Nam ipsum lectus, hendrerit ut sagittis ut, porttitor quis tellus. Aliquam non
+            leo at neque mollis consectetur. Nulla vitae sapien vitae mauris fringilla aliquet ac sed
+            ipsum. Proin sagittis sagittis volutpat. Suspendisse ac ultricies mi. Ut sed nunc lorem.
+            Vestibulum sapien leo, posuere sagittis congue nec, vehicula id diam. Proin molestie
+            enim arcu, at euismod erat molestie ut.
+          </p>
+        </div>
     </section>
 
-    <section>
-        <!--WHY  SHOULD BE A SPONSOR-->
-        <div class="halfSplitGrid ">
-            <div></div>
-            <div class="splitGrid2_2 ">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+    <section="benefits">
+      <div class="twoToThreeGrid">
+        <div>
+          <h1>Sponsor Benefits</h1><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris orci turpis, bibendum vel
+              sodales id, facilisis ac eros. Cras at viverra ex. Etiam tincidunt metus a felis tincidunt
+              condimentum. Nam ipsum lectus, hendrerit ut sagittis ut, porttitor quis tellus. Aliquam non
+              leo at neque mollis consectetur.</p>
         </div>
+        <div class="splitGrid2_2">
+          <div class="benefitPart">
+            <div class="threetoTwoGrid">
+              <div class="benefitPartHeader">
+                <h2>Lead Generation</h2>
+              </div>
+              <div>
+                <i class="fas fa-camera fa-4x"></i>
+              </div>
+            </div>
+            <div class="benefitPartDescript">
+              <p>Get new highly-engaged, warm contacts who have shown a real interest in your brand or solutions</p>
+            </div>
+          </div>
+          <div class="benefitPart">
+            <div class="threetoTwoGrid">
+              <div class="benefitPartHeader">
+                <h2>Thought Leadership</h2>
+              </div>
+              <div>
+                <i class="fas fa-camera fa-4x"></i>
+              </div>
+            </div>
+            <div class="benefitPartDescript">
+              <p>Inspire our audience with your products, solutions & thought-leadership live & on-demand</p>
+            </div>
+          </div>
+          <div class="benefitPart">
+            <div class="threetoTwoGrid">
+              <div class="benefitPartHeader">
+                <h2>Brand Awareness</h2>
+              </div>
+              <div>
+                <i class="fas fa-camera fa-4x"></i>
+              </div>
+            </div>
+            <div class="benefitPartDescript">
+              <p>Get your brand in-front of new potential customers and showcase your products or solutions</p>
+            </div>
+          </div>
+          <div class="benefitPart">
+            <div class="threetoTwoGrid">
+              <div class="benefitPartHeader">
+                <h2>Build Relationships</h2>
+              </div>
+              <div>
+                <i class="fas fa-camera fa-4x"></i>
+              </div>
+            </div>
+            <div class="benefitPartDescript">
+              <p>Your team can mingle with the community and create valuable, lasting relationships</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
 </body>

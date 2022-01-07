@@ -1,8 +1,20 @@
+li
+{
+  list-style: none;
+}
 #programBanner {
     position: relative;
     width: 100%;
     height: 40vh;
     background: #fff;
+    background-size: cover;
+}
+#sponsorBanner {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    color:#fff;
+    background: var(--blue1);
     background-size: cover;
 }
 #scheduleBanner
@@ -52,7 +64,6 @@
     width: 70%;
     height: 100%;
 }
-
 .show {
     display: block;
 }
@@ -370,4 +381,30 @@
 .speakerCard:focus-within .content > *:not(.title) {
     transition-duration: 0s;
   }
+}
+
+#benefits .splitGrid2_2 div
+{
+  position:relative;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  padding:2% 2%;
+}
+.benefitPart h2
+{
+  font-size:30px;
+}
+.benefitPartDescript
+{
+  padding: 0% 5%;
+  padding-bottom: 3%;
+}
+.benefitPart
+{
+  background: var(--blue1);
+  border-radius: 10px;
+  color:#fff;
+  box-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 3px #33658a, 0 0 5px #33658a,
+    0 0 7px #33658a, 0 0 10px #33658a;
 }
