@@ -443,9 +443,6 @@ padding:5%;
 {
   display: grid;
   grid-template-columns: 60% 40%;
-  justify-content: space-evenly;
-  justify-items: center;
-  align-content: space-evenly;
   padding:5% 5%;
 }
 .twoToThreeGrid
@@ -456,6 +453,20 @@ padding:5%;
   justify-items: center;
   align-content: space-evenly;
   padding:5% 5%;
+}
+.splitGrid3
+{
+  display:grid;
+  grid-gap: 5%;
+  grid-template-columns: 33% 34% 33%;
+  padding:1% 1%;
+}
+.clusterCardGrid
+{
+  display:grid;
+  grid-gap: 5%;
+  grid-template-columns: 30% 70%;
+  padding:1% 1%;
 }
 /*CLASSES*/
 .hvr-grow-shadow {
@@ -538,6 +549,19 @@ padding:5%;
   border-radius: 40px;
   padding: 3%;
   margin-top:5%;
+}
+.smallWorkshopImg
+{
+  width:100%;
+  height:40%;
+  border-radius: 80px;
+}
+.glassmorphism
+{
+  background: rgba( 255, 255, 255, 0.7 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.3 );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.1 );
 }
 
 /*SLIDESHOW*/

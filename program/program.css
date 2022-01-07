@@ -2,14 +2,16 @@ li
 {
   list-style: none;
 }
-#programBanner {
+#programBanner
+{
     position: relative;
     width: 100%;
     height: 40vh;
     background: #fff;
     background-size: cover;
 }
-#sponsorBanner {
+#sponsorBanner
+{
     position: relative;
     width: 100%;
     height: 40vh;
@@ -407,4 +409,102 @@ li
   color:#fff;
   box-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 3px #33658a, 0 0 5px #33658a,
     0 0 7px #33658a, 0 0 10px #33658a;
+}
+.workshopCard
+{
+  background: var(--blue1);
+  color:var(--cream);
+  padding:2%;
+}
+.workshopCard .threetoTwoGrid
+{
+  padding:0% 0%;
+  justify-items: left;
+}
+.workshopCard .halfSplitGrid
+{
+  grid-template-columns: 40% 80%;
+  grid-column-gap: none;
+  padding:0% 0%;
+  width:70%;
+  text-align: left;
+}
+
+#pDWorkshops .splitGrid3
+{
+  padding:5% 4.5%;
+  padding-left:2.5%;
+  grid-column-gap:1%;
+}
+#cDWorkshops .splitGrid3
+{
+  padding:5% 4.5%;
+  padding-left:2.5%;
+  grid-column-gap:1%;
+}
+
+#clustersInfo
+{
+  padding:5% 0%;
+  background: var(--green1);
+  color:var(--cream);
+}
+#clustersInfo .halfSplitGrid div
+{
+  padding:0% 5%;
+}
+#clustersInfo .glassmorphism
+{
+  color: var(--blue1);
+}
+
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  margin-bottom: 1em;
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.facebook:hover {
+  background: #3b5998;
+}
+
+.twitter:hover {
+  background: #1da1f2;
+}
+
+.instagram:hover {
+  background: linear-gradient(135deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.github:hover {
+  background: black;
+}
+
+.codepen:hover {
+  background: #1e1f26;
+}
+
+.reddit:hover {
+  background: #ff6314;
 }
