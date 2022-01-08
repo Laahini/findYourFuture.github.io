@@ -400,14 +400,6 @@ padding:5%;
   grid-template-rows: 100%;
   padding:5% 5%;
 }
-.auditThirdsGrid
-{
-  position:relative;
-  display:grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 100%;
-  padding:5% 20%;
-}
 .autoThirdGrid
 {
   position:relative;

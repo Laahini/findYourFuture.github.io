@@ -8,8 +8,12 @@
 }
 #workshopWatchBannerHook
 {
-  padding-top:20%;
+  padding-top:15%;
   padding-bottom:1%;
+}
+#workshopWatchBannerHook div
+{
+  padding:5%;
 }
 #watchCareerQuiz .threeFourthGrid
 {
@@ -21,11 +25,12 @@
 }
 #personalDevelopment
 {
-  background: var(--cream);
+  background: var(--blue1);
   padding: 5% 0%;
   position: relative;
   width:100%;
   height:100vh;
+  color:var(--cream);
 }
 #careerExploration
 {
@@ -73,7 +78,7 @@
 .library2__container
 {
   align-items: center;
-  background-color: var(--blue1);
+  background-color: var(--cream);
   z-index: 1;
   width: 100%;
 }
@@ -125,7 +130,6 @@
 }
 .video {
   float: left;
-  border: 1px solid #ccc;
   background-color: var(--blue1);
   width: 30%;
   height: 100%;
@@ -144,12 +148,12 @@
   transition: 0.3s;
 }
 .video button:hover {
-  background-color: var(--green1);
-  color: var(--cream);
+  background-color: var(--cream);
+  color: var(--blue1);
 }
 .video button.active {
-  background-color: var(--green1);
-  color: var(--cream);
+  background-color: var(--cream);
+  color: var(--blue1);
 }
 .videocontent {
   float: left;
@@ -162,15 +166,14 @@
 }
 .video2 {
   float: left;
-  border: 1px solid #ccc;
-  background-color: var(--blue1);
+  background-color: var(--cream);
   width: 30%;
   height: 100%;
 }
 .video2 button {
   display: block;
-  background-color: var(--blue1);
-  color: white;
+  background-color: var(--cream);
+  color: var(--green1);
   padding: 4% 5%;
   width: 100%;
   border: none;
@@ -193,7 +196,7 @@
   padding: 1% 3%;
   width: 70%;
   border-left: none;
-  background-color: var(--blue1);
+  background-color: var(--cream);
 }
 
 .videoLibraryWorkshop h1
