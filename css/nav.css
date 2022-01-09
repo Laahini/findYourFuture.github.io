@@ -8,8 +8,9 @@ header
   justify-content: space-between;
   align-items:center;
   transition: 0.3s;
-  padding: 40px 100px;
+  padding: 15px 100px;
   z-index:1000000;
+  background-color: rgba(0, 0, 0, 0.4)
 }
 header.sticky
 {
@@ -20,7 +21,7 @@ header .logo
 {
   position: relative;
   font-weight: 700;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   font-size:2em;
   text-transform: uppercase;
@@ -43,7 +44,7 @@ header ul li a
   position: relative;
   margin:0 15px;
   text-decoration: none;
-  color:#000;
+  color:#fff;
   letter-spacing:2px;
   font-weight: 500px;
 
@@ -59,7 +60,7 @@ header.sticky .menu-btn
   color:#fff;
 }
 .menu-btn {
-   color: #000;
+   color: #fff;
    padding: 16px;
    font-size: 18px;
    letter-spacing:2px;
