@@ -22,7 +22,7 @@
 
 <body>
   <header>
-    <a href="#" class="logo">LOGO</a>
+    <a href="#" class="logo">FYF</a>
     <ul>
       <li>
         <div class="dropdown-menu">
@@ -39,9 +39,9 @@
         <div class="dropdown-menu">
           <button class="menu-btn">Watch <i class="fa fa-caret-down"></i></button>
           <div class="menu-content">
-            <a class="links-hidden" href="../watch/keynotes.html"> Keynotes </a>
+            <!--<a class="links-hidden" href="../watch/keynotes.html"> Keynotes </a>-->
             <a class="links-hidden" href="../watch/workshops.html"> Workshops </a>
-            <a class="links-hidden" href="../watch/clusters.html"> Clusters</a>
+            <!--<a class="links-hidden" href="../watch/clusters.html"> Clusters</a>-->
           </div>
         </div>
       </li>
@@ -77,6 +77,7 @@
   </section>
 
   <section id="watchCareerQuiz">
+    
     <div class="threeFourthGrid">
       <div id="watchCareerQuizDescript">
         <h4>On-Demand Workshop</h4>
@@ -91,7 +92,7 @@
       <div class="placeholderbckg"></div>
     </div>
   </section>
-
+  <!--
   <section id="personalDevelopment" class="videoLibraryWorkshop">
       <h1>Personal Development Workshops</h1>
     <div class="library">
@@ -181,16 +182,97 @@
       document.getElementById("defaultOpen2").click();
     </script>
   </section>
+  -->
 
-  <section>
-    <div>
-      <div>
-        <h1></h1>
-        <p></p>
+  <section id="videoLibrary">
+    <div id="videoSelect">
+      <div class="videoScrollGrid">
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop1')"><h4>Workshop</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop2')"><h4>Workshop</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop3')"><h4>Workshop</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop4')"><h4>Workshop</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop5')"><h4>Workshop</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop6')"><h4>Workshop</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop7')"><h4>Workshop</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop8')"><h4>Workshop</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop9')"><h4>Workshop</h4></button>
+        <button class="videoOverview" onclick="openVideo2(event, 'workshop10')"><h4>Workshop</h4></button>
       </div>
-      <div></div>
     </div>
+    <div id="videoPlayer">
+      <div class="glassmorphism">
+        <div id="tempVidPlayer"><img src="../media/placeholder.png" class="placeholder"></div>
+        <div id="workshop1" class="videocontent2"><iframe width="1200" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe></div>
+        <div id="workshop2"class="videocontent2"><iframe width="1200" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe></div>
+        <div id="workshop3" class="videocontent2"><iframe width="1200" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe></div>
+        <div id="workshop4" class="videocontent2"><iframe width="1200" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe></div>
+        <div id="workshop5" class="videocontent2"><iframe width="1200" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe></div>
+        <div id="workshop6" class="videocontent2"><iframe width="1200" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe></div>
+        <div id="workshop7" class="videocontent2"><iframe width="1200" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe></div>
+        <div id="workshop8" class="videocontent2"><iframe width="1200" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe></div>
+        <div id="workshop9" class="videocontent2"><iframe width="1200" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe></div>
+        <div id="workshop10"class="videocontent2"><iframe width="1200" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe></div>
+      </div>
+    </div>
+    <script>
+      function openVideo2(evt, videoName) {
+        var i, videocontent, videolinks;
+        var temp = document.getElementById("tempVidPlayer");
+        temp.style.display="none";
+        videocontent = document.getElementsByClassName("videocontent2");
+        for (i = 0; i < videocontent.length; i++) {
+          videocontent[i].style.display = "none";
+        }
+        videolinks = document.getElementsByClassName("videolinks2");
+        for (i = 0; i < videolinks.length; i++) {
+          videolinks[i].className = videolinks[i].className.replace(" active", "");
+        }
+        document.getElementById(videoName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("defaultOpen2").click();
+    </script>
   </section>
+
+  <section id="commentChat">
+    <div id="commentHeader">
+      <h1>Comment Section</h1>
+      <h3>Feel Free to Leave a Comment Below</h3>
+    </div>
+    <div id="comments">
+      <ul id="myUL">
+        <li >I love The Rock's video on perseverance!</li>
+        <li >How can I contact a speaker?</li>
+        <li >Why is self-improvement crucial to reaching your goals?</li>
+      </ul>
+    </div>
+    <div id="addComment">
+      <input type="text" id="myInput" placeholder="add comment.....">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    <script>
+      var list = document.querySelector('ul');
+      list.addEventListener('click', function(ev) {
+        if (ev.target.tagName === 'LI') {
+          ev.target.classList.toggle('checked');
+        }
+      }, false);
+
+      function newElement() {
+        var li = document.createElement("li");
+        var inputValue = document.getElementById("myInput").value;
+        var t = document.createTextNode(inputValue);
+        li.appendChild(t);
+        if (inputValue === '') {
+          alert("You must write something!");
+        } else {
+          document.getElementById("myUL").appendChild(li);
+        }
+        document.getElementById("myInput").value = "";
+      }
+    </script>
+  </section>
+
 </body>
 
 <footer>

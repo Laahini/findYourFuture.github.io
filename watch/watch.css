@@ -53,155 +53,106 @@
   padding-top:20%;
   padding-bottom:1%;
 }
-.workshopVid
-{
-  width: 100%;
-  height:100%;
-}
-.library
-{
-  align-items: center;
-  padding:0%;
-}
-.library2
-{
-  align-items: center;
-  padding:0%;
-}
-.library__container
-{
-  align-items: center;
-  background-color: var(--blue1);
-  z-index: 1;
-  width: 100%;
-}
-.library2__container
-{
-  align-items: center;
-  background-color: var(--cream);
-  z-index: 1;
-  width: 100%;
-}
-.library__btn
-{
-  justify-content: center;
-  font-size: 1rem;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: all 0.35s;
-  outline: none;
-}
-.library2__btn
-{
-  justify-content: center;
-  font-size: 1rem;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: all 0.35s;
-  outline: none;
-}
-.library__btn a {
-  position: relative;
-  z-index: 2;
-  text-decoration: none;
-}
-.library2__btn a {
-  position: relative;
-  z-index: 2;
-  text-decoration: none;
-}
-.library__btn:hover {
-  transform: scale(1.1);
-  transition: 0.2s ease-in;
-  cursor: pointer;
-}
-.library__btn:hover:after {
-  width: 100%;
-}
-.library2__btn:hover {
-  transform: scale(1.1);
-  transition: 0.2s ease-in;
-  cursor: pointer;
-}
-.library2__btn:hover:after {
-  width: 100%;
-}
-.video {
-  float: left;
-  background-color: var(--blue1);
-  width: 30%;
-  height: 100%;
-}
-.video button {
-  display: block;
-  background-color: var(--blue1);
-  color: white;
-  padding: 4% 5%;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  font-size: 14px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.video button:hover {
-  background-color: var(--cream);
-  color: var(--blue1);
-}
-.video button.active {
-  background-color: var(--cream);
-  color: var(--blue1);
-}
-.videocontent {
-  float: left;
-  padding: 0% 3%;
-  border: 1px solid var(--cream);
-  width: 70%;
-  border-left: none;
-  height: 100%;
-  background-color: var(--blue1);
-}
-.video2 {
-  float: left;
-  background-color: var(--cream);
-  width: 30%;
-  height: 100%;
-}
-.video2 button {
-  display: block;
-  background-color: var(--cream);
-  color: var(--green1);
-  padding: 4% 5%;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  font-size: 14px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.video2 button:hover {
-  background-color: var(--green1);
-  color: var(--cream);
-}
-.video2 button.active {
-  background-color: var(--green1);
-  color: var(--cream);
-}
+
 .videocontent2 {
-  float: left;
-  padding: 1% 3%;
+
+  padding: 1% 5.5%;
   width: 70%;
   border-left: none;
-  background-color: var(--cream);
+  display: none;
+}
+#videoLibrary
+{
+  background:var(--blue1);
+  padding:5% 0%;
+  color:var(--cream);
+  text-align: center;
+}
+#videoPlayer
+{
+  padding: 1% 2.5%;
+}
+#videoPlayer .glassmorphism
+{
+  padding:1%;
+}
+.videoOverview
+{
+  background:var(--cream);
+  color: var(--blue1);
+  padding: 55% 0%;
+  width:100%;
+  border:none;
+}
+.videoOverview:hover
+{
+  background:var(--green1);
+  color: var(--cream);
+  padding: 55% 0%;
+  width:100%;
+  border:none;
+}
+#videoPlayer .placeholder
+{
+  width:1200px;
+  height:600px;
+}
+iframe
+{
+  border:none;
 }
 
-.videoLibraryWorkshop h1
+/*COMMENTS*/
+#commentChat
 {
-  padding:3% 5%;
-  padding-top: 0%;
+  padding:5%;
+}
+#comments li
+{
+  list-style: none;
+  padding:1.5% 2%;
+  font-size: 18px;
+  background:var(--green1);
+  color:var(--cream);
+  border-radius: 25px;
+  width:80%;
+  margin:1% auto;
+}
+#addComment
+{
+  background: var(--blue1);
+  color: var(--cream);
+  padding:3% 2%;
+  width:80%;
+  margin:auto;
+  margin-top:3%;
+  border-radius: 5px;
+}
+#addComment input
+{
+  padding:2% 32.5%;
+  font-size: 18px;
+  background: var(--cream);
+  border:none;
+}
+#addComment span
+{
+  background: var(--cream);
+  font-weight: bolder;
+  color:var(--blue1);
+  font-size: 25px;
+  padding: 1.5% 4%;
+  padding-top:1.35%;
+  padding-bottom: 1.8%;
+  margin-left:1%;
+}
+#commentHeader
+{
+  padding:0% 10%;
+  padding-bottom:2%;
+}
+#commentHeader h1
+{
   font-size: 50px;
+  padding-bottom:1%;
 }

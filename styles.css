@@ -467,6 +467,13 @@ padding:5%;
   grid-template-columns: 30% 70%;
   padding:1% 1%;
 }
+.videoScrollGrid
+{
+  display:grid;
+  grid-template-columns: 9.1% 9.1% 9.1% 9.1% 9.1% 9.1% 9.1% 9.1% 9.1% 9.1%;
+  padding:2% 3%;
+  grid-column-gap: 1%;
+}
 /*CLASSES*/
 .hvr-grow-shadow {
   display: inline-block;
