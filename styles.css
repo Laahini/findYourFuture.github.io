@@ -569,7 +569,12 @@ padding:5%;
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.1 );
 }
-
+.teacherImg
+{
+  width:50%;
+  padding:10% 0%;
+  padding-bottom:0%;
+}
 /*SLIDESHOW*/
 .slides {
 	position: relative;
@@ -793,6 +798,7 @@ footer .fourSplitGrid ul li
   height: 300px;
   perspective: 10000000000px;
   padding: 4%;
+  border-radius: 10px;
 }
 
 .flipCardInside{
@@ -802,23 +808,27 @@ footer .fourSplitGrid ul li
   text-align: center;
   transition: transform 1.5s;
   transform-style: preserve-3d;
-  box-shadow: 0px 5px 20px 5px var(--green1);
+  box-shadow: 0px 5px 20px 5px #1a3547;
+  border-radius: 10px;
 }
 
 .flipCard:hover .flipCardInside{
   transform: rotateY(180deg);
+  border-radius: 10px;
 }
 
 .flipCardFront{
-  background-color: var(--blue1);
+  background-color: var(--green1);
   color: var(--cream);
   transform: rotateY(0deg)
+  border-radius: 10px;
 }
 
 .flipCardBack{
-  background-color: var(--blue1);
+  background-color: var(--green1);
   color: var(--cream);
-  transform: rotateY(180deg)
+  transform: rotateY(180deg);
+  border-radius: 10px;
 }
 
 .flipCardFront, .flipCardBack{
@@ -826,6 +836,7 @@ footer .fourSplitGrid ul li
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 #smallbanner{
@@ -839,19 +850,24 @@ footer .fourSplitGrid ul li
 #bigbanner{
   position: relative;
   width:100%;
-  height: 280vh;
+  height: 170vh;
   background: #fff;
   background-size: cover;
 }
 
 #APID-Dualbanner{
   position: relative;
-  width:100%;
-  height: 160vh;
   background: #fff;
-  background-size: cover;
+  padding:5%;
+  padding-bottom: 0%;
 }
-
+#APID-Dualbanner div{
+  padding:2%;
+}
+#APID-Dualbanner .placeholder
+{
+  height:50%;
+}
 #tsapicsBanner{
   position: relative;
   width:100%;
