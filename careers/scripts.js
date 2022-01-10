@@ -29,29 +29,29 @@ function finishQuiz()
 
   if (info <30)
   {
-    mtbitype +="S"
+    mtbitype +="S";
   }
   else
   {
-    mtbitype += "N"
+    mtbitype += "N";
   }
 
   if (decision <30)
   {
-    mtbitype +="T"
+    mtbitype +="T";
   }
   else
   {
-    mtbitype += "F"
+    mtbitype += "F";
   }
 
   if (organize <30)
   {
-    mtbitype+="J"
+    mtbitype+="J";
   }
   else
   {
-    mtbitype += "P"
+    mtbitype += "P";
   }
   document.getElementById("myMtbi").innerHTML = mtbitype;
 }
