@@ -17,40 +17,41 @@ function finishQuiz()
 {
   var type = document.getElementById("myMtbi");
   var explanation = document.getElementById("explanation");
-
+  var mtbitype="";
   if (energy < 30)
   {
-    type.innerHTML += "I";
+    mtbitype += "I";
   }
   else
   {
-    type.innerHTML += "E";
+    mtbitype += "E";
   }
 
   if (info <30)
   {
-    type.innerHTML +="S"
+    mtbitype +="S"
   }
   else
   {
-    type.innerHTML += "N"
+    mtbitype += "N"
   }
 
   if (decision <30)
   {
-    type.innerHTML +="T"
+    mtbitype +="T"
   }
   else
   {
-    type.innerHTML += "F"
+    mtbitype += "F"
   }
 
   if (organize <30)
   {
-    type.innerHTML +="J"
+    mtbitype+="J"
   }
   else
   {
-    type.innerHTML += "P"
+    mtbitype += "P"
   }
+  document.getElementById("myMtbi").innerHTML = mtbitype;
 }

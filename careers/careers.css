@@ -55,3 +55,22 @@
   color:var(--cream);
   background: #72915e;
 }
+.question button:active
+{
+  color:var(--cream);
+  background: black;
+}
+.question button:focus
+{
+  color:var(--cream);
+  background: black;
+}
+.submitBtn
+{
+  background: var(--blue1);
+  color: var(--cream);
+  padding:1% 3%;
+  margin:2% 1%;
+  font-size: 18px;
+  border-radius: 10px;
+}
