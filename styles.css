@@ -83,7 +83,28 @@ h1
   display:grid;
   grid-gap: 5%;
   grid-template-columns: 50% 50%;
+  padding:6%;
+}
+ #whyJoin .benefitPart
+{
+  background: var(--green1);
+  color:var(--cream);
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.01),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.018),
+  0 12.5px 10px rgba(0, 0, 0, 0.006),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.012),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.006),
+  0 100px 80px rgba(0, 0, 0, 0.04);
+}
+#whyJoin .splitGrid2_2 .benefitPartDescript
+{
   padding:5%;
+  padding-top:0%;
+}
+#whyJoin .splitGrid2_2 .benefitPartHeader
+{
+  padding-right:0%;
 }
 #schedule
 {
@@ -540,7 +561,7 @@ padding:5%;
   0 12.5px 10px rgba(0, 0, 0, 0.06),
   0 22.3px 17.9px rgba(0, 0, 0, 0.032),
   0 41.8px 33.4px rgba(0, 0, 0, 0.056),
-  0 100px 80px rgba(0, 0, 0, 0.12)
+  0 100px 80px rgba(0, 0, 0, 0.12);
 }
 .placeholderbckg
 {
