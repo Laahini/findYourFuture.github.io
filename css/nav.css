@@ -113,3 +113,33 @@ header.sticky .menu-btn
    background-color: var(--green1);
    color:#fff;
 }
+#navMobile
+{
+  display: none;
+}
+@media screen and (max-width: 480px)
+{
+  #nav
+  {
+    display:none;
+  }
+  #navMobile
+  {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+    background: var(--blue1);
+  }
+  #navMobile a
+  {
+    position: relative;
+    margin:5px 15px;
+    text-decoration: none;
+    color: var(--blue1);
+    background:var(--cream);
+    letter-spacing:2px;
+    font-weight: 500px;
+    text-align: center;
+    padding:2%;
+  }
+}
