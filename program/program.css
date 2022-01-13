@@ -131,6 +131,10 @@ li
     background: var(--cream);
     font-size: 18px;
 }
+#when
+{
+  background: rgba(0, 0, 0, 0.12);
+}
 #when button {
     width: 65%;
     border-radius: 10px;

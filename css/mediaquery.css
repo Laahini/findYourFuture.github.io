@@ -104,10 +104,6 @@
     padding:2% 3%;
     grid-column-gap: 1%;
   }
-  #countdown
-  {
-    margin-top: 200px;
-  }
   h1
   {
     font-size: 35px;
@@ -136,10 +132,9 @@
   #sponsors img
   {
     width:200px;
-    height:200px;
+    height:80px;
     padding-right:5px;
     padding-top:10px;
-    margin-left:50px;
   }
   #whyJoin .splitGrid2_2 .benefitPartDescript
   {
@@ -148,6 +143,43 @@
   .benefitPart i
   {
     display:none;
+  }
+  .accordtimeline li {
+  	display: inline-block;
+  	width: 20%;
+  	height: 50%;
+    margin:0% 1%;
+    margin-top: 40px;
+    padding:7% 1%;
+    color:var(--blue1);
+  	background: var(--cream);
+  	text-align:center;
+    border-radius: 50px;
+    font-size: 12px;
+  }
+  #banner .halfSplitGrid #item2 h1
+  {
+    font-size: 40px;
+  }
+  #banner .halfSplitGrid #item2 h2
+  {
+    font-size: 20px;
+  }
+  #APID-Dualbanner img
+  {
+    height:150px;
+  }
+  #scheduleBanner
+  {
+    height: 120vh;
+  }
+  #when
+  {
+    margin-top: 5%;
+  }
+  #when button
+  {
+    margin:5% auto;
   }
 }
 @media screen and (max-width: 768px)
