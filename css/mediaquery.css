@@ -171,7 +171,7 @@
   }
   #scheduleBanner
   {
-    height: 120vh;
+    height: 110vh;
   }
   #when
   {
@@ -180,6 +180,26 @@
   #when button
   {
     margin:5% auto;
+  }
+  .eventGrid
+  {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+  }
+  .card
+  {
+    width:100%;
+    margin:5% auto;
+    padding:5% 5%;
+  }
+  .type i
+  {
+    font-size:50px;
+  }
+  .type h2
+  {
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 768px)
