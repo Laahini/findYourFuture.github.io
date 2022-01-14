@@ -406,7 +406,7 @@ padding:5%;
   position: relative;
   padding-top: 5%;
   width:100%;
-  height:105vh;
+  height:110vh;
   background: #fff;
   background-size: cover;
 }
@@ -559,9 +559,14 @@ padding:5%;
   0 41.8px 33.4px rgba(0, 0, 0, 0.056),
   0 100px 80px rgba(0, 0, 0, 0.12);
 }
+.no-box{
+  width:100%;
+  height:100%;
+}
 .placeholderbckg
 {
-  background: url("media/placeholder.png");
+  width:100%;
+  height:100%;
 }
 .counts
 {
@@ -836,6 +841,11 @@ footer .fourSplitGrid ul li
 {
   padding: 0.5% 0%;
 }
+footer a
+{
+  text-decoration: none;
+  color:var(--cream);
+}
 
 
 /*PATHWAYS*/
@@ -883,6 +893,21 @@ footer .fourSplitGrid ul li
 }
 .policy h4{
   padding: 5px;
+}
+.center
+{
+  background:var(--blue1);
+  color:var(--cream);
+  height:100%;
+  padding:15%;
+  margin:2%;
+}
+.left, .right
+{
+  background:var(--blue1);
+  color:var(--cream);
+  height:90%;
+  padding:10%;
 }
 .contactbox{
   background: #fff;
@@ -994,7 +1019,7 @@ footer .fourSplitGrid ul li
 #tsapicsBanner{
   position: relative;
   width:100%;
-  height: 110vh;
+  height: 120vh;
   background: var(--green1);
   background-size: cover;
 }

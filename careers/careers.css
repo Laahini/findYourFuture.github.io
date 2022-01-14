@@ -5,6 +5,12 @@
   background: #fff;
   background-size: cover;
 }
+#careerBannertext
+{
+  color:var(--cream);
+  background:rgb(0,0,0,0.4);
+  padding:5%;
+}
 #programBannerHook
 {
   padding-top:10%;
