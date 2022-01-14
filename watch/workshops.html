@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../styles.css"/>
   <link rel="stylesheet" href="../css/nav.css"/>
   <link rel="stylesheet" href="watch.css"/>
+  <link rel="stylesheet" href="../css/mediaquery.css"/>
 
   <script src="../scripts.js"></script>
 
@@ -21,7 +22,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="nav">
     <a href="#" class="logo">FYF</a>
     <ul>
       <li>
@@ -55,6 +56,19 @@
       <li><a href="../about.html">About</a></li>
     </ul>
   </header>
+  <section id="navMobile">
+    <a  href="../program/schedule.html"> Schedule </a>
+    <a  href="../program/workshops.html"> Workshops </a>
+    <a  href="../program/speakers.html"> Speakers </a>
+    <a href="../program/sponsors.html"> Sponsors </a>
+    <a href="workshops.html"> Watch Workshops </a>
+    <a href="../careers/careers.html">Careers</a>
+    <a href="../contact.html">Contact</a>
+    <a href="../index.html">Design Brief</a>
+    <a href="../cte.html">CTE</a>
+    <a href="../cvtsa.html">CV TSA</a>
+    <a href="../about.html">About</a>
+  </section>
 
   <section id="workshopWatchBanner">
     <div id="workshopWatchBannerHook" class="halfSplitGrid">
@@ -77,7 +91,7 @@
   </section>
 
   <section id="watchCareerQuiz">
-    
+
     <div class="threeFourthGrid">
       <div id="watchCareerQuizDescript">
         <h4>On-Demand Workshop</h4>
@@ -92,98 +106,7 @@
       <div class="placeholderbckg"></div>
     </div>
   </section>
-  <!--
-  <section id="personalDevelopment" class="videoLibraryWorkshop">
-      <h1>Personal Development Workshops</h1>
-    <div class="library">
-    <div class="video">
-      <button class="videolinks" onclick="openVideo(event, 'workshop1')" id="defaultOpen">workshop1</button>
-      <button class="videolinks" onclick="openVideo(event, 'workshop2')">workshop2</button>
-      <button class="videolinks" onclick="openVideo(event, 'workshop3')">workshop3</button>
-      <button class="videolinks" onclick="openVideo(event, 'workshop4')">workshop4</button>
-      <button class="videolinks" onclick="openVideo(event, 'workshop5')">workshop5</button>
-      <button class="videolinks" onclick="openVideo(event, 'workshop6')">workshop6</button>
-      <button class="videolinks" onclick="openVideo(event, 'workshop7')">workshop7</button>
-      <button class="videolinks" onclick="openVideo(event, 'workshop8')">workshop8</button>
-      <button class="videolinks" onclick="openVideo(event, 'workshop9')">workshop9</button>
-      <button class="videolinks" onclick="openVideo(event, 'workshop10')">workshop10</button>
-      <button class="videolinks" onclick="openVideo(event, 'workshop11')">workshop11</button>
-    </div>
-    <div id="workshop1" class="videocontent"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop2" class="videocontent"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop3" class="videocontent"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop4" class="videocontent"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop5" class="videocontent"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop6" class="videocontent"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop7" class="videocontent"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop8" class="videocontent"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop9" class="videocontent"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop10" class="videocontent"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop11" class="videocontent"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <script>
-      function openVideo(evt, videoName) {
-        var i, videocontent, videolinks;
-        videocontent = document.getElementsByClassName("videocontent");
-        for (i = 0; i < videocontent.length; i++) {
-          videocontent[i].style.display = "none";
-        }
-        videolinks = document.getElementsByClassName("videolinks");
-        for (i = 0; i < videolinks.length; i++) {
-          videolinks[i].className = videolinks[i].className.replace(" active", "");
-        }
-        document.getElementById(videoName).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
-      document.getElementById("defaultOpen").click();
-    </script>
-  </section>
-
-  <section id="careerExploration" class="videoLibraryWorkshop">
-    <h1>Career Exploration Workshops</h1>
-    <div class="library2">
-    <div id="workshop12" class="videocontent2"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop13" class="videocontent2"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop14" class="videocontent2"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop15" class="videocontent2"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop16" class="videocontent2"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop17" class="videocontent2"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop18" class="videocontent2"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop19" class="videocontent2"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop20" class="videocontent2"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop21" class="videocontent2"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div id="workshop22" class="videocontent2"><video src="../media/ctevids1.mp4" class="workshopVid" autoplay></video></div>
-    <div class="video2">
-      <button class="videolinks2" onclick="openVideo2(event, 'workshop12')" id="defaultOpen2">workshop12</button>
-      <button class="videolinks2" onclick="openVideo2(event, 'workshop13')">workshop13</button>
-      <button class="videolinks2" onclick="openVideo2(event, 'workshop14')">workshop14</button>
-      <button class="videolinks2" onclick="openVideo2(event, 'workshop15')">workshop15</button>
-      <button class="videolinks2" onclick="openVideo2(event, 'workshop16')">workshop16</button>
-      <button class="videolinks2" onclick="openVideo2(event, 'workshop17')">workshop17</button>
-      <button class="videolinks2" onclick="openVideo2(event, 'workshop18')">workshop18</button>
-      <button class="videolinks2" onclick="openVideo2(event, 'workshop19')">workshop19</button>
-      <button class="videolinks2" onclick="openVideo2(event, 'workshop20')">workshop20</button>
-      <button class="videolinks2" onclick="openVideo2(event, 'workshop21')">workshop21</button>
-      <button class="videolinks2" onclick="openVideo2(event, 'workshop22')">workshop22</button>
-    </div>
-    <script>
-      function openVideo2(evt, videoName) {
-        var i, videocontent, videolinks;
-        videocontent = document.getElementsByClassName("videocontent2");
-        for (i = 0; i < videocontent.length; i++) {
-          videocontent[i].style.display = "none";
-        }
-        videolinks = document.getElementsByClassName("videolinks2");
-        for (i = 0; i < videolinks.length; i++) {
-          videolinks[i].className = videolinks[i].className.replace(" active", "");
-        }
-        document.getElementById(videoName).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
-      document.getElementById("defaultOpen2").click();
-    </script>
-  </section>
-  -->
-
+  
   <section id="videoLibrary">
     <div id="videoSelect">
       <div class="videoScrollGrid">

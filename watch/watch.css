@@ -88,9 +88,6 @@
 {
   background:var(--green1);
   color: var(--cream);
-  padding: 55% 0%;
-  width:100%;
-  border:none;
 }
 #videoPlayer .placeholder
 {

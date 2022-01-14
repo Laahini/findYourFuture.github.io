@@ -100,9 +100,11 @@
   .videoScrollGrid
   {
     display:grid;
-    grid-template-columns: 9.1% 9.1% 9.1% 9.1% 9.1% 9.1% 9.1% 9.1% 9.1% 9.1%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 10% 10% 10% 10%;
     padding:2% 3%;
-    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+    grid-column-gap: 2%;
   }
   h1
   {
@@ -200,6 +202,135 @@
   .type h2
   {
     font-size: 25px;
+  }
+  #workshopPBanner
+  {
+    height: 85vh;
+  }
+  #workshopPBanner img
+  {
+    margin-top:4%;
+  }
+  .splitGrid3
+  {
+    margin-top:3%;
+    margin-bottom:3%;
+  }
+  .workshopCard
+  {
+    margin-top:-3%;
+    margin-bottom:-3%;
+  }
+  #pDWorkshops .splitGrid3
+  {
+    padding:5% 4.5%;
+    padding-left:2.5%;
+    height:125vh;
+  }
+  #cDWorkshops .splitGrid3
+  {
+    padding:5% 4.5%;
+    padding-left:2.5%;
+    height:125vh;
+  }
+  #clusterCards .splitGrid2by2
+  {
+    grid-template-columns: 100%;
+    grid-auto-rows: auto auto auto auto auto auto auto auto auto auto auto;
+  }
+  .smallWorkshopImg
+  {
+    width:120px;
+    height:100px;
+    border-radius: 80px;
+  }
+  .clusterCardGrid
+  {
+    grid-template-columns: 100%;
+    grid-auto-rows: auto auto;
+  }
+  .clusterCardGrid h2
+  {
+    font-size: 20px;
+  }
+  .leadCCard
+  {
+    height:280px;
+  }
+  #clusterCards
+  {
+    height: 265vh;
+  }
+  #sponsorBanner
+  {
+    height: 20vh;
+  }
+  .spbenefits
+  {
+    height: 30vh;
+  }
+  #benefits
+  {
+    height:115vh;
+  }
+  #programBanner
+  {
+    height:15vh;
+  }
+  .page-content
+  {
+    grid-gap: 2rem 0.5rem;
+    padding: 4rem 2rem;
+  }
+  #workshopWatchBanner
+  {
+    height:90vh;
+  }
+  #videoPlayer
+  {
+  width:100%;
+  }
+  #videoPlayer .placeholder
+  {
+    width:100%;
+    height:100%;
+  }
+  .videoOverview
+  {
+    background:var(--cream);
+    color: var(--blue1);
+    padding: 25% 0%;
+    width:100%;
+    border:none;
+    margin:20% 0%;
+  }
+  #commentChat
+  {
+    padding:2%;
+    padding-bottom: 5%;
+  }
+  #commentChat h1
+  {
+    font-size:50px;
+  }
+  #commentChat li
+  {
+    font-size:14px;
+  }
+  #addComment input
+  {
+    width:110px;
+  }
+  #addComment span
+  {
+    background: var(--cream);
+    font-weight: bolder;
+    color:var(--blue1);
+    font-size: 25px;
+    padding: 1.5% 4%;
+    padding-top:1.1%;
+    padding-bottom: 1.5%;
+    margin-left:2%;
   }
 }
 @media screen and (max-width: 768px)

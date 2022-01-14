@@ -408,14 +408,6 @@ li
   }
 }
 
-#benefits .splitGrid2_2 div
-{
-  position:relative;
-  display:grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100%;
-  padding:2% 2%;
-}
 .benefitPart h2
 {
   font-size:30px;
@@ -564,4 +556,9 @@ li
 #requestWorkshop p
 {
   padding: 0% 10%;
+}
+#sponsorsCarousel h1
+{
+  font-size: 100px;
+  letter-spacing: 5px;
 }
