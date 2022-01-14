@@ -401,10 +401,6 @@ padding:5%;
   padding:8% 5%;
   background: rgba(139, 177, 116,0.8);
 }
-#about
-{
-  padding: 10%;
-}
 #contactBanner
 {
   position: relative;
@@ -1088,4 +1084,86 @@ footer .fourSplitGrid ul li
 {
   width:400px;
   height:300px;
+}
+#research-inspo
+{
+  background:var(--blue1);
+  color:var(--cream);
+  padding: 10%;
+  padding-bottom:5%;
+}
+#frameworks
+{
+  background:var(--cream);
+  color:var(--blue1);
+  padding: 10%;
+  padding-bottom:5%;
+}
+#media
+{
+  background:var(--green1);
+  color:var(--cream);
+  padding: 10%;
+  padding-bottom:5%;
+}
+#forms
+{
+  background:var(--cream);
+  color:var(--green1);
+  padding: 8%;
+  padding-bottom:5%;
+}
+#forms h2
+{
+  margin: 2%;
+}
+#forms .autoHalfSplitGrid
+{
+  background:var(--green1);
+  color:var(--cream);
+  margin:2%;
+}
+#mainDocs
+{
+  text-align: center;
+}
+#mainDocs h4
+{
+  margin:10% 0%;
+  color:var(--cream);
+}
+#mainDocs a
+{
+  color:var(--cream);
+  text-decoration: none;
+}
+#mainDocs a:hover
+{
+  background:var(--cream);
+  color:var(--green1);
+  padding:10px;
+  border-radius:20px;
+  text-decoration: none;
+}
+#photoRelease a
+{
+  color:var(--cream);
+  text-decoration: none;
+}
+#photoRelease
+{
+  text-align: center;
+}
+#photoRelease a:hover
+{
+  background:var(--cream);
+  color:var(--green1);
+  padding:5px;
+  border-radius:20px;
+  text-decoration: none;
+}
+#photoRelease p
+{
+  margin:5% 0%;
+  color:var(--cream);
 }
