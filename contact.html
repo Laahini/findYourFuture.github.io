@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="nav">
     <a href="#" class="logo">FYF</a>
     <ul>
       <li>
@@ -82,7 +82,7 @@
         <p>You're in the perfect spot! You can find ways to contact any person you may need.
           Feel free to send us a message about anything as well! We appreicate any comments,
           feedback, and suggestions. </p>
-        <img src="media/placeholder.png" style="width:70%; height:50%; padding:2% 0%;">
+        <img class="hideMobile"src="media/placeholder.png" style="width:70%; height:50%; padding:2% 0%;">
       </div>
     </div>
   </section>
@@ -90,71 +90,57 @@
 
   <section id="trioContactInfo">
       <div class="autoThirdGrid" style="padding-top:5%">
-        <div style="text-align:left">
-          <img src="media/placeholder.png" width="400" height="300">
+        <div class="contactCard left">
+          <img src="media/placeholder.png" class="contactImg">
+          <div>
+            <h1>Tickets Coordinator Contact Info</h1>
+            <p>Stuff should go here</p>
+          </div>
         </div>
         <div style="text-align:right">
-          <img src="media/placeholder.png" width="400" height="300">
+          <img src="media/placeholder.png" class="contactImg">
+          <div class="contactCard center">
+            <h1>Sponsorship Coordinator Contact Info</h1>
+            <p>Stuff should go here too, probably things about like email and social media</p>
+          </div>
         </div>
         <div style="text-align:right">
-          <img src="media/placeholder.png" width="400" height="300">
-        </div>
-      </div>
-      <div class="autoThirdGrid" style="padding-top:0%;">
-        <div>
-          <h1>Tickets Coordinator Contact Info</h1>
-          <p>Stuff should go here</p>
-        </div>
-        <div style="text-align:center">
-          <h1>Sponsorship Coordinator Contact Info</h1>
-          <p>Stuff should go here too, probably things about like email and social media</p>
-        </div>
-        <div style="text-align:right">
-          <h1>Speakers Coordinator Contact Info</h1>
-          <p>Stuff should go here as well</p>
+          <img src="media/placeholder.png" class="contactImg">
+          <div class="contactCard right">
+            <h1>Speakers Coordinator Contact Info</h1>
+            <p>Stuff should go here as well</p>
+          </div>
         </div>
       </div>
     </section>
 
 
-  <section id="banner">
-    <br><br><br>
-    <div id="form-div">
-      <div class="container">
-	       <div class="wrapper">
-		         <div class="contact-info">
-			            <h3>Find Your Future</h3>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-			               <ul style="list-style-type:none;">
-                       <li><i class="fa fa-phone"></i> &nbsp; (717) 431-1242</li>
-                       <br>
-                       <style>
-                        .link {color: white; }
-                        .link:hover {color:#627EDC}
-                        </style>
-				               <li><i class="fa fa-envelope"></i> &nbsp; <a class="link" href = "mailto:findyourfuture@gmail.com?subject = Feedback&body = Message"; style="text-decoration:none">findyourfuture@gmail.com</li></a>
-			               </ul>
-		         </div>
-		         <div class="contact">
-               <form id="contact-form">
-                 <p><label>Name</label><input type="text" name="name" id="name" required></p>
-				         <p><label>Company</label><input type="text" name="company" id="company"></p>
-				         <p><label>E-mail Address</label><input type="email" name="email" id="email" required></p>
-				         <p><label>Phone Number</label><input type="text" name="phone" id="phone"></p>
-				         <p class="full"><label>Message</label><textarea name="message" rows="5" id="message"></textarea></p>
-				         <p class="full"><button type="submit">Submit</button></p>
-               </form>
-		         </div>
-	       </div>
+    <section id="contact">
+      <div id="form-div">
+        <div class="container">
+  	       <div class="wrapper">
+  		         <div class="contact-info">
+  			            <h3>Find Your Future</h3>
+  			               <ul>
+                         <li><i class="fa fa-phone"></i> (555) 555-5555</li>
+  				               <li><i class="fa fa-envelope"></i> findyourfuture@name.com</li>
+  			               </ul>
+  		         </div>
+  		         <div class="contact">
+                 <form id="contact-form">
+                   <p><label>Name</label><input type="text" name="name" id="name" required></p>
+  				         <p><label>Company</label><input type="text" name="company" id="company"></p>
+  				         <p><label>E-mail Address</label><input type="email" name="email" id="email" required></p>
+  				         <p><label>Phone Number</label><input type="text" name="phone" id="phone"></p>
+  				         <p class="full"><label>Message</label><textarea name="message" rows="5" id="message"></textarea></p>
+  				         <p class="full"><button type="submit">Submit</button></p>
+                 </form>
+  		         </div>
+  	       </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
   <section id="contactDescript">
     <div>
       <h2>Feel free to reach out to us with suggestions, comments, questions, concerns, and other feedback. We would love to hear from you!</h2>
@@ -196,15 +182,6 @@
     <div>
       <h2>Clusters</h2>
       <ul>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
-        <li><a>cluster1</a></li>
         <li><a>cluster1</a></li>
       </ul>
     </div>

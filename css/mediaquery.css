@@ -332,6 +332,86 @@
     padding-bottom: 1.5%;
     margin-left:2%;
   }
+  .videocontent2 iframe
+  {
+    width:310px;
+    height:250px;
+  }
+  #careerBanner
+  {
+    height:90vh;
+  }
+  .question button
+  {
+    padding:5px;
+    font-size: 16px;
+    width:250px;
+    height:60px;
+    margin:2% auto;
+    color:var(--cream);
+    border:none;
+    border-radius: 10px;
+    background: linear-gradient(to left, #72915e, var(--green1));
+  }
+  .hideMobile
+  {
+    display:None;
+  }
+  #contactBanner
+  {
+    position: relative;
+    padding-top: 5%;
+    width:100%;
+    height:70vh;
+    background: #fff;
+    background-size: cover;
+  }
+  .contactCard
+  {
+    text-align: center;
+    padding:5% 0%;
+  }
+  .contactImg
+  {
+    width:360px;
+    height: 250px;
+  }
+  #trioContactInfo .autoThirdGrid
+  {
+    padding:5px;
+  }
+  #whatTSA h4
+  {
+    line-height: 28px;
+  }
+  .slides {
+  	height: 50%;
+    width:100%;
+    border-radius: 10px;
+    padding-bottom: 5%;
+  }
+  #officers .item
+  {
+    padding:2%;
+  }
+  .slides .slider
+  {
+  	height: 65vh;
+  	white-space: nowrap;
+  	font-size: 0;
+  	transition: 0.8s;
+  }
+  .slidesimg
+  {
+    width:300px;
+    height:300px;
+  }
+  .column123
+  {
+    float: left;
+    width: 100%;
+    padding: 1%;
+  }
 }
 @media screen and (max-width: 768px)
 {
