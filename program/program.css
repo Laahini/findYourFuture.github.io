@@ -273,10 +273,10 @@ li
   background-image: url("../media/person2.jpeg");
 }
 .speakerCard:nth-child(2):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/dwayne.png");
 }
 .speakerCard:nth-child(3):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/oprah.png");
 }
 .speakerCard:nth-child(4):before {
   background-image: url("../media/person2.jpeg");
@@ -309,7 +309,7 @@ li
   background-image: url("../media/person2.jpeg");
 }
 .speakerCard:nth-child(14):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/ai-jen poo.png");
 }
 .speakerCard:nth-child(15):before {
   background-image: url("../media/person2.jpeg");
