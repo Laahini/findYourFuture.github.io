@@ -147,6 +147,10 @@ h1
   background: url("media/careers.jpeg");
   color:var(--cream);
 }
+#about
+{
+  padding:10%;
+}
 #careers h1
 {
   font-size:50px;
@@ -1194,7 +1198,7 @@ footer a
 }
 .intj {
   background-image: url("media/testpng/intj.png");
-  height: 100%; 
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1224,8 +1228,8 @@ footer a
 
 #article12 {
   background: linear-gradient(
-    to right, 
-    hsl(98 100% 62%), 
+    to right,
+    hsl(98 100% 62%),
     hsl(204 100% 59%)
   );
   -webkit-background-clip: text;
