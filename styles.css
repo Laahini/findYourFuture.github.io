@@ -1251,4 +1251,33 @@ footer a
 .zoom:hover {
   transform: scale(1.1);
 }
+.sponsorbox {
+  max-width: 250px;
+  height: 250px;
+  padding: 10%;
+  margin: 20px;
+  background-color: var(--blue1)
+}
+.sponsorbox:hover{
+  opacity: 90%
+}
+
+@media only screen and (min-width: 1200px){
+  .SplitGriddy{
+    position:relative;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    padding:5% 5%;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .SplitGriddy{
+    position:relative;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    padding:5% 5%;
+  }
+}
 
