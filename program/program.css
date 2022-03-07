@@ -270,7 +270,7 @@ li
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .speakerCard:nth-child(1):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/rupaul.png");
 }
 .speakerCard:nth-child(2):before {
   background-image: url("../media/speakers/dwayne.png");
@@ -279,43 +279,43 @@ li
   background-image: url("../media/speakers/oprah.png");
 }
 .speakerCard:nth-child(4):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/robyn.png");
 }
 .speakerCard:nth-child(5):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/simon.png");
 }
 .speakerCard:nth-child(6):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/robyn.png");
 }
 .speakerCard:nth-child(7):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/zhang.png");
 }
 .speakerCard:nth-child(8):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/janice.png");
 }
 .speakerCard:nth-child(9):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/barbara.png");
 }
 .speakerCard:nth-child(10):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/alaa.png");
 }
 .speakerCard:nth-child(11):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/dalila.png");
 }
 .speakerCard:nth-child(12):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/brian.png");
 }
 .speakerCard:nth-child(13):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/rupi.png");
 }
 .speakerCard:nth-child(14):before {
   background-image: url("../media/speakers/ai-jen poo.png");
 }
 .speakerCard:nth-child(15):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/robyn.png");
 }
 .speakerCard:nth-child(16):before {
-  background-image: url("../media/person2.jpeg");
+  background-image: url("../media/speakers/robyn.png");
 }
 .content {
   position: relative;
