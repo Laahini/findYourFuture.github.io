@@ -146,29 +146,38 @@ h1
   padding:0% 0%;
   background: url("media/careers.jpeg");
   color:var(--cream);
+  text-align: center;
 }
 #about
 {
-  padding:10%;
+  color: var(--cream);
 }
-#careers h1
+#about .bckgOpacBox
+{
+  background:rgba(51, 101, 138,0.8);
+  padding:11%;
+  text-align: center;
+}
+#careers h1, #about h1
 {
   font-size:50px;
 }
-#careers p
+#careers p, #about p
 {
-  padding:1% 0%;
-  padding-right: 10%;
-  font-size:18px;
+  padding:1% 5%;
+  font-size:20px;
 }
 #careers .bckgOpacBox
 {
-  padding-bottom: 5%;
+  padding:12%;
+  text-align:center;
 }
 #quote
 {
-  background: linear-gradient(#fff, var(--cream));
-  padding:5% 15%;
+  background: url(media/speakerQuote.jpg);
+  background-size: cover;
+  padding:15% 10% 20% 50%;
+  color:var(--cream);
 }
 #quote p
 {
@@ -180,6 +189,7 @@ h1
   background: var(--blue1);
   padding:5%;
   color: var(--cream);
+  padding-bottom:0%;
 }
 #speakers img
 {
@@ -1242,7 +1252,7 @@ footer a
 }
 
 .zoom {
-  transition: transform 0.2s; 
+  transition: transform 0.2s;
   width: 200px;
   height: 200px;
   margin: 0 auto;
@@ -1280,4 +1290,3 @@ footer a
     padding:5% 5%;
   }
 }
-

@@ -5,7 +5,7 @@ window.addEventListener("scroll", function() {
 })
 
 //countdown
-var countDownDate = new Date("Mar 6, 2022 15:37:25").getTime();
+var countDownDate = new Date("May 11, 2022 15:37:25").getTime();
 var x = setInterval(function() {
     var now = new Date().getTime();
     var distance = countDownDate - now;
