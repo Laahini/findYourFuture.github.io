@@ -206,15 +206,12 @@ h1
   text-align: center;
   margin: auto;
   background: var(--green1);
-  padding:5%;
+  padding:5% 0%;
   color: var(--cream);
 }
 #sponsors img
 {
-  width:50%;
-  margin-left: 10%;
-  margin-right:10%;
-  height:100%;
+  width:75%;
 
 }
 #sponsors h2
@@ -1271,15 +1268,13 @@ footer a
 .sponsorbox:hover{
   opacity: 90%
 }
-
-@media only screen and (min-width: 1200px){
-  .SplitGriddy{
-    position:relative;
-    display:grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 100%;
-    padding:5% 5%;
-  }
+.SplitGriddy
+{
+  position:relative;
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto auto auto auto;
+  padding:5% 5%;
 }
 @media only screen and (max-width: 1200px){
   .SplitGriddy{
