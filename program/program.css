@@ -31,7 +31,7 @@ li
 {
   position: relative;
   width: 100%;
-  height: 110vh;
+  height: 135vh;
   background: #fff;
   background-size: cover;
 }
@@ -41,12 +41,22 @@ li
     padding-bottom: 1%;
     text-align: center;
 }
+#workshopBannerHook
+{
+  padding:15%;
+  height:60vh;
+  text-align: center;
+}
 #sponsorBannerHook
 {
     padding:15%;
     text-align: center;
 }
 #sponsorBannerHook h1
+{
+    font-size:60px;
+}
+#workshopPBanner h1
 {
     font-size:60px;
 }
@@ -512,8 +522,8 @@ li
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 10%;
-  height: 15%;
+  width: 15%;
+  height: 50px;
   box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
 }
 .socialButton:hover {
