@@ -1,7 +1,237 @@
 :root {
+<<<<<<< HEAD
     --green1: #8bb174;
     --cream: #f6f4f5;
     --blue1: #33658a;
+=======
+  --green1: #8bb174;
+  --cream: #f6f4f5;
+  --blue1: #33658a;
+}
+*
+{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: sans-serif;
+}
+body
+{
+  background:var(--cream);
+  min-height: 200vh;
+}
+p
+{
+  line-height: 27px;
+  font-size: 18px;
+}
+h1
+{
+  font-size: 40px;
+}
+#banner
+{
+  position: relative;
+  width:100%;
+  height:110vh;
+  background: #fff;
+  background-size: cover;
+}
+#banner .halfSplitGrid #item2 h1
+{
+  font-size: 60px;
+  padding-bottom: 2%;
+}
+#banner .halfSplitGrid #item2 h2
+{
+  font-size: 35px;
+  padding-bottom: 2%;
+}
+#banner .halfSplitGrid
+{
+  top:25vh;
+  padding:0% 5%;
+}
+#counter{
+  margin-bottom:auto;
+  padding:3%;
+  background: linear-gradient(#fff,var(--cream));
+}
+#counts{
+  background:var(--blue1);
+  margin:10%;
+  padding: 10% 0%;
+  text-align: center;
+  font-family: sans-serif;
+  color:var(--cream);
+}
+#counter .autoThirdGrid
+{
+  padding:0% 5%;
+}
+#countdown
+{
+  background: linear-gradient(#fff,var(--cream));
+  margin-top:-5%;
+  padding: 0% 5%;
+}
+#countdown h1
+{
+  font-size: 30px;
+}
+#whyJoin
+{
+  min-height:60vh;
+}
+#whyJoin .splitGrid2_2
+{
+  display:grid;
+  grid-gap: 5%;
+  grid-template-columns: 50% 50%;
+  padding:6%;
+}
+ #whyJoin .benefitPart
+{
+  background: var(--green1);
+  color:var(--cream);
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.01),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.018),
+  0 12.5px 10px rgba(0, 0, 0, 0.006),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.012),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.006),
+  0 100px 80px rgba(0, 0, 0, 0.04);
+}
+#whyJoin .splitGrid2_2 .benefitPartDescript
+{
+  padding:5%;
+  padding-top:0%;
+}
+#whyJoin .splitGrid2_2 .benefitPartHeader
+{
+  padding-right:0%;
+}
+#schedule
+{
+  color:var(--cream);
+  background: var(--blue1)
+}
+#schedule #item2a ul
+{
+  list-style:none;
+}
+#schedule #item2a li
+{
+  padding-top:0.5%;
+  padding-bottom:0.5%;
+  padding-left:5%;
+  text-indent:-5%;
+}
+#schedule #item2a li::before
+{
+  content:"⏰";
+}
+#schedule .halfSplitGrid
+{
+  padding:5% 5%;
+}
+#mtbiQuiz .halfSplitGrid
+{
+    padding:5% 5%;
+}
+#item1, #item2, #item1a, #item2a, #item1b, #item2b
+{
+  padding:5%;
+}
+#mtbiQuiz
+{
+  background: #fff;
+}
+#careers{
+  padding:0% 0%;
+  background: url("media/careers.jpeg");
+  color:var(--cream);
+  text-align: center;
+}
+#about
+{
+  color: var(--cream);
+}
+#about .bckgOpacBox
+{
+  background:rgba(51, 101, 138,0.8);
+  padding:11%;
+  text-align: center;
+}
+#careers h1, #about h1
+{
+  font-size:50px;
+}
+#careers p, #about p
+{
+  padding:1% 5%;
+  font-size:20px;
+}
+#careers .bckgOpacBox
+{
+  padding:12%;
+  text-align:center;
+}
+#quote
+{
+  background: url(media/speakerQuote.jpg);
+  background-size: cover;
+  padding:15% 10% 20% 50%;
+  color:var(--cream);
+}
+#quote p
+{
+  font-size:25px;
+}
+#speakers
+{
+  text-align: center;
+  background: var(--blue1);
+  padding:5%;
+  color: var(--cream);
+  padding-bottom:0%;
+}
+#speakers img
+{
+  width:70%;
+  height:70%;
+  border-radius: 100%;
+}
+#speakers h2
+{
+  padding-top:5%;
+}
+#sponsors
+{
+  text-align: center;
+  margin: auto;
+  background: var(--green1);
+  padding:5% 0%;
+  color: var(--cream);
+}
+#sponsors img
+{
+  width:75%;
+
+}
+#sponsors h2
+{
+  padding-top:5%;
+  text-align: center;
+}
+#contact
+{
+  text-align: center;
+  padding: 5%;
+  padding-top: 5%;
+  color:var(--blue1);
+  background: var(--cream);
+>>>>>>> 24b0b26e6b612d7fe08e3683d64a16d2207ad5e2
 }
 
 * {
@@ -1415,6 +1645,7 @@ footer a {
 .sponsorbox:hover {
     opacity: 90%
 }
+<<<<<<< HEAD
 
 @media only screen and (min-width: 1200px) {
     .SplitGriddy {
@@ -1424,6 +1655,24 @@ footer a {
         grid-template-rows: 100%;
         padding: 5% 5%;
     }
+=======
+.SplitGriddy
+{
+  position:relative;
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto auto auto auto;
+  padding:5% 5%;
+}
+@media only screen and (max-width: 1200px){
+  .SplitGriddy{
+    position:relative;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    padding:5% 5%;
+  }
+>>>>>>> 24b0b26e6b612d7fe08e3683d64a16d2207ad5e2
 }
 
 @media only screen and (max-width: 1200px) {
