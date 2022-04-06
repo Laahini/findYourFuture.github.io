@@ -15,6 +15,7 @@ li
     position: relative;
     width: 100%;
     height: 40vh;
+<<<<<<< HEAD
     color:#fff;
     background: var(--blue1);
     background-size: cover;
@@ -35,11 +36,38 @@ li
   background: #fff;
   background-size: cover;
 }
+=======
+    color: #fff;
+    background: var(--blue1);
+    background-size: cover;
+}
+
+#scheduleBanner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    background-size: cover;
+}
+
+#workshopPBanner {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background: #fff;
+    background-size: cover;
+}
+
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 #programBannerHook {
     padding-top: 10%;
     padding-bottom: 1%;
     text-align: center;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 #programBanner .autoThirdGrid {
     padding: 10%;
 }
@@ -152,9 +180,15 @@ li
     color:#fff;
     font-size: 18px;
 }
+<<<<<<< HEAD
 #filters .autoThirdGrid
 {
   padding: 2% 5%;
+=======
+
+#filters .autoThirdGrid {
+    padding: 2% 5%;
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 }
 
 .showallspeakerBtn {
@@ -360,9 +394,79 @@ li
 }
 
 @media (hover: hover) and (min-width: 600px) {
+<<<<<<< HEAD
   .speakerCard:after {
     transform: translateY(0);
   }
+=======
+    .speakerCard:after {
+        transform: translateY(0);
+    }
+    .content {
+        transform: translateY(calc(100% - 4.5rem));
+    }
+    .content>*:not(.title) {
+        opacity: 0;
+        transform: translateY(1rem);
+        transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+    .speakerCard:hover,
+    .speakerCard:focus-within {
+        align-items: center;
+    }
+    .speakerCard:hover:before,
+    .speakerCard:focus-within:before {
+        transform: translateY(-4%);
+    }
+    .speakerCard:hover:after,
+    .speakerCard:focus-within:after {
+        transform: translateY(-50%);
+    }
+    .speakerCard:hover .content,
+    .speakerCard:focus-within .content {
+        transform: translateY(0);
+    }
+    .speakerCard:hover .content>*:not(.title),
+    .speakerCard:focus-within .content>*:not(.title) {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: calc(var(--d) / 8);
+    }
+    .speakerCard:focus-within:before,
+    .speakerCard:focus-within:after,
+    .speakerCard:focus-within .content,
+    .speakerCard:focus-within .content>*:not(.title) {
+        transition-duration: 0s;
+    }
+}
+
+.benefitPart h2 {
+    font-size: 30px;
+}
+
+.benefitPartDescript {
+    padding: 0% 5%;
+    padding-bottom: 3%;
+}
+
+.benefitPart {
+    background: var(--blue1);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 3px #33658a, 0 0 5px #33658a, 0 0 7px #33658a, 0 0 10px #33658a;
+}
+
+.workshopCard {
+    background: var(--blue1);
+    color: var(--cream);
+    padding: 2%;
+}
+
+.workshopCard .threetoTwoGrid {
+    padding: 0% 0%;
+    justify-items: left;
+}
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 
   .content {
     transform: translateY(calc(100% - 4.5rem));
@@ -373,6 +477,7 @@ li
     transition: transform var(--d) var(--e), opacity var(--d) var(--e);
   }
 
+<<<<<<< HEAD
   .speakerCard:hover,
 .speakerCard:focus-within {
     align-items: center;
@@ -478,6 +583,36 @@ li
 #clusterCards .splitGrid2by2
 {
   grid-row-gap: 5%;
+=======
+#pDWorkshops {
+    height: 125vh;
+}
+
+#pDWorkshops .splitGrid3 {
+    padding: 5% 4.5%;
+    padding-left: 2.5%;
+    grid-column-gap: 1%;
+}
+
+#cDWorkshops .splitGrid3 {
+    padding: 5% 4.5%;
+    padding-left: 2.5%;
+    grid-column-gap: 1%;
+}
+
+#clustersInfo {
+    padding: 5% 0%;
+    background: var(--green1);
+    color: var(--cream);
+}
+
+#clustersInfo .halfSplitGrid div {
+    padding: 2% 5%;
+}
+
+#clustersInfo .glassmorphism {
+    color: var(--blue1);
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 }
 
 
@@ -492,6 +627,7 @@ li
 }
 
 .socialButton {
+<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -500,6 +636,16 @@ li
   width: 10%;
   height: 15%;
   box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+=======
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 10%;
+    height: 15%;
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 }
 .socialButton:hover {
   cursor: pointer;
@@ -606,6 +752,7 @@ li
   margin-bottom: 6.6em;
 }
 .material-card h2 {
+<<<<<<< HEAD
   position: absolute;
   top: calc(100% - 16px);
   left: 0;
@@ -621,6 +768,23 @@ li
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+=======
+    position: absolute;
+    top: calc(100% - 16px);
+    left: 0;
+    width: 100%;
+    padding: 10px 16px;
+    color: #fff;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    margin: 0;
+    z-index: 10;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 }
 .material-card h2 span {
   display: block;
@@ -698,9 +862,14 @@ li
   transition: all 0.3s;
 }
 .material-card.mc-active .mc-btn-action {
+<<<<<<< HEAD
   top: 62px;
+=======
+    top: 62px;
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 }
 .material-card .mc-description {
+<<<<<<< HEAD
   position: absolute;
   top: 100%;
   right: 30px;
@@ -714,14 +883,38 @@ li
   -ms-transition: all 1.2s;
   -o-transition: all 1.2s;
   transition: all 1.2s;
+=======
+    position: absolute;
+    top: 100%;
+    right: 30px;
+    left: 30px;
+    bottom: 0px;
+    overflow: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 1.2s;
+    -moz-transition: all 1.2s;
+    -ms-transition: all 1.2s;
+    -o-transition: all 1.2s;
+    transition: all 1.2s;
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 }
 .material-card .mc-footer {
+<<<<<<< HEAD
   overflow: hidden;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+=======
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 }
 .material-card .mc-footer h4 {
   position: absolute;
@@ -738,6 +931,7 @@ li
   transition: all 1.4s;
 }
 .material-card .mc-footer a {
+<<<<<<< HEAD
   display: block;
   float: left;
   position: relative;
@@ -751,6 +945,22 @@ li
   text-decoration: none;
   top: 50px;
 }
+=======
+    display: block;
+    float: left;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 28px;
+    color: #fff;
+    line-height: 52px;
+    text-decoration: none;
+    top: 50px;
+}
+
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 .material-card .mc-footer a:nth-child(1) {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -786,6 +996,10 @@ li
   -o-transition: all 0.9s;
   transition: all 0.9s;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 .material-card .img-container {
   overflow: hidden;
   position: absolute;
@@ -801,6 +1015,7 @@ li
   transition: all 0.3s;
 }
 .material-card.mc-active .img-container {
+<<<<<<< HEAD
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -810,9 +1025,25 @@ li
   height: 60px;
   z-index: 20;
 }
+=======
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    left: 0;
+    top: 12px;
+    width: 60px;
+    height: 60px;
+    z-index: 20;
+}
+
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 .material-card.mc-active .mc-content {
   padding-top: 5.6em;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 @media screen and (max-width: 767px) {
   .material-card.mc-active .mc-content {
     position: relative;
@@ -820,10 +1051,17 @@ li
   }
 }
 .material-card.mc-active .mc-description {
+<<<<<<< HEAD
   top: 10px;
   padding-top: 5.6em;
   opacity: 1;
   filter: alpha(opacity=100);
+=======
+    top: 10px;
+    padding-top: 5.6em;
+    opacity: 1;
+    filter: alpha(opacity=100);
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 }
 @media screen and (max-width: 767px) {
   .material-card.mc-active .mc-description {
@@ -836,6 +1074,7 @@ li
   }
 }
 .material-card.mc-active .mc-footer {
+<<<<<<< HEAD
   overflow: visible;
   position: absolute;
   top: calc(100% - 16px);
@@ -844,9 +1083,23 @@ li
   height: 82px;
   padding-top: 15px;
   padding-left: 25px;
+=======
+    overflow: visible;
+    position: absolute;
+    top: calc(100% - 16px);
+    left: 16px;
+    right: 0;
+    height: 82px;
+    padding-top: 15px;
+    padding-left: 25px;
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 }
 .material-card.mc-active .mc-footer a {
+<<<<<<< HEAD
   top: 0;
+=======
+    top: 0;
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 }
 .material-card.mc-active .mc-footer h4 {
   top: -32px;
@@ -899,6 +1152,10 @@ li
 .material-card.Red.mc-active .mc-btn-action {
   border-color: #FFEBEE;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 .material-card.Blue-Grey h2 {
   background-color: #607D8B;
 }
@@ -1283,6 +1540,10 @@ li
 .material-card.Cyan.mc-active .mc-btn-action {
   border-color: #E0F7FA;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 .material-card.Teal h2 {
   background-color: #009688;
 }
@@ -1475,6 +1736,10 @@ li
 .material-card.Lime.mc-active .mc-btn-action {
   border-color: #F9FBE7;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 .material-card.Yellow h2 {
   background-color: #FFEB3B;
 }
@@ -1811,6 +2076,7 @@ li
 .material-card.Blue-Grey.mc-active .mc-btn-action {
   border-color: #ECEFF1;
 }
+<<<<<<< HEAD
 #speakersThing
 {
   padding:1%;
@@ -1821,4 +2087,9 @@ li
   grid-gap: 0.5%;
   grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
   padding:1% 1%;
+=======
+
+#speakersThing {
+    padding: 1%;
+>>>>>>> parent of f9a7687 (cSponsors and Speakers Need Info)
 }
