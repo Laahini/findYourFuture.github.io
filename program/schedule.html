@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="../css/nav.css" />
     <link rel="stylesheet" href="program.css" />
-    <link rel="stylesheet" href="../css/mediaquery.css"/>
+    <link rel="stylesheet" href="../css/mediaquery.css" />
 
     <script src="../scripts.js"></script>
 
@@ -26,60 +26,30 @@
     <!--ADD THIS TO SCRIPT FILE-->
     <script>
         function hideOrShow1() {
-
-
-            var SHUBH1 = document.getElementById("events1");
-            var SHUBH2 = document.getElementById("events2");
-            var SHUBH3 = document.getElementById("events3");
-            if (SHUBH1.style.display === "none") {
-
-                SHUBH1.style.display = "block";
-                SHUBH2.style.display = "none";
-                SHUBH3.style.display = "none";
-            } else {
-
-                SHUBH1.style.display = "none";
-                SHUBH2.style.display = "none";
-                SHUBH3.style.display = "none";
-            }
+            var day1 = document.getElementById("events1");
+            var day2 = document.getElementById("events2");
+            var day3 = document.getElementById("events3");
+            day1.style.display = "block";
+            day2.style.display = "none";
+            day3.style.display = "none";
         }
 
         function hideOrShow2() {
-
-
-            var SHUBH1 = document.getElementById("events1");
-            var SHUBH2 = document.getElementById("events2");
-            var SHUBH3 = document.getElementById("events3");
-            if (SHUBH2.style.display === "none") {
-
-                SHUBH1.style.display = "none";
-                SHUBH2.style.display = "block";
-                SHUBH3.style.display = "none";
-            } else {
-
-                SHUBH1.style.display = "none";
-                SHUBH2.style.display = "none";
-                SHUBH3.style.display = "none";
-            }
+            var day1 = document.getElementById("events1");
+            var day2 = document.getElementById("events2");
+            var day3 = document.getElementById("events3");
+            day1.style.display = "none";
+            day2.style.display = "block";
+            day3.style.display = "none";
         }
 
         function hideOrShow3() {
-
-
-            var SHUBH1 = document.getElementById("events1");
-            var SHUBH2 = document.getElementById("events2");
-            var SHUBH3 = document.getElementById("events3");
-            if (SHUBH3.style.display === "none") {
-
-                SHUBH1.style.display = "none";
-                SHUBH2.style.display = "none";
-                SHUBH3.style.display = "block";
-            } else {
-
-                SHUBH1.style.display = "none";
-                SHUBH2.style.display = "none";
-                SHUBH3.style.display = "none";
-            }
+            var day1 = document.getElementById("events1");
+            var day2 = document.getElementById("events2");
+            var day3 = document.getElementById("events3");
+            day1.style.display = "none";
+            day2.style.display = "none";
+            day3.style.display = "block";
         }
     </script>
 
@@ -104,15 +74,15 @@
                 <div class="dropdown-menu">
                     <button class="menu-btn" onclick="redirectWatch()">Watch <i class="fa fa-caret-down"></i></button>
                     <div class="menu-content">
-                        <!--<a class="links-hidden" href="../watch/keynotes.html"> Keynotes </a>-->
+                        <a class="links-hidden" href="../watch/keynotes.html"> Keynotes </a>
                         <a class="links-hidden" href="../watch/workshops.html"> Workshops </a>
-                        <!--<a class="links-hidden" href="../watch/clusters.html"> Clusters</a>-->
+                        <a class="links-hidden" href="../watch/clusters.html"> Clusters</a>
                     </div>
                 </div>
             </li>
             <li><a href="../careers/careers.html">Careers</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <!--<li><a href="../login.html">Login</a></li>-->
+            <li><a href="../login.html">Login</a></li>
             <li>|</li>
             <li><a href="../index.html">Design Brief</a></li>
             <li><a href="../cte.html">CTE</a></li>
@@ -121,22 +91,22 @@
         </ul>
     </header>
     <section id="navMobile">
-      <a  href="schedule.html"> Schedule </a>
-      <a  href="workshops.html"> Workshops </a>
-      <a  href="speakers.html"> Speakers </a>
-      <a href="sponsors.html"> Sponsors </a>
-      <a href="../watch/workshops.html"> Workshops </a>
-      <a href="../careers/careers.html">Careers</a>
-      <a href="../contact.html">Contact</a>
-      <a href="../index.html">Design Brief</a>
-      <a href="../cte.html">CTE</a>
-      <a href="../cvtsa.html">CV TSA</a>
-      <a href="../about.html">About</a>
+        <a href="schedule.html"> Schedule </a>
+        <a href="workshops.html"> Workshops </a>
+        <a href="speakers.html"> Speakers </a>
+        <a href="sponsors.html"> Sponsors </a>
+        <a href="../watch/workshops.html"> Workshops </a>
+        <a href="../careers/careers.html">Careers</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../index.html">Design Brief</a>
+        <a href="../cte.html">CTE</a>
+        <a href="../cvtsa.html">CV TSA</a>
+        <a href="../about.html">About</a>
     </section>
 
     <section id="scheduleBanner">
         <div id="programBannerHook">
-            <h5>MONTH 00-00, 2022 | ONLINE</h5>
+            <h5>MONTH 4-20, 2022 | ONLINE</h5>
             <h1>2022 Agenda</h1>
             <h2>Explore your online experience</h2>
         </div>
@@ -164,10 +134,10 @@
 
     <section id="filters">
         <h1>Agenda</h1>
-          <p>
-              We have an incredibly vast and expansive schedule spanning over three separate days over the course of the whole day in order to cater to people's time constraints. We want everyone to be able to attend whichever sessions they choose to do.
-              Please pick the ones that cater to your schedule and we can't wait to see you there!
-          </p>
+        <p>
+            We have an incredibly vast and expansive schedule spanning over three separate days over the course of the whole day in order to cater to people's time constraints. We want everyone to be able to attend whichever sessions they choose to do. Please pick
+            the ones that cater to your schedule and we can't wait to see you there!
+        </p>
         <div id="when" class="autoThirdGrid">
             <button class="button" onclick="hideOrShow1()">Day 1</button>
             <button class="button" onclick="hideOrShow2()">Day 2</button>
@@ -176,283 +146,387 @@
     </section>
 
     <section id="events1">
-        <div id="AM8" class="eventGrid">
-          <div class="eventDescription day0 day1 day2" style="padding:5%;"><h1>Day 1 08:00 A.M.</h1></div>
-          <div class="card">
-            <div class="lead">
-              <h5 id="cardTimer">8:00 am - 8:45 am EST : 45 mins</h5>
-            </div>
-              <div class="card-body">
-                  <h5 class="card-title">Exploring Personality Types</h5>
 
-              </div>
-          </div>
+
+        <div id="AM8" class="eventGrid ">
+            <div class="eventDescription day0 day1 day2" style="padding:5%;">
+                <h1>Day 1 08:00 A.M.</h1>
+
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">8:00 am - 8:45 am EST : 45 mins</h5>
+                </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Exploring Personality Types </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
+            </div>
         </div>
         <div id="AM9" class="eventGrid">
-            <div class="eventDescription day0 day1 day2" style="padding: 5%;"><h1>Day 1 09:00 A.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">9:00 am - 9:45 am EST : 45 mins</h5>
-              </div>
+            <div class="eventDescription day0 day1 day2" style="padding: 5%;">
+                <h1>Day 1 09:00 A.M.</h1>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">9:00 am - 9:45 am EST : 45 mins </h5>
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Career Prep: Preparing for a job interview</h5>
+                    <h5 style="text-align: center;" class="card-title"> Career Prep: Preparing for a job interview</h5>
+                    <h2 style="color: rgb(67, 143, 146); font-size: 1.25em;">S</h1>
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">9:00 am - 9:45 am EST : 45 mins </h5>
+                </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">How to Express Yourself: Self-Expression and Authenticity</h5>
 
                 </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">9:00 am - 9:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">How to Express Yourself: Self-Expression and Authenticity</h5>
-                </div>
-            </div>
+        </div>
         </div>
         <div id="AM10" class="eventGrid">
-            <div class="eventDescription day0 day1 day2" style="padding: 5%;"><h1>Day 1 10:00 A.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">10:00 am - 10:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Career Prep: Career Field Exploration</h5>
-                </div>
+            <div class="eventDescription day0 day1 day2" style="padding: 5%;">
+                <h1>Day 1 10:00 A.M.</h1>
             </div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">10:00 am - 10:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Exercise for the Mind and Body</h5>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">10:00 am - 10:45 am EST : 45 mins </h5>
                 </div>
-            </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Career Prep: Career Field Exploration</h5>
 
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer"> 10:00 am - 10:45 am EST : 45 mins </h5>
+                </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">
+                        Exercise for the Mind and Body
+                    </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
+            </div>
         </div>
         <div id="AM11" class="eventGrid">
-            <div class="eventDescription day0 day1 day2" style="padding: 5%;"><h1>Day 1 11:00 A.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">11:00 am - 11:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Entrepreneurship 101</h5>
-
-
-                </div>
+            <div class="eventDescription day0 day1 day2" style="padding: 5%;">
+                <h1>Day 1 11:00 A.M.</h1>
             </div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">11:00 am - 11:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Biohacking</h5>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">11:00 am - 11:45 am EST : 45 mins
+                    </h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title"> Entrepreneurship 101
+                    </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">11:00 am - 11:45 am EST : 45 mins
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title"> Biohacking
+                    </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
 
         </div>
         <div id="PM12" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 1 12:00 P.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">12:00 pm - 12:45 pm EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Lunch Break </h5>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 1 12:00 P.M.</h1>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">12:00 pm - 12:45 pm EST : 45 mins
+                    </h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Lunch Break</h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
         </div>
         <div id="PM1" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 1 01:00 P.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Career Prep: Career Pathway Exploration</h5>
-                </div>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 1 01:00 P.M.</h1>
             </div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title"> Learning How to Learn</h5>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins
+                    </h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Career Prep: Career Pathway Exploration
+                    </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Learning How to Learn
+                    </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
 
         </div>
         <div id="PM2" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 1 02:00 P.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">2:00 pm - 2:45 pm EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Picking a major </h5>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 1 02:00 P.M.</h1>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">2:00 pm - 2:45 pm EST : 45 mins
+                    </h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Picking a major
+                    </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
         </div>
     </section>
     <section id="events2">
         <!--INSPO: https://www.inbound.com/2021-agenda-->
         <div id="AM8" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 2 08:00 A.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">8:00 am - 8:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Speed Dating Careers</h5>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 2 08:00 A.M.</h1>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">8:00 am - 8:45 am EST : 45 mins</h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Speed Dating Careers</h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
         </div>
         <div id="AM9" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 2 09:00 A.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">9:00 am - 9:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Speed Dating Colleges</h5>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 2 09:00 A.M.</h1>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">9:00 am - 9:45 am EST : 45 mins</h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Speed Dating Colleges</h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
         </div>
         <div id="AM10" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 2 10:00 A.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">10:00 am - 10:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Leadership ahoy!</h5>
-                </div>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 2 10:00 A.M.</h1>
             </div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">10:00 am - 10:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">INTJ, INTP, ENTP Cluster</h5>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">10:00 am - 10:45 am EST : 45 mins</h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Leadership ahoy!
+                    </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">10:00 am - 10:45 am EST : 45 mins</h5>
+                </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">INTJ, INTP, ENTP Cluster
+                    </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
 
         </div>
         <div id="AM11" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 2 11:00 A.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">11:00 am - 11:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Personal Financial Management</h5>
-                </div>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 2 11:00 A.M.</h1>
             </div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">11:00 am - 11:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">ISFP, ENFP, ESFP Cluster</h5>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">11:00 am - 11:45 am EST : 45 mins</h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title"> Personal Financial Management
+                    </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">11:00 am - 11:45 am EST : 45 mins</h5>
+                </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">ISFP, ENFP, ESFP Cluster
+                    </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
 
         </div>
         <div id="PM12" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 2 12:00 P.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">12:00 pm - 12:45 pm EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Lunch Break </h5>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 2 12:00 P.M.</h1>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">12:00 pm - 12:45 pm EST : 45 mins</h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Lunch Break</h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
         </div>
         <div id="PM1" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 2 01:00 P.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Making and Meeting Goals</h5>
-                </div>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 2 01:00 P.M.</h1>
             </div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title"> Think like a Philospher</h5>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
                 </div>
-            </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title"> Making and Meeting Goals
+                    </h5>
 
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
+                </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Think like a Philospher </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
+            </div>
         </div>
     </section>
     <section id="events3">
         <!--INSPO: https://www.inbound.com/2021-agenda-->
         <div id="AM10" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 3 10:00 A.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">10:00 am - 10:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Keynote by Dwayne Johnson</h5>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 3 10:00 A.M.</h1>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">10:00 am - 10:45 am EST : 45 mins</h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Keynote by Dwayne Johnson</h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
         </div>
         <div id="AM11" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 3 11:00 A.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">11:00 am - 11:45 am EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Oprah's Path to Success</h5>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 3 11:00 A.M.</h1>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">11:00 am - 11:45 am EST : 45 mins</h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Oprah's Path to Success</h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
         </div>
         <div id="PM12" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 3 12:00 P.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">12:00 pm - 12:45 pm EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Lunch Break </h5>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 3 12:00 P.M.</h1>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">12:00 pm - 12:45 pm EST : 45 mins</h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Lunch Break</h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
         </div>
         <div id="PM1" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 3 01:00 P.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">ESTJ, ENTJ, ESFJ, INFP, ISFJ Cluster</h5>
-                </div>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 3 01:00 P.M.</h1>
             </div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">INFJ, ISTJ, ENFJ, ISTP Cluster</h5>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">ESTJ, ENTJ, ESFJ, INFP, ISFJ Cluster</h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
+                </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">INFJ, ISTJ, ENFJ, ISTP Cluster </h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
 
         </div>
         <div id="PM2" class="eventGrid">
-            <div class="eventDescription day0 day1 day2 " style="padding: 5%;"><h1>Day 3 02:00 P.M.</h1></div>
-            <div class="card"  >
-              <div class="lead">
-                <h5 id="cardTimer">2:00 pm - 2:45 pm EST : 45 mins</h5>
-              </div>
-                <div class="card-body">
-                    <h5 class="card-title">Closing Ceremony</h5>
+            <div class="eventDescription day0 day1 day2 " style="padding: 5%;">
+                <h1>Day 3 02:00 P.M.</h1>
+            </div>
+            <div class="card hvr-grow-shadow" style="padding-left: 0; padding-right: 0;">
+                <div class="lead">
+                    <h5 style="text-align: center;" id="cardTimer">2:00 pm - 2:45 pm EST : 45 mins</h5>
                 </div>
+                <div class="card-body">
+                    <h5 style="text-align: center;" class="card-title">Closing Ceremony</h5>
+
+                </div>
+                <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
         </div>
     </section>
@@ -462,39 +536,39 @@
 
 <footer>
     <div class="fourSplitGrid">
-      <div>
-        <h2>About</h2>
-        <ul>
-          <li><a href="index.html" target="_blank">About FYF</a></li>
-          <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
-          <li><a href="program/sponsors.html" target="_blank">Sponsors</a></li>
-          <li><a href="contact.html" target="_blank">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2>Conference</h2>
-        <ul>
-          <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
-          <li><a href="careers/careers.html" target="_blank">Personality Quiz</a></li>
-          <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2>Speakers</h2>
-        <ul>
-          <li><a href="program/speakers.html" target="_blank">Speakers</a></li>
-          <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
-          <li><a href="contact.html" target="_blank">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h2>Clusters</h2>
-        <ul>
-          <li><a href="careers/careers.html" target="_blank">careers</a></li>
-        </ul>
-      </div>
+        <div>
+            <h2>About</h2>
+            <ul>
+                <li><a href="index.html" target="_blank">About FYF</a></li>
+                <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+                <li><a href="program/sponsors.html" target="_blank">Sponsors</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Conference</h2>
+            <ul>
+                <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+                <li><a href="careers/careers.html" target="_blank">Personality Quiz</a></li>
+                <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Speakers</h2>
+            <ul>
+                <li><a href="program/speakers.html" target="_blank">Speakers</a></li>
+                <li><a href="watch/workshops.html" target="_blank">Watch Workshops</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Clusters</h2>
+            <ul>
+                <li><a href="careers/careers.html" target="_blank">careers</a></li>
+            </ul>
+        </div>
     </div>
     <p> ©CV TSA. All Rights Reserved</p>
-  </footer>
+</footer>
 
 </html>
