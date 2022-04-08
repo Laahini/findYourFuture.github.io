@@ -125,7 +125,7 @@
                              
                              .eventGrid {
                                  position: relative;
-                                 display: grid;
+                                 display: flex;
                                  grid-template-columns: 22% 39% 39%;
                                  grid-template-rows: auto auto;
                                  padding: 3% 5%;
@@ -237,9 +237,9 @@
                              
                              .card-footer {
                                  align-self: center;
-                                 margin-top: 18px;
+                                 margin-top: 30px;
                                  padding-top: 19px;
-                                 padding-bottom: 1.5em;
+                                 padding-bottom: 3em;
                                  width: 34.4em;
                                  padding-left: 0;
                                  border-left: 0;
@@ -285,11 +285,12 @@
                              
                              .card {
                                  background: rgb(67, 143, 146);
-                                 padding: 5% 10%;
+                                 padding: 1% 5%;
                                  padding-bottom: 0;
                                  border-radius: 50px;
                                  border-style: calc();
                                  width: 30EM;
+                                 margin: 10px;
                              }
                              /*FLIP CARDS*/
                              
@@ -807,6 +808,7 @@
                                  display: block;
                                  max-width: 100%;
                                  height: auto;
+                                 margin: 5px;
                              }
                              
                              @import "https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700";

@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="program.css" />
     <link rel="stylesheet" href="../css/mediaquery.css" />
 
-    <script src="../scripts.js"></script>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -31,10 +30,15 @@
             var day1 = document.getElementById("events1");
             var day2 = document.getElementById("events2");
             var day3 = document.getElementById("events3");
+            var btnday1 = document.getElementById("btnd1");
+            var btnday2 = document.getElementById("btnd2");
+            var btnday3 = document.getElementById("btnd3");
             day1.style.display = "block";
             day2.style.display = "none";
             day3.style.display = "none";
-
+            btnday1.style.backgroundColor = "#33658a";
+            btnday2.style.backgroundColor = "#f6f4f5";
+            btnday3.style.backgroundColor = "#f6f4f5";
         }
 
         function hideOrShow2() {
@@ -43,9 +47,15 @@
             var day1 = document.getElementById("events1");
             var day2 = document.getElementById("events2");
             var day3 = document.getElementById("events3");
+            var btnday1 = document.getElementById("btnd1");
+            var btnday2 = document.getElementById("btnd2");
+            var btnday3 = document.getElementById("btnd3");
             day1.style.display = "none";
             day2.style.display = "block";
             day3.style.display = "none";
+            btnday2.style.backgroundColor = "#33658a";
+            btnday1.style.backgroundColor = "#f6f4f5";
+            btnday3.style.backgroundColor = "#f6f4f5";
         }
 
         function hideOrShow3() {
@@ -54,9 +64,15 @@
             var day1 = document.getElementById("events1");
             var day2 = document.getElementById("events2");
             var day3 = document.getElementById("events3");
+            var btnday1 = document.getElementById("btnd1");
+            var btnday2 = document.getElementById("btnd2");
+            var btnday3 = document.getElementById("btnd3");
             day1.style.display = "none";
             day2.style.display = "none";
             day3.style.display = "block";
+            btnday3.style.backgroundColor = "#33658a";
+            btnday1.style.backgroundColor = "#f6f4f5";
+            btnday2.style.backgroundColor = "#f6f4f5";
 
         }
     </script>
@@ -144,9 +160,9 @@
             the ones that cater to your schedule and we can't wait to see you there!
         </p>
         <div id="when" class="autoThirdGrid">
-            <button class="button" onclick="hideOrShow1()">Day 1</button>
-            <button class="button" onclick="hideOrShow2()">Day 2</button>
-            <button class="button" onclick="hideOrShow3()">Day 3</button>
+            <button id="btnd1" class="button" onclick="hideOrShow1()">Day 1</button>
+            <button id="btnd2" class="button" onclick="hideOrShow2()">Day 2</button>
+            <button id="btnd3" class="button" onclick="hideOrShow3()">Day 3</button>
         </div>
     </section>
 
