@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="program.css" />
     <link rel="stylesheet" href="../css/mediaquery.css" />
 
+    <script src="../scripts.js"></script>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,15 +31,10 @@
             var day1 = document.getElementById("events1");
             var day2 = document.getElementById("events2");
             var day3 = document.getElementById("events3");
-            var btnday1 = document.getElementById("btnd1");
-            var btnday2 = document.getElementById("btnd2");
-            var btnday3 = document.getElementById("btnd3");
             day1.style.display = "block";
             day2.style.display = "none";
             day3.style.display = "none";
-            btnday1.style.backgroundColor = "#33658a";
-            btnday2.style.backgroundColor = "#f6f4f5";
-            btnday3.style.backgroundColor = "#f6f4f5";
+
         }
 
         function hideOrShow2() {
@@ -47,15 +43,9 @@
             var day1 = document.getElementById("events1");
             var day2 = document.getElementById("events2");
             var day3 = document.getElementById("events3");
-            var btnday1 = document.getElementById("btnd1");
-            var btnday2 = document.getElementById("btnd2");
-            var btnday3 = document.getElementById("btnd3");
             day1.style.display = "none";
             day2.style.display = "block";
             day3.style.display = "none";
-            btnday2.style.backgroundColor = "#33658a";
-            btnday1.style.backgroundColor = "#f6f4f5";
-            btnday3.style.backgroundColor = "#f6f4f5";
         }
 
         function hideOrShow3() {
@@ -64,15 +54,9 @@
             var day1 = document.getElementById("events1");
             var day2 = document.getElementById("events2");
             var day3 = document.getElementById("events3");
-            var btnday1 = document.getElementById("btnd1");
-            var btnday2 = document.getElementById("btnd2");
-            var btnday3 = document.getElementById("btnd3");
             day1.style.display = "none";
             day2.style.display = "none";
             day3.style.display = "block";
-            btnday3.style.backgroundColor = "#33658a";
-            btnday1.style.backgroundColor = "#f6f4f5";
-            btnday2.style.backgroundColor = "#f6f4f5";
 
         }
     </script>
@@ -160,9 +144,9 @@
             the ones that cater to your schedule and we can't wait to see you there!
         </p>
         <div id="when" class="autoThirdGrid">
-            <button id="btnd1" class="button" onclick="hideOrShow1()">Day 1</button>
-            <button id="btnd2" class="button" onclick="hideOrShow2()">Day 2</button>
-            <button id="btnd3" class="button" onclick="hideOrShow3()">Day 3</button>
+            <button class="button" onclick="hideOrShow1()">Day 1</button>
+            <button class="button" onclick="hideOrShow2()">Day 2</button>
+            <button class="button" onclick="hideOrShow3()">Day 3</button>
         </div>
     </section>
 
@@ -178,10 +162,8 @@
                     <h5 style="text-align: center;" id="cardTimer">8:00 am - 8:45 am EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/dwayne.png">
-                    <h5 style="text-align: center; " class="card-title">Exploring Personality Types</h5>
+                    <h5 style="text-align: center;" class="card-title">Exploring Personality Types </h5>
                 </div>
-
                 <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
             </div>
         </div>
@@ -196,7 +178,6 @@
                     <h5 style="text-align: center;" id="cardTimer">9:00 am - 9:45 am EST : 45 mins </h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/brian.png">
                     <h5 style="text-align: center;" class="card-title"> Career Prep: Preparing for a job interview</h5>
                     <h2 style="color: rgb(67, 143, 146); font-size: 1.25em;">S</h1>
                 </div>
@@ -207,8 +188,6 @@
                     <h5 style="text-align: center;" id="cardTimer">9:00 am - 9:45 am EST : 45 mins </h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/alaa.png">
-
                     <h5 style="text-align: center;" class="card-title">How to Express Yourself: Self-Expression and Authenticity</h5>
                 </div>
                 <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
@@ -224,8 +203,6 @@
                     <h5 style="text-align: center;" id="cardTimer">10:00 am - 10:45 am EST : 45 mins </h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/janice.png">
-
                     <h5 style="text-align: center;" class="card-title">Career Prep: Career Field Exploration</h5>
                 </div>
                 <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
@@ -235,8 +212,6 @@
                     <h5 style="text-align: center;" id="cardTimer"> 10:00 am - 10:45 am EST : 45 mins </h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/rupi.png">
-
                     <h5 style="text-align: center;" class="card-title">
                         Exercise for the Mind and Body
                     </h5>
@@ -254,8 +229,6 @@
                     </h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/simon.png">
-
                     <h5 style="text-align: center;" class="card-title"> Entrepreneurship 101
                     </h5>
                 </div>
@@ -267,8 +240,6 @@
                     </h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/ai-jen poo.png">
-
                     <h5 style="text-align: center;" class="card-title"> Biohacking
                     </h5>
                 </div>
@@ -300,8 +271,6 @@
                     </h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/dalila.png">
-
                     <h5 style="text-align: center;" class="card-title">Career Prep: Career Pathway Exploration
                     </h5>
                 </div>
@@ -313,8 +282,6 @@
                     </h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/brian.png">
-
                     <h5 style="text-align: center;" class="card-title">Learning How to Learn
                     </h5>
                 </div>
@@ -331,8 +298,6 @@
                     </h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/amanda.png">
-
                     <h5 style="text-align: center;" class="card-title">Picking a major
                     </h5>
                 </div>
@@ -351,8 +316,6 @@
                     <h5 style="text-align: center;" id="cardTimer">8:00 am - 8:45 am EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/dwayne.png">
-
                     <h5 style="text-align: center;" class="card-title">Speed Dating Careers</h5>
                 </div>
                 <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
@@ -367,8 +330,6 @@
                     <h5 style="text-align: center;" id="cardTimer">9:00 am - 9:45 am EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/zhang.png">
-
                     <h5 style="text-align: center;" class="card-title">Speed Dating Colleges</h5>
                 </div>
                 <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
@@ -383,8 +344,6 @@
                     <h5 style="text-align: center;" id="cardTimer">10:00 am - 10:45 am EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/oprah.png">
-
                     <h5 style="text-align: center;" class="card-title">Leadership ahoy!
                     </h5>
                 </div>
@@ -395,8 +354,6 @@
                     <h5 style="text-align: center;" id="cardTimer">10:00 am - 10:45 am EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/alaa.png">
-
                     <h5 style="text-align: center;" class="card-title">INTJ, INTP, ENTP Cluster
                     </h5>
                 </div>
@@ -412,8 +369,6 @@
                     <h5 style="text-align: center;" id="cardTimer">11:00 am - 11:45 am EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/robyn.png">
-
                     <h5 style="text-align: center;" class="card-title"> Personal Financial Management
                     </h5>
                 </div>
@@ -424,8 +379,6 @@
                     <h5 style="text-align: center;" id="cardTimer">11:00 am - 11:45 am EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/brian.png">
-
                     <h5 style="text-align: center;" class="card-title">ISFP, ENFP, ESFP Cluster
                     </h5>
                 </div>
@@ -455,8 +408,6 @@
                     <h5 style="text-align: center;" id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/janice.png">
-
                     <h5 style="text-align: center;" class="card-title"> Making and Meeting Goals
                     </h5>
                 </div>
@@ -467,8 +418,6 @@
                     <h5 style="text-align: center;" id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/barbara.png">
-
                     <h5 style="text-align: center;" class="card-title">Think like a Philospher </h5>
                 </div>
                 <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
@@ -486,8 +435,6 @@
                     <h5 style="text-align: center;" id="cardTimer">10:00 am - 10:45 am EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/dwayne.png">
-
                     <h5 style="text-align: center;" class="card-title">Keynote by Dwayne Johnson</h5>
                 </div>
                 <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
@@ -502,8 +449,6 @@
                     <h5 style="text-align: center;" id="cardTimer">11:00 am - 11:45 am EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/oprah.png">
-
                     <h5 style="text-align: center;" class="card-title">Oprah's Path to Success</h5>
                 </div>
                 <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
@@ -532,8 +477,6 @@
                     <h5 style="text-align: center;" id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/ai-jen poo.png">
-
                     <h5 style="text-align: center;" class="card-title">ESTJ, ENTJ, ESFJ, INFP, ISFJ Cluster</h5>
                 </div>
                 <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
@@ -543,8 +486,6 @@
                     <h5 style="text-align: center;" id="cardTimer">1:00 pm - 1:45 pm EST : 45 mins</h5>
                 </div>
                 <div class="card-body">
-                    <img style="width: 50px; height:50px; float: right;" class="img-responsive" src="../media/speakers/dwayne.png">
-
                     <h5 style="text-align: center;" class="card-title">INFJ, ISTJ, ENFJ, ISTP Cluster </h5>
                 </div>
                 <h6 style="background-color: black;  border-bottom-left-radius: 20px; text-align: center; width:80 em; border-bottom-right-radius: 20px; margin-left:0; width: 44.77em;" class="card-footer">Exploring Personality Types</h5>
