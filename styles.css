@@ -1123,7 +1123,7 @@ footer a
 #tsapicsBanner{
   position: relative;
   width:100%;
-  height: 90vh;
+  height: 100vh;
   background: var(--green1);
   background-size: cover;
 }
@@ -1360,4 +1360,103 @@ footer a
 .pathway
 {
   padding:5%;
+}
+
+#cteCarousel
+{
+  margin:auto;
+}
+#cteCarousel .autoHalfSplitGrid
+{
+  grid-gap:5%;
+}
+#regionals2022 .autoHalfSplitGrid
+{
+  grid-gap:5%;
+}
+.cvCCard,
+.cteCCard {
+  margin:auto;
+  position: relative;
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.cvCCard::after,
+.CCard::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 900;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.CvCard_part
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transform: translateX( 700px );
+  background-size: cover;
+  background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/1.jpg?raw=true );
+  animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+}
+.CvCard_part.CvCard_part-two {
+  z-index: 6;
+  background-image: url("media/coding.jpg");
+  animation-delay: 7s;
+}
+.CvCard_part.CvCard_part-three {
+  z-index: 5;
+  background-image: url("media/cad.jpg");
+  animation-delay: 14s;
+}
+.CvCard_part.CvCard_part-four {
+  z-index: 4;
+  background-image: url("media/game.jpg");
+  animation-delay: 21s;
+}
+.CvCard_part {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transform: translateX( 700px );
+  background-size: cover;
+  background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/1.jpg?raw=true );
+  animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+}
+.CCard_part.CCard_part-two {
+  z-index: 6;
+  background-image: url("media/coding.jpg");
+  animation-delay: 7s;
+}
+.CCard_part.CCard_part-three {
+  z-index: 5;
+  background-image: url("media/cad.jpg");
+  animation-delay: 14s;
+}
+.CCard_part.CCard_part-four {
+  z-index: 4;
+  background-image: url("media/game.jpg");
+  animation-delay: 21s;
+}
+@keyframes opaqTransition {
+  3% { transform: translateX( 0 ); }
+  25% { transform: translateX( 0 ); }
+  28% { transform: translateX( -700px ); }
+  100% { transform: translateX( -700px ); }
 }
