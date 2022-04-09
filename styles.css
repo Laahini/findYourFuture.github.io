@@ -232,18 +232,21 @@ h1{font-size: 40px;}
   padding-top:0.5%;
 }
 
+
 /*CONTACT*/
-#contactDescript
+#contactDescript, #mottoD
 {
   text-align: center;
   color: var(--cream);
   background:url("media/placeholder.png");
 }
-#contactDescript h1
+#contactDescript h1,
+#mottoD h1
 {
     font-size: 65px;
 }
-#contactDescript div
+#contactDescript div,
+#mottoD div
 {
   padding:8% 5%;
   background: rgba(139, 177, 116,0.8);
@@ -375,27 +378,6 @@ h1{font-size: 40px;}
   outline: 0;
   transition: background-color 2s ease-out;
 }
-@media only screen and (min-width: 700px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-  }
-  .wrapper > * {
-    padding: 2em;
-  }
-  .contact-info {
-    border-radius: 4px 0 0 4px;
-  }
-  .contact {
-    border-radius: 4px 4px 4px 4px;
-  }
-  .contact-info h3,
-  .contact-info ul,
-  {
-    text-align: left;
-  }
-}
-
 /*CV TSA*/
 #whatTSA, #whatCV
 {background: var(--cream);}
@@ -1110,6 +1092,10 @@ padding:5%;
 }
 
 /*FOOTER*/
+#footer
+{
+  display:none;
+}
 footer
 {
   background:var(--blue1);
@@ -1145,7 +1131,9 @@ footer a
   margin-bottom: 0;
   background:var(--cream);
 }
-.accordion {
+.accordion,
+.accordionFt
+{
   background-color: var(--green1);
   color: var(--cream);
   cursor: pointer;
@@ -1159,6 +1147,10 @@ footer a
   font-family: sans-serif;
 }
 .active, .accordion:hover {
+  background-color: var(--blue1);
+  color:white;
+}
+.active, .accordionFt:hover {
   background-color: var(--blue1);
   color:white;
 }

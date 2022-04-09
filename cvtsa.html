@@ -51,19 +51,34 @@
       <li><a href="about.html">About</a></li>
     </ul>
   </header>
-  <section id="navMobile">
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active"><img src="media/FYF.png" style="width:40px;"></a>
     <a  href="program/schedule.html"> Schedule </a>
     <a  href="program/workshops.html"> Workshops </a>
     <a  href="program/speakers.html"> Speakers </a>
     <a href="program/sponsors.html"> Sponsors </a>
-    <a href="watch/workshops.html"> Watch Workshops </a>
+    <a href="watch/workshops.html"> Watch Workshops</a>
     <a href="careers/careers.html">Careers</a>
     <a href="contact.html">Contact</a>
     <a href="index.html">Design Brief</a>
     <a href="cte.html">CTE</a>
     <a href="cvtsa.html">CV TSA</a>
     <a href="about.html">About</a>
-  </section>
+    <a href="javascript:void(0);" class="icon" onclick="navs()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+  function navs() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 
   <section id="ctebanner">
       <video autoplay muted loop id="myVideo" style="width:100%;">
@@ -327,7 +342,69 @@
       </div>
     </div>
   </section>
-
+  
+  <section id="footer">
+    <div id="responsiveFooter">
+      <button class="accordionFt">About</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="index.html" target="_blank">About FYF</a></li>
+                  <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+                  <li><a href="program/sponsors.html" target="_blank">Sponsors</a></li>
+                  <li><a href="contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Conference</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="index.html" target="_blank">About FYF</a></li>
+                  <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+                  <li><a href="program/sponsors.html" target="_blank">Sponsors</a></li>
+                  <li><a href="contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Speakers</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="index.html" target="_blank">About FYF</a></li>
+                  <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+                  <li><a href="program/sponsors.html" target="_blank">Sponsors</a></li>
+                  <li><a href="contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+      <button class="accordionFt">Clusters</button>
+      <div class="panel">
+        <br>
+          <section>
+            <div class="pathway">
+              <ul>
+                  <li><a href="index.html" target="_blank">About FYF</a></li>
+                  <li><a href="program/schedule.html" target="_blank">Schedule Overview</a></li>
+                  <li><a href="program/sponsors.html" target="_blank">Sponsors</a></li>
+                  <li><a href="contact.html" target="_blank">Contact</a></li>
+              </ul>
+            </div>
+          </section>
+      </div>
+    </div>
+    <p> ©CV TSA. All Rights Reserved</p>
+  </section>
+</body>
 
 
 <footer>
@@ -366,4 +443,20 @@
     </div>
     <p> ©CV TSA. All Rights Reserved</p>
   </footer>
+  <script>
+    var accord = document.getElementsByClassName("accordionFt");
+    var i;
+
+    for (i = 0; i < accord.length; i++) {
+      accord[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropped = this.nextElementSibling;
+        if (dropped.style.maxHeight) {
+          dropped.style.maxHeight = null;
+        } else {
+          dropped.style.maxHeight = dropped.scrollHeight + "px";
+        }
+      });
+    }
+</script>
 </html>

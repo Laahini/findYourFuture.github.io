@@ -35,9 +35,8 @@
   .splitGrid2_2
   {
     display:grid;
-    grid-gap: 5%;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
     padding:1% 1%;
   }
   .threeFourthGrid
@@ -115,12 +114,38 @@
     font-size: 30px;
   }
   p{
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
   }
+  footer{display:none;}
+  footer p{text-align: center;}
+  #footer
+  {
+    background: var(--blue1);
+    display:contents;
+  }
+  #responsiveFooter
+  {
+    padding:5%;
+    background: var(--blue1);
+  }
+  #footer p{background: var(--blue1); padding:5%;}
+  .accordionFt
+  {
+    background-color: black;
+    opacity:0.6;
+    color:var(--cream);
+  }
+  #footer .panel {
+    background-color: var(--cream);
+    color: var(--blue1);
+  }
+  #footer a{text-decoration: none; color:var(--blue1);}
+  #footer p{text-align: center; color:var(--cream);}
   #banner{
-    height:100vh;
-    padding-top:0%;
+    height:80vh;
+    padding:0%;
   }
   #item1, #item2, #item1a, #item2a, #item1b, #item2b{
     padding-top:0%;
@@ -138,9 +163,25 @@
     padding-right:5px;
     padding-top:10px;
   }
+  #wJGrid
+  {
+    padding:5%;
+    height:110vh;
+  }
+  #wJDescrip
+  {
+    padding:2%;
+  }
+  #whyJoin .splitGrid2_2
+  {
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    padding:1% 1%;
+  }
   #whyJoin .splitGrid2_2 .benefitPartDescript
   {
-    padding:1% 2%;
+    padding:5% 5%;
   }
   .benefitPart i
   {
@@ -159,6 +200,10 @@
     border-radius: 50px;
     font-size: 12px;
   }
+  #banner .halfSplitGrid
+  {
+    top:35px;
+  }
   #banner .halfSplitGrid #item2 h1
   {
     font-size: 40px;
@@ -175,6 +220,43 @@
   {
     height: 110vh;
   }
+  #countdown
+  {
+    padding:0%;
+    padding-top:10%;
+  }
+  #countdown .fourSplitGrid
+  {
+    position:relative;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    grid-column-gap: 1%;
+  }
+  .counts p{font-size: 14px; text-align: center;}
+  .counts
+  {
+    background:var(--blue1);
+    padding: 5% 0%;
+    margin: 5% 5%;
+    text-align: center;
+    font-family: sans-serif;
+    color:var(--cream);
+    border-radius: 10px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.032),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.026),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  }
+  #about .bckgOpacBox
+  {
+    background:rgba(51, 101, 138,0.8);
+    padding:5% 2%;
+  }
+  #about .bckgOpacBox h1{text-align: left; padding:0% 5%;}
   #when
   {
     margin-top: 5%;
@@ -183,6 +265,64 @@
   {
     margin:5% auto;
   }
+  #mtbiQuiz .halfSplitGrid
+  {padding:5% 2%;}
+  #careers .bckgOpacBox
+  {
+    padding:5% 2%;
+    text-align:center;
+  }
+  #agendaDB{padding:5% 2%;}
+  #agendaBtnContainer{padding:5%;}
+  #agendaDB .autoThirdGrid
+  {grid-gap:2%;}
+  .agendaItem
+  {
+    padding:3% 10%;
+  }
+  #agendaBtnContainer button
+  {padding:4%;}
+  #quote
+  {
+    padding:15% 5%;
+  }
+  .mdBox{background-color: black; padding: 5%; opacity: 0.7; color:white;}
+  .mdBox p{line-height: 25px;}
+  #contact{padding-left:0; padding-right:0; padding-bottom:5%;}
+  #mdCbox{padding:2%; padding-top:5%;}
+  .container{padding:0; padding-top:5%;}
+  .wrapper {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+  .wrapper > * {
+    padding: 1em;
+  }
+  .contact-info h3,
+  .contact-info ul,
+  {
+    text-align: left;
+  }
+  .contact form button,
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: solid 1px #627EDC;
+    border-radius: 4px;
+  }
+  #sponsors
+  {
+    text-align: center;
+    margin: auto;
+    background: var(--green1);
+    padding:5% 0%;
+    color: var(--cream);
+  }
+  #sponsors img
+  {width:100%;
+  height:150px;}
+
   .eventGrid
   {
     display: grid;
@@ -384,10 +524,26 @@
   {
     padding:5px;
   }
+  #particles-js
+  {display:none;}
+  #whatCV.halfSplitGrid{padding:5% 2%;}
+  #whatTSA.halfSplitGrid{padding:5% 2%;}
+  .item{padding:5%;}
+  #mottoD h1
+  {
+      font-size: 30px;
+  }
   #whatTSA h4
   {
     line-height: 28px;
   }
+  #teachers .autoThirdGrid{grid-gap:5%; }
+  #teachers
+  {
+    min-height:140vh;
+  }
+  #pathways{padding:5% 0%;}
+  #pathways p{font-size: 14px; line-height: 20px;}
   .slides {
   	height: 50%;
     width:100%;
@@ -400,15 +556,36 @@
   }
   .slides .slider
   {
-  	height: 65vh;
+  	height: 60vh;
   	white-space: nowrap;
   	font-size: 0;
   	transition: 0.8s;
   }
+  .slides .prevNext {
+  	top: 30%;
+  	width: 100%;
+  }
+  .slides .prevNext a {
+  	background: var(--blue1);
+  	position: absolute;
+  	width:       40px;
+  	height:      40px;
+  	line-height: 40px;
+    margin: 0px 5px;
+  	left: 0;
+  }
+  .slides .bullets {
+  	position: absolute;
+  	z-index: 2;
+  	bottom: 0;
+  	padding:20px 0;
+  	width: 100%;
+  	text-align: center;
+  }
   .slidesimg
   {
-    width:300px;
-    height:300px;
+    width:275px;
+    height:275px;
   }
   .column123
   {
@@ -416,6 +593,32 @@
     width: 100%;
     padding: 1%;
   }
+  #cteCarousel{padding:5% 2%;}
+  .cteCCard,.cvCCard
+  {width:100%; height:300px;}
+  #timelineBanner{padding:5%;}
+  .timeLineBox{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+  .timeLineBox:hover{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+  .timeLineBox p{font-size: 16px;text-align:center;}
+  .timeLineBox h2{font-size:20px;}
+  .timeLineLine{
+    border-right: 6px dotted var(--green1);
+    height: 30px;
+    margin-right: 50%;
+    margin-bottom: 5px;
+  }
+  #regionals2022
+  {text-align: center; padding:5% 2%; padding-bottom: 10%;}
 }
 @media screen and (max-width: 768px)
 {
@@ -428,5 +631,91 @@
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 100%;
     padding:5% 5%;
+  }
+}
+
+
+/*Nav*/
+.topnav {
+  background-color: var(--green1);
+  overflow: hidden;
+  width:100%;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5% 5%;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: var(--cream);
+  color: black;
+}
+.topnav a.active {
+  background-color: var(--green1);
+  color: white;
+}
+.topnav .icon {
+  display: none;
+  width:15%;
+  margin:2%;
+}
+.topnav .icon:hover {
+  background-color: var(--cream);
+  color: black;
+  border-radius: 40px;
+}
+@media screen and (max-width: 900px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 900px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width:1000px){
+  #myTopnav{
+    display:none;
+  }
+}
+@media screen and (max-width:1000px){
+  #nav{
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .wrapper > * {
+    padding: 2em;
+  }
+  .contact-info {
+    border-radius: 4px 0 0 4px;
+  }
+  .contact {
+    border-radius: 4px 4px 4px 4px;
+  }
+  .contact-info h3,
+  .contact-info ul,
+  {
+    text-align: left;
   }
 }
