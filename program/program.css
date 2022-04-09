@@ -98,6 +98,14 @@ li
 {
   padding: 2% 5%;
 }
+.sponsorbox {
+  max-width: 250px;
+  height: 250px;
+  padding: 10%;
+  margin: 20px;
+  background-color: var(--blue1)
+}
+.sponsorbox:hover{opacity: 90%}
 .sponsorbox img
 {
   padding:15% 0%;

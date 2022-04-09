@@ -421,3 +421,12 @@
 {
 
 }
+@media only screen and (max-width: 1200px){
+  .SplitGriddy{
+    position:relative;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    padding:5% 5%;
+  }
+}
