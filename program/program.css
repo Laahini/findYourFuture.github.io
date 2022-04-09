@@ -125,7 +125,7 @@ li
 }
 #AM8, #AM9, #AM10, #AM11, #PM12, #PM1, #PM2, #PM3
 {
-  background: linear-gradient(to bottom, #33658a 0%, #1a3547 100%);
+  background: linear-gradient(to bottom, #294457 0%, #1a3547 100%);
   color:white;
 }
 .eventDescription h1
@@ -133,7 +133,7 @@ li
   font-size:30px;
 }
 .card {
-    background: rgb(67, 143, 146);
+    background: var(--green1);
     padding: 5% 10%;
     padding-bottom: 0;
     border-radius: 50px;
@@ -508,53 +508,53 @@ li
 .material-card.mc-active .mc-footer h4 {
   top: -32px;
 }
-.material-card.Red h2 {
-  background-color: #F44336;
+.material-card.green h2 {
+  background-color: var(--green1);
 }
-.material-card.Red h2:after {
-  border-top-color: #F44336;
-  border-right-color: #F44336;
+.material-card.green h2:after {
+  border-top-color: var(--green1);
+  border-right-color: var(--green1);
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
-.material-card.Red h2:before {
+.material-card.green h2:before {
   border-top-color: transparent;
-  border-right-color: #B71C1C;
-  border-bottom-color: #B71C1C;
+  border-right-color: #566e47;
+  border-bottom-color: #566e47;
   border-left-color: transparent;
 }
-.material-card.Red.mc-active h2:before {
+.material-card.green.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #F44336;
-  border-bottom-color: #F44336;
+  border-right-color: var(--green1);
+  border-bottom-color: var(--green1);
   border-left-color: transparent;
 }
-.material-card.Red.mc-active h2:after {
-  border-top-color: #B71C1C;
-  border-right-color: #B71C1C;
+.material-card.green.mc-active h2:after {
+  border-top-color: #566e47;
+  border-right-color: #566e47;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
-.material-card.Red .mc-btn-action {
-  background-color: #F44336;
+.material-card.green .mc-btn-action {
+  background-color: #566e47;
 }
-.material-card.Red .mc-btn-action:hover {
-  background-color: #B71C1C;
+.material-card.green .mc-btn-action:hover {
+  background-color: #566e47;
 }
-.material-card.Red .mc-footer h4 {
-  color: #B71C1C;
+.material-card.green .mc-footer h4 {
+  color: #566e47;
 }
-.material-card.Red .mc-footer a {
-  background-color: #B71C1C;
+.material-card.green .mc-footer a {
+  background-color: #566e47;
 }
-.material-card.Red.mc-active .mc-content {
-  background-color: #FFEBEE;
+.material-card.green.mc-active .mc-content {
+  background-color: #c5d6ba;
 }
-.material-card.Red.mc-active .mc-footer {
-  background-color: #FFCDD2;
+.material-card.green.mc-active .mc-footer {
+  background-color: #a8bf99;
 }
-.material-card.Red.mc-active .mc-btn-action {
-  border-color: #FFEBEE;
+.material-card.green.mc-active .mc-btn-action {
+  border-color: #c5d6ba;
 }
 
 
