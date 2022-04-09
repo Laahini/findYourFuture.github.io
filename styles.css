@@ -172,6 +172,44 @@ h1
   padding:12%;
   text-align:center;
 }
+#agendaDB
+{
+  background:var(--blue1);
+  color: var(--cream);
+  padding:5%;
+}
+#agendaDB h1
+{
+  text-align: center;
+  padding:1%;
+  font-size: 50px;
+}
+#agendaDB h3
+{
+  text-align: left;
+  padding:1% 0%;
+  font-size: 25px;
+}
+.agendaItem
+{
+  background:var(--cream);
+  border: 10px solid black;
+  padding:20% 10%;
+  color:black;
+}
+#agendaDB .autoThirdGrid
+{
+  grid-column-gap: 5%;
+}
+#agendaBtnContainer
+{
+  text-align: center;
+}
+#agendaBtnContainer button
+{
+  padding:2%;
+  border:none;
+}
 #quote
 {
   background: url(media/speakerQuote.jpg);
