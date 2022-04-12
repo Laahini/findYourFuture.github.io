@@ -56,6 +56,13 @@
     justify-items: center;
     align-content: space-evenly;
   }
+  .oneToThreeGrid
+  {
+      display: grid;
+      grid-template-rows: auto auto;
+      grid-template-columns: auto;
+      padding: 5% 5%;
+  }
   .threetoTwoGrid
   {
     display: grid;
@@ -522,7 +529,8 @@
   }
   #trioContactInfo .autoThirdGrid
   {
-    padding:5px;
+    padding:5%;
+    grid-row-gap: 1%;
   }
   #particles-js
   {display:none;}
@@ -702,6 +710,95 @@
   {
   padding-top:20%;
   }
+  .videoScrollGrid {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto auto auto
+  }
+  .videoOverview
+  {
+    background:var(--cream);
+    color: var(--blue1);
+    padding: 5% 0%;
+    margin:1% 0%;
+  }
+  #videoPlayer
+  {
+    margin-top:15%;
+  }
+  #commentHeader
+  {
+    padding:0% 5%;
+    padding-bottom:2%;
+  }
+  #commentHeader h1
+  {
+    font-size: 35px;
+  }
+  #commentHeader h3
+  {
+    font-size: 16px;
+  }
+  #commentChat
+  {
+    padding:1%;
+  }
+  #comments li
+  {
+    list-style: none;
+    padding:2% 2.5%;
+    font-size: 14px;
+    border-radius: 10px;
+    width:95%;
+    margin:1% auto;
+  }
+  #addComment
+  {
+    background: var(--blue1);
+    color: var(--cream);
+    padding:3% 2%;
+    width:95%;
+    margin:auto;
+    margin-top:3%;
+    border-radius: 5px;
+  }
+  #careerBanner {
+      width: 100%;
+      background: #fff;
+      min-height: 100vh;
+      background-size: cover;
+  }
+  #careerBannertext {
+      color: var(--cream);
+      background: rgb(0, 0, 0, 0.4);
+      padding: 5%;
+  }
+  #careerHook {
+      position: relative;
+      top: 0%;
+  }
+  #contactHeader h1 {
+      font-size: 40px;
+  }
+  #contactHeader
+  {
+    padding-left:10%;
+  }
+  #contactBanner {
+      height: 105vh;
+  }
+  #trioContactInfo p {
+      font-size: 20px;
+      text-align: center;
+  }
+  #trioContactInfo
+  {
+    padding-bottom: 5%;
+  }
+  #contactDescript h2
+  {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 768px)
 {
@@ -716,13 +813,6 @@
     padding:5% 5%;
   }
 }
-.videoScrollGrid {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto
-    grid-column-gap: 1%;
-}
-
 
 /*Nav*/
 .topnav {
