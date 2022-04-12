@@ -39,6 +39,14 @@
     grid-template-rows: auto auto auto auto;
     padding:1% 1%;
   }
+  .formAutoHalfSplit
+  {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 2% 2%;
+    grid-gap: 1%;
+  }
   .threeFourthGrid
   {
     position:relative;
@@ -777,15 +785,28 @@
       position: relative;
       top: 0%;
   }
-  #contactHeader h1 {
+  #contactHeader h1,
+  #registerHeader h1
+  {
       font-size: 40px;
   }
-  #contactHeader
+  #contactHeader,
+  #registerHeader
   {
     padding-left:10%;
   }
   #contactBanner {
       height: 105vh;
+  }
+  #registerBanner {
+      position: relative;
+      padding-top: 5%;
+      height: 105vh;
+      background-size: auto;
+  }
+  #registerForm
+  {
+    padding:5%;
   }
   #trioContactInfo p {
       font-size: 20px;
@@ -799,11 +820,19 @@
   {
     font-size: 20px;
   }
-}
-@media screen and (max-width: 768px)
-{
+  .material-card.mc-active .img-container {
+    width: 20px;
+    height: 20px;
+  }
+  .img-responsive
+  {
+    display: block;
+    max-width: 100%;
+    height: 900px;
+  }
 
 }
+
 @media only screen and (max-width: 1200px){
   .SplitGriddy{
     position:relative;

@@ -1129,7 +1129,14 @@ h1 {
     grid-template-rows: auto auto auto auto;
     padding: 5% 5%;
 }
-
+.formAutoHalfSplit
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+  padding: 2% 2%;
+  grid-gap: 1%;
+}
 
 /*CLASSES*/
 
@@ -1396,6 +1403,59 @@ footer a {
 .center {
     text-align: center;
 }
+
+
+
+#registerForm
+{
+  padding:2%;
+  margin:2%;
+  color:var(--cream);
+  width:96%;
+  background: var(--blue1);
+}
+#registerForm input,
+#registerForm select
+{
+  padding:2%;
+  width:100%;
+  height:40px;
+  margin:1%;
+}
+#registerForm h4
+{
+  padding-left:1%;
+}
+#registerForm .abutton
+{
+  border:none;
+}
+#registerBanner {
+    position: relative;
+    padding-top: 5%;
+    width: 100%;
+    height: 160vh;
+    background: #fff;
+    background-size: cover;
+}
+
+#registerBanner .threetoTwoGrid div {
+    padding: 5% 5%;
+}
+
+#registerHeader {
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+#registerHeader h1 {
+    font-size: 100px;
+}
+
+#registerHeader h3 {
+    font-size: 25px;
+}
+
 
 
 /*ABOUT*/
