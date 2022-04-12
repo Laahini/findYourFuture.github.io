@@ -198,14 +198,9 @@ li
 {
   color: var(--blue1);
 }
-#clusterCards
-{
-  padding:5%;
-  margin:3%;
-}
 #clusterCards .splitGrid2by2
 {
-  grid-row-gap: 5%;
+  grid-row-gap: 2%;
 }
 
 
@@ -628,9 +623,7 @@ li {
 #clusterCards {
     padding: 5%;
     margin: 3%;
-}
-#clusterCards .splitGrid2by2 {
-    grid-row-gap: 5%;
+    min-height: 130vh;
 }
 #clustersInfo {
     padding: 5% 0%;

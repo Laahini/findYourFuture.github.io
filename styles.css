@@ -267,7 +267,6 @@ h1 {
     padding-top: 0.5%;
 }
 
-
 /*CONTACT*/
 
 #contactDescript,
@@ -334,9 +333,14 @@ h1 {
 }
 
 #trioContactInfo p {
-    font-size: 25px;
+    font-size: 20px;
 }
-
+#trioContactInfo h1
+{
+  font-size: 35px;
+  padding:8%;
+  padding-bottom:0%;
+}
 #trioContactInfo .abutton {
     background: var(--blue1);
     color: #fff;
