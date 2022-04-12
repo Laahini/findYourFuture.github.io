@@ -227,12 +227,13 @@ h1 {
     text-align: center;
     margin: auto;
     background: var(--green1);
-    padding: 5% 0%;
+    padding: 0% 0%;
     color: var(--cream);
 }
 
 #sponsors img {
-    width: 75%;
+    width: 70%;
+    height:300px;
 }
 
 #sponsors h2 {
