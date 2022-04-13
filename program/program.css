@@ -98,12 +98,16 @@ li
 {
   padding: 2% 5%;
 }
+#types .autoThirdGrid
+{
+  grid-gap:1%;
+}
 .sponsorbox {
   max-width: 250px;
   height: 250px;
   padding: 10%;
   margin: 20px;
-  background-color: var(--blue1)
+  background-color: var(--blue1);
 }
 .sponsorbox:hover{opacity: 90%}
 .sponsorbox img
@@ -114,6 +118,8 @@ li
 {
   padding:5%;
   text-align: center;
+  background-color: var(--blue1);
+  color:var(--cream);
 }
 .scheduleType i
 {
