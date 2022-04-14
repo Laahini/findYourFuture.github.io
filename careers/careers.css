@@ -112,3 +112,10 @@
     border-radius: 6px;
     font-weight: bold;
 }
+.options input[type=radio]
+{
+    border: 0px;
+    width: 10%;
+    height: 1.2em;
+
+}
