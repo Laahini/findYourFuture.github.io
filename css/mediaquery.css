@@ -417,7 +417,8 @@
   }
   .leadCCard
   {
-    height:280px;
+    height:240px;
+    padding:5% 5%;
   }
   #clusterCards
   {
@@ -666,10 +667,6 @@
   {
     grid-row-gap: 5%;
     grid-template-rows: auto auto auto auto auto auto;
-  }
-  .leadCCard
-  {
-      height:210px;
   }
   #clusterCards
   {min-height:100vh;}
