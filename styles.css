@@ -1,7 +1,11 @@
 :root {
-    --green1: #8bb174;
+    --green1: #e7671e;
     --cream: #f6f4f5;
-    --blue1: #33658a;
+    --blue1: #0028c6;
+    --orange1:#bd3e0e;
+    --blue2:#2388cb;
+    --red:#c41700;
+    --gray: #666666;
 }
 
 * {
@@ -23,6 +27,7 @@ p {
 
 h1 {
     font-size: 40px;
+    font-family: 'Kanit', sans-serif;
 }
 
 
@@ -129,13 +134,17 @@ h1 {
     color: var(--cream);
     text-align: center;
 }
+#careers .bckgOpacBox
+{
+  background: rgba(231, 104, 30, 0.8);
+}
 
 #about {
     color: var(--cream);
 }
 
 #about .bckgOpacBox {
-    background: rgba(51, 101, 138, 0.8);
+    background: var(--blue2);
     padding: 11%;
     text-align: center;
 }
@@ -157,7 +166,7 @@ h1 {
 }
 
 #agendaDB {
-    background: var(--blue1);
+    background: var(--blue2);
     color: var(--cream);
     padding: 5%;
 }
@@ -226,7 +235,7 @@ h1 {
 #sponsors {
     text-align: center;
     margin: auto;
-    background: var(--green1);
+    background: var(--blue1);
     padding: 0% 0%;
     color: var(--cream);
 }
@@ -285,14 +294,14 @@ h1 {
 #contactDescript div,
 #mottoD div {
     padding: 8% 5%;
-    background: rgba(139, 177, 116, 0.8);
+    background: rgba(102, 102, 102, 0.8);
 }
 
 #contactBanner {
     position: relative;
     padding-top: 5%;
     width: 100%;
-    height: 150vh;
+    height: 160vh;
     background: #fff;
     background-size: cover;
 }
@@ -307,7 +316,7 @@ h1 {
 }
 
 #contactHeader h1 {
-    font-size: 100px;
+    font-size: 95px;
 }
 
 #contactHeader h3 {
@@ -338,7 +347,7 @@ h1 {
 }
 #trioContactInfo h1
 {
-  font-size: 35px;
+  font-size: 30px;
   padding:8%;
   padding-bottom:0%;
 }
@@ -378,7 +387,7 @@ h1 {
 }
 
 .contact {
-    background: #c5deb6;
+    background: var(--orange1);
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
@@ -387,7 +396,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    color: #749460;
+    color: var(--cream);
 }
 
 .contact form label {
@@ -408,7 +417,7 @@ h1 {
 .contact form textarea {
     width: 100%;
     padding: 1em;
-    border: solid 1px #627EDC;
+    border: solid 1px var(--cream);
     border-radius: 4px;
 }
 
@@ -427,7 +436,7 @@ h1 {
 
 .contact form button:hover,
 .contact form button:focus {
-    background: #6fb545;
+    background: var(--orange1);
     color: var(--cream);
     outline: 0;
     transition: background-color 2s ease-out;
@@ -440,7 +449,10 @@ h1 {
 #whatCV {
     background: var(--cream);
 }
-
+#socialMediaCV
+{
+  background:var(--red);
+}
 .tsabtn {
     text-decoration: none;
     color: var(--cream);
@@ -454,7 +466,7 @@ h1 {
 }
 
 #officers {
-    background: var(--blue1);
+    background: var(--red);
     color: var(--cream);
 }
 
@@ -696,7 +708,7 @@ h1 {
 }
 
 .buttonForSocialMedia {
-    background-color: var(--green1);
+    background-color: var(--gray);
     border: none;
     color: var(--cream);
     padding: 10px;
@@ -713,7 +725,7 @@ h1 {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: var(--green1);
+    background: var(--red);
     background-size: cover;
 }
 
@@ -795,10 +807,14 @@ h1 {
 #creed {
     padding: 5%;
 }
+#socialMediaTSA
+{
+  background-color: var(--red);
+}
 
 #teachers {
     padding: 5%;
-    background: var(--blue1);
+    background: var(--red);
 }
 
 #teachers p {
@@ -843,14 +859,14 @@ h1 {
 }
 
 .flipCardFront {
-    background-color: var(--green1);
+    background-color: var(--gray);
     color: var(--cream);
     transform: rotateY(0deg);
     border-radius: 10px;
 }
 
 .flipCardBack {
-    background-color: var(--green1);
+    background-color: var(--gray);
     color: var(--cream);
     transform: rotateY(180deg);
     border-radius: 10px;
@@ -872,7 +888,8 @@ h1 {
 }
 
 #APID-Dualbanner {
-    background: #fff;
+  background-color: var(--red);
+  color:var(--cream);
     padding: 5%;
     padding-bottom: 0%;
     display: inline-block;
@@ -898,6 +915,7 @@ h1 {
 
 #cteCarousel {
     margin: auto;
+
 }
 
 #cteCarousel .autoHalfSplitGrid {
@@ -1212,12 +1230,13 @@ h1 {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 16px;
-    letter-spacing: 2px;
+    font-size: 22px;
+    letter-spacing: 1px;
     transition: all 0.3s;
     position: relative;
     overflow: hidden;
     z-index: 1;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .abutton:after {
@@ -1239,7 +1258,7 @@ h1 {
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: #749460;
+    background-color: var(--orange1);
     transition: all 0.3s;
     border-radius: 20px;
     z-index: -1;
@@ -1288,10 +1307,10 @@ h1 {
 }
 
 footer {
-    background: var(--blue1);
+    background: var(--orange1);
     color: var(--cream);
     padding: 1%;
-    font-family: sans-serif;
+    font-family:'Kanit', sans-serif;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -1321,10 +1340,13 @@ footer a {
     margin-bottom: 0;
     background: var(--cream);
 }
-
+#pathways .accordion
+{
+  background-color: var(--gray);
+}
 .accordion,
 .accordionFt {
-    background-color: var(--green1);
+    background-color: var(--blue1);
     color: var(--cream);
     cursor: pointer;
     padding: 2%;
@@ -1348,7 +1370,10 @@ footer a {
     background-color: var(--blue1);
     color: white;
 }
-
+#pathways .panel
+{
+  background-color: var(--red);
+}
 .panel {
     background-color: var(--blue1);
     max-height: 0;

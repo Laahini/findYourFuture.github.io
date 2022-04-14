@@ -159,8 +159,12 @@
   #footer a{text-decoration: none; color:var(--blue1);}
   #footer p{text-align: center; color:var(--cream);}
   #banner{
-    height:80vh;
+    height:85vh;
     padding:0%;
+  }
+  .question button
+  {
+    background: linear-gradient(to left, var(--orange1), var(--green1));
   }
   #item1, #item2, #item1a, #item2a, #item1b, #item2b{
     padding-top:0%;
@@ -268,7 +272,6 @@
   }
   #about .bckgOpacBox
   {
-    background:rgba(51, 101, 138,0.8);
     padding:5% 2%;
   }
   #about .bckgOpacBox h1{text-align: left; padding:0% 5%;}
@@ -510,7 +513,7 @@
     color:var(--cream);
     border:none;
     border-radius: 10px;
-    background: linear-gradient(to left, #72915e, var(--green1));
+    background: linear-gradient(to left, var(--orange1), var(--green1));
   }
   .hideMobile
   {
@@ -641,9 +644,11 @@
   {
     width: 100%;
     height: 40vh;
-    background: #fff;
     background-size: cover;
   }
+  #filterBtnGroup button
+  {margin-top:1%; margin-bottom:1%; width:100%;}
+  #types{padding-top:5%; padding-bottom:5%;}
   .card-footer {
       margin-top: 25px;
       padding-top: 19px;
@@ -688,7 +693,7 @@
   }
   #workshopsHook #programBanner
   {
-    min-height:35vh;
+    min-height:40vh;
     padding:5%;
   }
   #sponsorGrid .SplitGriddy{
@@ -796,7 +801,7 @@
     padding-left:10%;
   }
   #contactBanner {
-      height: 105vh;
+      height: 110vh;
   }
   #registerBanner {
       position: relative;

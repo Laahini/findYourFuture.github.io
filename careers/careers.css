@@ -53,12 +53,12 @@
     color: var(--cream);
     border: none;
     border-radius: 10px;
-    background: linear-gradient(to left, #72915e, var(--green1));
+    background: linear-gradient(to left, var(--orange1), var(--green1));
 }
 
 .question button:hover {
     color: var(--cream);
-    background: #72915e;
+    background: var(--orange1);
 }
 
 .question button:focus {
@@ -100,7 +100,7 @@
 }
 
 #button {
-    background: #0b7fba;
+    background: var(--blue1);
     border: 0;
     color: #fff;
     font-size: 20px;
