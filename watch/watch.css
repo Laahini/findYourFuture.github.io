@@ -3,7 +3,8 @@
   position: relative;
   width:100%;
   height:100vh;
-  background: #fff;
+  color:var(--cream);
+  background: var(--green1);
   background-size: cover;
 }
 #workshopWatchBannerHook
