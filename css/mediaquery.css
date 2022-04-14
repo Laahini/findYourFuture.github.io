@@ -239,6 +239,10 @@
   {
     height: 110vh;
   }
+  #workshopIntro .halfSplitGrid div
+  {
+    padding:5%;
+  }
   #countdown
   {
     padding:0%;
